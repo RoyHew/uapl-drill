@@ -1,0 +1,762 @@
+[
+ {
+  "id": "HF-001",
+  "module": "Human Factors",
+  "topic": "SHELL model",
+  "difficulty": "medium",
+  "question": "What is the purpose of the ICAO SHELL model?",
+  "options": [
+   {
+    "text": "To list the steps for handling an in-flight emergency",
+    "correct": false,
+    "why": "Emergency handling sits in the Operations Manual and in models such as DECIDE. SHELL is a framework for analysing system interfaces."
+   },
+   {
+    "text": "To rank risks by probability and severity before departure",
+    "correct": false,
+    "why": "That is the job of a risk matrix, such as the table on the CAAS risk assessment form. SHELL describes interfaces and does not score risk."
+   },
+   {
+    "text": "To analyse how people interact with the other parts of the system",
+    "correct": true,
+    "why": "ICAO describes SHELL as a tool for analysing how the human (Liveware, at the centre) interacts with Software, Hardware, Environment and other Liveware. Mismatches at these interfaces contribute to error."
+   },
+   {
+    "text": "To give the pilot a personal fitness self-check before each flight",
+    "correct": false,
+    "why": "That is IMSAFE (Illness, Medication, Stress, Alcohol, Fatigue, Emotion). SHELL looks at the whole system, not only the pilot's fitness."
+   }
+  ],
+  "source": "ICAO Doc 9859 Safety Management Manual (SHELL model), as summarised in SKYbrary 'ICAO SHELL Model'; AC 101-4-1(5) LO 050 01 01"
+ },
+ {
+  "id": "HF-002",
+  "module": "Human Factors",
+  "topic": "SHELL model",
+  "difficulty": "hard",
+  "question": "A pilot switches to a new GCS tablet with a smaller screen, where the battery indicator is a tiny icon in a different corner, and he misreads the remaining charge. In SHELL terms, which interface broke down?",
+  "options": [
+   {
+    "text": "Liveware-Environment",
+    "correct": false,
+    "why": "L-E covers the situation the system works in: the natural surroundings and the social and economic climate. Nothing in the surroundings caused this error."
+   },
+   {
+    "text": "Liveware-Liveware",
+    "correct": false,
+    "why": "L-L is the interface between people (leadership, teamwork, communication). No second person was involved in misreading the display."
+   },
+   {
+    "text": "Liveware-Hardware",
+    "correct": true,
+    "why": "L-H covers matching the physical equipment, such as displays and controls, to the human user. SHELL places displays and controls under Hardware, so a display the pilot misreads is a classic L-H mismatch."
+   },
+   {
+    "text": "Liveware-Software",
+    "correct": false,
+    "why": "In SHELL, 'Software' means rules, procedures and written documents such as SOPs and manuals, while displays are Hardware. That makes this the near-miss trap, because the tablet app is 'software' only in the everyday sense."
+   }
+  ],
+  "source": "ICAO Doc 9859 Safety Management Manual (SHELL model), as summarised in SKYbrary 'ICAO SHELL Model'; AC 101-4-1(5) LO 050 01 01",
+  "note": "SHELL 'Software' = rules, SOPs and manuals, not apps. Screens, sticks and displays = Hardware."
+ },
+ {
+  "id": "HF-003",
+  "module": "Human Factors",
+  "topic": "SHELL model",
+  "difficulty": "medium",
+  "question": "A crew flies to a procedure in an outdated version of the company Operations Manual, which conflicts with the manufacturer manual. Which SHELL interface is at fault?",
+  "options": [
+   {
+    "text": "Liveware-Software",
+    "correct": true,
+    "why": "SHELL 'Software' covers rules, procedures and written documents, such as the Operations Manual, manufacturer manuals and SOPs, so a conflict between people and their documents is an L-S problem."
+   },
+   {
+    "text": "Liveware-Hardware",
+    "correct": false,
+    "why": "A printed manual is a physical object, but SHELL classifies manuals and procedures as Software. Hardware means the aircraft, controls and displays."
+   },
+   {
+    "text": "Liveware-Liveware",
+    "correct": false,
+    "why": "The conflict is between the crew and the written procedures, not a breakdown of teamwork between people."
+   },
+   {
+    "text": "Liveware-Environment",
+    "correct": false,
+    "why": "Environment means the situation the system works in, including the natural, social and economic climate, not the documents the crew follows."
+   }
+  ],
+  "source": "ICAO Doc 9859 Safety Management Manual (SHELL model), as summarised in SKYbrary 'ICAO SHELL Model'; AC 101-4-1(5) LO 050 01 01"
+ },
+ {
+  "id": "HF-004",
+  "module": "Human Factors",
+  "topic": "Vision - autokinesis",
+  "difficulty": "medium",
+  "question": "During a night flight against a dark, featureless sky, the drone's single steady LED appears to drift even though the telemetry shows the drone hovering in position. What is the recommended correction?",
+  "options": [
+   {
+    "text": "Stop staring at the light and look slightly off-centre from it",
+    "correct": true,
+    "why": "This is autokinesis: a stationary light stared at in the dark can appear to move. The fix is to stop fixating, keep the eyes moving and use off-centre viewing, as the FAA describes for night vision."
+   },
+   {
+    "text": "Fly the drone towards you to correct the apparent drift",
+    "correct": false,
+    "why": "The drone is not actually moving. Control inputs made to 'correct' an illusion create a real deviation."
+   },
+   {
+    "text": "Switch to sport mode for sharper control response",
+    "correct": false,
+    "why": "A flight mode does nothing about a perceptual illusion, and a more aggressive mode adds risk."
+   },
+   {
+    "text": "Stare at the light more intently so you can track the drift accurately",
+    "correct": false,
+    "why": "Fixating on the light is what causes autokinesis, so staring harder makes the illusion worse."
+   }
+  ],
+  "source": "FAA PHAK ch.17 (Autokinesis; Night Vision, off-center viewing); AC 101-4-1(5) LO 050 02 01"
+ },
+ {
+  "id": "HF-005",
+  "module": "Human Factors",
+  "topic": "Vision - night disorientation",
+  "difficulty": "medium",
+  "question": "At night, a pilot loses track of which way the drone is facing. Its lights are the only visual reference and it is about 200 m away. What is the best response?",
+  "options": [
+   {
+    "text": "Climb higher so the drone stands out against the sky",
+    "correct": false,
+    "why": "Climbing moves the drone further away and makes its lights smaller. The FAA says night operations usually call for a smaller operating area, not a larger one."
+   },
+   {
+    "text": "Bring it closer, cross-checking its lights against the GCS telemetry",
+    "correct": true,
+    "why": "AC 107-2A says reduced lighting at night usually means restricting the operating area, and that lights and GCS telemetry are aids to cross-check, not a substitute for seeing the aircraft."
+   },
+   {
+    "text": "Trust the sound of the drone to judge its direction",
+    "correct": false,
+    "why": "Sound is not a reliable cue for heading, and no FAA or CAAS guidance offers it. Use the lights, the telemetry and a shorter range."
+   },
+   {
+    "text": "Yaw it left and right until the orientation 'feels' right",
+    "correct": false,
+    "why": "Making inputs until it 'feels right' relies on the same degraded visual cue that caused the disorientation. Inputs given with the orientation unknown can be reversed."
+   }
+  ],
+  "source": "FAA AC 107-2A para 5.9.3 (VLOS at night); FAA PHAK ch.17 (spatial disorientation: rely on instruments); AC 101-4-1(5) LO 050 02 01"
+ },
+ {
+  "id": "HF-006",
+  "module": "Human Factors",
+  "topic": "Vision - featureless terrain",
+  "difficulty": "medium",
+  "question": "A pilot flies a fixed-wing UA back to land over a reservoir with a glassy, featureless surface. What illusion does this create, and what does it make the pilot tend to do?",
+  "options": [
+   {
+    "text": "He sees a stationary light appear to move (autokinesis)",
+    "correct": false,
+    "why": "Autokinesis is a point of light against a dark background. Here the problem is the absence of ground features for judging height."
+   },
+   {
+    "text": "He believes the aircraft is higher than it really is, so he tends to fly a lower approach",
+    "correct": true,
+    "why": "The FAA describes the featureless terrain illusion: over water, darkened areas or snow the pilot thinks the aircraft is higher than it is, and so flies a lower approach than intended."
+   },
+   {
+    "text": "He is dazzled by glare off the water",
+    "correct": false,
+    "why": "Glare is a separate problem. The question describes a featureless surface misleading his judgement of height."
+   },
+   {
+    "text": "He believes the aircraft is lower than it really is, so he tends to fly a higher approach",
+    "correct": false,
+    "why": "This reverses the illusion. Without ground features the pilot overestimates altitude, which leads to a low approach."
+   }
+  ],
+  "source": "FAA PHAK ch.17 (Featureless Terrain Illusion)",
+  "note": "Featureless means feels higher, so you fly lower. That ends in a crash short of the landing point."
+ },
+ {
+  "id": "HF-007",
+  "module": "Human Factors",
+  "topic": "Vision - sun-blindness",
+  "difficulty": "medium",
+  "question": "During a survey of a large solar-panel farm, which measure would NOT help prevent sun-blindness (dazzle from direct or reflected sunlight)?",
+  "options": [
+   {
+    "text": "Fly towards the sun so the panels are backlit",
+    "correct": true,
+    "why": "Flying into the sun puts the brightest light source straight into the pilot's line of sight. Plan the path so the sun and large reflective surfaces stay out of view."
+   },
+   {
+    "text": "Wear a hat or cap",
+    "correct": false,
+    "why": "A brimmed hat shades the eyes. The FAA also suggests a hat for protection from the sun."
+   },
+   {
+    "text": "Plan the flight path away from large solar-panel arrays and reflective glass",
+    "correct": false,
+    "why": "Solar arrays and glass facades reflect sunlight. Keeping them out of the line of sight reduces dazzle."
+   },
+   {
+    "text": "Wear sunglasses",
+    "correct": false,
+    "why": "The FAA recommends neutral-density sunglasses in bright sunlight. They cut glare and also help night vision later."
+   }
+  ],
+  "source": "FAA PHAK ch.17 (Sunglasses; protection from the sun); AC 101-4-1(5) LO 050 02 01 (sun-blindness)",
+  "note": "Keep the sun and strong reflections out of your line of sight."
+ },
+ {
+  "id": "HF-008",
+  "module": "Human Factors",
+  "topic": "Vision - ground lighting illusion",
+  "difficulty": "medium",
+  "question": "During a night mission near a carpark, a pilot is dazzled by a lamp post and briefly mistakes a line of road lights for the planned landing lights. What is the best response?",
+  "options": [
+   {
+    "text": "Land on the brightest line of lights, because it is the most visible reference",
+    "correct": false,
+    "why": "The FAA warns that lights along a straight path, such as a road, can be mistaken for runway lights, so the most visible line is a likely false cue."
+   },
+   {
+    "text": "Turn off the drone's position lights to reduce glare",
+    "correct": false,
+    "why": "The position lights are the pilot's orientation reference at night, and removing them makes disorientation worse."
+   },
+   {
+    "text": "Always cross-reference the UA's position against the map on the GCS",
+    "correct": true,
+    "why": "The FAA's remedy for visual illusions is to cross-check against instruments rather than trust outside lights. For a drone, that means the GCS map and telemetry."
+   },
+   {
+    "text": "Look directly at the lamp post until your eyes adjust",
+    "correct": false,
+    "why": "A bright light can destroy night adaptation (FAA). Staring at it makes the temporary blindness worse."
+   }
+  ],
+  "source": "FAA PHAK ch.17 (Ground Lighting Illusions; How To Prevent Landing Errors Due to Optical Illusions; Dark Adaptation)"
+ },
+ {
+  "id": "HF-009",
+  "module": "Human Factors",
+  "topic": "Visual scanning",
+  "difficulty": "medium",
+  "question": "According to the FAA, what is the recommended technique for scanning the sky for other air traffic?",
+  "options": [
+   {
+    "text": "Sweep the whole horizon quickly in one continuous motion",
+    "correct": false,
+    "why": "Eyes detect little during a continuous sweep. The FAA scan uses a series of short stops."
+   },
+   {
+    "text": "Hold each section for 10 seconds or more before moving on",
+    "correct": false,
+    "why": "The FAA says no stop should last longer than 2 to 3 seconds."
+   },
+   {
+    "text": "Short stops of about 30 degrees, overlapping by 10 degrees",
+    "correct": true,
+    "why": "The FAA scan runs right to left or left to right, starting at the furthest distance. Each stop covers about 30 degrees, lasts no more than 2-3 s and overlaps the previous one by 10 degrees."
+   },
+   {
+    "text": "Fix your eyes on the drone and rely on peripheral vision for traffic",
+    "correct": false,
+    "why": "Peripheral vision is poor at picking out small, slow-closing traffic. The FAA calls for a deliberate scan in stops."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.9 (Scanning Techniques, Fig 9-2); FAA PHAK ch.17 Fig 17-18; AC 101-4-1(5) LO 050 02 02",
+  "note": "About 30-degree stops, 2-3 s each, 10-degree overlap. At night, also use off-centre viewing (look about 10 degrees to one side of the object)."
+ },
+ {
+  "id": "HF-010",
+  "module": "Human Factors",
+  "topic": "Psychoactive substances - penalty",
+  "difficulty": "hard",
+  "question": "Under the ANR-101, what is the maximum penalty for a FIRST offence of operating a UA under the influence of a psychoactive substance?",
+  "options": [
+   {
+    "text": "A fine not exceeding $100,000, imprisonment not exceeding 5 years, or both",
+    "correct": false,
+    "why": "This is the penalty for a SECOND or subsequent offence under reg 5(2)(b), not a first offence."
+   },
+   {
+    "text": "A fine not exceeding $50,000, imprisonment not exceeding 5 years, or both",
+    "correct": false,
+    "why": "This mixes up the two tiers. The 5-year term applies only to repeat offences, and the first-offence maximum is 2 years."
+   },
+   {
+    "text": "A fine not exceeding $50,000 only",
+    "correct": false,
+    "why": "A fine-only $50,000 maximum is the penalty for failing to report an accident (reg 6). Reg 5 also carries up to 2 years' imprisonment."
+   },
+   {
+    "text": "A fine not exceeding $50,000, imprisonment not exceeding 2 years, or both",
+    "correct": true,
+    "why": "Reg 5(2)(a) sets a first-offence fine of up to $50,000 or imprisonment of up to 2 years or both."
+   }
+  ],
+  "source": "Air Navigation (101 - Unmanned Aircraft Operations) Regulations 2019 (ANR-101, laws.sg mirror of Singapore Statutes Online) reg 5(2), reg 6(2)",
+  "note": "50k/2y for a first offence, then 100k/5y."
+ },
+ {
+  "id": "HF-011",
+  "module": "Human Factors",
+  "topic": "Psychoactive substances - scope",
+  "difficulty": "hard",
+  "question": "The PIC is completely sober, but her visual observer smoked cannabis an hour before the flight. Which statement is correct under ANR-101 reg 5?",
+  "options": [
+   {
+    "text": "No offence is committed, because only the person operating the controls is covered",
+    "correct": false,
+    "why": "This is the common misreading. The regulation expressly extends to anyone involved in the conduct of the flight."
+   },
+   {
+    "text": "The PIC commits the offence on the VO's behalf, but the VO does not",
+    "correct": false,
+    "why": "The offence attaches to the person who is under the influence and involved in the flight, here the VO."
+   },
+   {
+    "text": "The VO also commits an offence, because a VO is involved in the conduct of the flight",
+    "correct": true,
+    "why": "Reg 5(1) says a person must not operate a UA OR be involved in the conduct of a flight involving a UA while under the influence, and a VO is involved in the conduct of the flight."
+   },
+   {
+    "text": "An offence is committed only if the drone crashes or causes damage",
+    "correct": false,
+    "why": "Reg 5 is a conduct offence, and reg 5(3) says intent need not be proved. No accident is needed."
+   }
+  ],
+  "source": "Air Navigation (101 - Unmanned Aircraft Operations) Regulations 2019 (ANR-101, laws.sg mirror of Singapore Statutes Online) reg 5(1), (3)"
+ },
+ {
+  "id": "HF-012",
+  "module": "Human Factors",
+  "topic": "Psychoactive substances - definition",
+  "difficulty": "medium",
+  "question": "Which of the following is EXCLUDED from the definition of 'psychoactive substances' in the ANR-101?",
+  "options": [
+   {
+    "text": "Volatile solvents",
+    "correct": false,
+    "why": "Volatile solvents, such as inhalants, are expressly included."
+   },
+   {
+    "text": "Sedatives and hypnotics, such as prescription sleeping pills",
+    "correct": false,
+    "why": "Sedatives and hypnotics are expressly included, even when they are legally prescribed."
+   },
+   {
+    "text": "Alcohol",
+    "correct": false,
+    "why": "Alcohol is the first item listed in the definition."
+   },
+   {
+    "text": "Coffee",
+    "correct": true,
+    "why": "The First Schedule definition includes alcohol, opioids, cannabinoids, sedatives and hypnotics, cocaine, other psychostimulants, hallucinogens and volatile solvents, but expressly excludes coffee and tobacco."
+   }
+  ],
+  "source": "Air Navigation (101 - Unmanned Aircraft Operations) Regulations 2019 (ANR-101, laws.sg mirror of Singapore Statutes Online) First Schedule, definition of 'psychoactive substances'"
+ },
+ {
+  "id": "HF-013",
+  "module": "Human Factors",
+  "topic": "Alcohol",
+  "difficulty": "hard",
+  "question": "A pilot's last drink was 10 hours ago. He feels a little hungover, and a breathalyser reads 0.045% BAC. Under the US FAA alcohol rules described in FAA-G-8082-22, may he fly?",
+  "options": [
+   {
+    "text": "Yes, if a visual observer monitors the drone for him",
+    "correct": false,
+    "why": "The US rules apply to every crew member, and a VO does not cure the pilot's impairment. In Singapore, an impaired VO would also commit an offence under ANR-101 reg 5."
+   },
+   {
+    "text": "No, because his BAC is above 0.04%",
+    "correct": true,
+    "why": "The FAA rule needs both: 8 hours since the last drink AND a BAC below 0.04%. He meets the time rule but not the BAC limit. The FAA adds that a pilot with a hangover is still under the influence."
+   },
+   {
+    "text": "Yes, because more than 8 hours have passed since his last drink",
+    "correct": false,
+    "why": "This is the near-miss. Under the FAA rule the 8 hours are necessary but not sufficient, because the BAC limit also applies."
+   },
+   {
+    "text": "Yes, because 0.045% is below the legal driving limit",
+    "correct": false,
+    "why": "Road limits are irrelevant. The FAA aviation limit is 0.04%, and he is above it."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.9 (Part 107 alcohol rules; 14 CFR 91.17: 8 hours and 0.04% BAC); Air Navigation (101 - Unmanned Aircraft Operations) Regulations 2019 (ANR-101, laws.sg mirror of Singapore Statutes Online) reg 5",
+  "note": "8 h and 0.04% are US figures (14 CFR 91.17, applied by Part 107). Singapore's ANR-101 reg 5 sets no fixed hours or BAC: it bans operating, or being involved in a flight, while under the influence of any psychoactive substance (alcohol included) to the extent of being unable to operate safely."
+ },
+ {
+  "id": "HF-014",
+  "module": "Human Factors",
+  "topic": "Medication",
+  "difficulty": "medium",
+  "question": "A pilot took a new antihistamine for hay fever this morning and feels slightly drowsy. Who is responsible for deciding whether he is fit to fly?",
+  "options": [
+   {
+    "text": "The client, because they accepted the flight booking",
+    "correct": false,
+    "why": "The client is an external pressure, not the authority on fitness. Letting the client decide is a PAVE 'E' trap."
+   },
+   {
+    "text": "CAAS, through a medical certificate",
+    "correct": false,
+    "why": "AC 101-4-1(5) lists no medical certificate among the UAPL requirements, and no authority rules on fitness flight by flight. The self-assessment falls on the PIC."
+   },
+   {
+    "text": "The pharmacist who dispensed the medicine",
+    "correct": false,
+    "why": "A pharmacist has no role in the flight decision. Fitness to fly is the PIC's responsibility."
+   },
+   {
+    "text": "The pilot-in-command himself",
+    "correct": true,
+    "why": "The FAA guide says it is the remote PIC's responsibility to determine that a medical condition is under control, and warns that some antihistamines cause drowsiness."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.9 (Physiological factors; Drugs; IMSAFE); AC 101-4-1(5) LO 050 03 03",
+  "note": "The FAA guide advises waiting at least 48 h after the first dose of any new medication before flying."
+ },
+ {
+  "id": "HF-015",
+  "module": "Human Factors",
+  "topic": "IMSAFE",
+  "difficulty": "hard",
+  "question": "A pilot slept 8 hours, has no illness, takes no medication and had no alcohol. However, he received bad family news an hour ago and is distracted and anxious. Which IMSAFE items are flagged?",
+  "options": [
+   {
+    "text": "None. IMSAFE covers physical fitness only.",
+    "correct": false,
+    "why": "IMSAFE covers mental readiness as well. Stress and Emotion are two of its six items."
+   },
+   {
+    "text": "Stress and Emotion",
+    "correct": true,
+    "why": "IMSAFE's S covers psychological pressure (money, health or family problems), and the final E asks whether the pilot is emotionally upset. Both apply here."
+   },
+   {
+    "text": "Only Emotion. Stress refers to physical workload only.",
+    "correct": false,
+    "why": "IMSAFE's Stress explicitly includes psychological pressure such as family problems, so both items apply."
+   },
+   {
+    "text": "Illness and Fatigue",
+    "correct": false,
+    "why": "He reports no illness and slept 8 hours, so neither applies."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.10 (Mitigating Risk: IMSAFE checklist); AC 101-4-1(5) LO 060 01 02"
+ },
+ {
+  "id": "HF-016",
+  "module": "Human Factors",
+  "topic": "PAVE",
+  "difficulty": "medium",
+  "question": "A client calls the PIC repeatedly, insisting that the roof inspection must be finished before the building opens to tenants in 20 minutes. Which PAVE element does this represent?",
+  "options": [
+   {
+    "text": "Aircraft",
+    "correct": false,
+    "why": "Nothing about the drone's capability or condition is in question."
+   },
+   {
+    "text": "External pressures",
+    "correct": true,
+    "why": "PAVE's E is External pressures, such as schedules, clients and the desire to complete the job. The FAA calls managing them the single most important key to risk management."
+   },
+   {
+    "text": "enVironment",
+    "correct": false,
+    "why": "The near-miss: the building and the time of day are environmental, but the risk here comes from the client's demand, which is an external pressure."
+   },
+   {
+    "text": "Pilot-in-command",
+    "correct": false,
+    "why": "The P element asks whether the pilot is ready (IMSAFE, experience). The client's demand is outside the pilot."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.10 (The PAVE Checklist; Managing External Pressures); AC 101-4-1(5) LO 060 01 02",
+  "note": "The external pressures element can make a pilot ignore all the other risk factors."
+ },
+ {
+  "id": "HF-017",
+  "module": "Human Factors",
+  "topic": "DECIDE model",
+  "difficulty": "hard",
+  "question": "A GNSS-degraded warning appears mid-mission. The pilot (1) notices the warning, (2) judges that the drone must be dealt with now, and (3) decides that the goal is 'drone safely on the ground at the launch point'. Which DECIDE step is (3)?",
+  "options": [
+   {
+    "text": "Identify - identify the actions that achieve the outcome",
+    "correct": false,
+    "why": "Identify comes after Choose. It is when the pilot lists the actions (for example, switch to ATTI and fly back manually) that will achieve the chosen outcome."
+   },
+   {
+    "text": "Choose - choose a desirable outcome for the decision",
+    "correct": true,
+    "why": "The FAA's Choose step is to 'determine the desirable outcome and choose a course of action'. Working out the specific solutions that achieve it is the later Identify step."
+   },
+   {
+    "text": "Estimate - estimate the need to react to the change",
+    "correct": false,
+    "why": "Step (2) was Estimate, where the pilot judged that a reaction was needed."
+   },
+   {
+    "text": "Do - carry out the necessary action",
+    "correct": false,
+    "why": "No action has been taken yet. The pilot has only set the goal."
+   }
+  ],
+  "source": "FAA PHAK ch.2 (The DECIDE Model); FAA-G-8082-22 ch.10 Fig 10-5; AC 101-4-1(5) LO 060 02 02",
+  "note": "Detect, Estimate (the need to react), Choose (the outcome), Identify (solutions), Do, Evaluate. Trap: 'Estimate' means judging whether and how urgently you must react, NOT estimating how long the fix will take. Timing the actions (e.g. whether there is enough battery for RTH) belongs to Identify."
+ },
+ {
+  "id": "HF-018",
+  "module": "Human Factors",
+  "topic": "Hazardous attitudes",
+  "difficulty": "medium",
+  "question": "A pilot says: 'This no-fly zone is silly. Nobody flies here anyway, so the rule doesn't apply to me.' Which hazardous attitude is this, and what is its antidote?",
+  "options": [
+   {
+    "text": "Invulnerability. Antidote: 'It could happen to me.'",
+    "correct": false,
+    "why": "Invulnerability is the belief that accidents happen only to others. The statement is about rejecting rules, not about personal immunity."
+   },
+   {
+    "text": "Impulsivity. Antidote: 'Not so fast. Think first.'",
+    "correct": false,
+    "why": "Impulsivity is acting on the first thing that comes to mind without thinking. This pilot has thought about it and rejected the rule."
+   },
+   {
+    "text": "Macho. Antidote: 'Taking chances is foolish.'",
+    "correct": false,
+    "why": "Macho ('I can do it') is about proving oneself by taking risks to impress others. This pilot is rejecting the rule, not showing off."
+   },
+   {
+    "text": "Anti-authority. Antidote: 'Follow the rules. They are usually right.'",
+    "correct": true,
+    "why": "Anti-authority ('Don't tell me') is resentment of being told what to do, with rules seen as silly or unnecessary. The FAA antidote is 'Follow the rules. They are usually right.'"
+   }
+  ],
+  "source": "FAA PHAK ch.2 Fig 2-4 (hazardous attitudes and antidotes); FAA-G-8082-22 ch.10 Fig 10-2; AC 101-4-1(5) LO 060 02 05"
+ },
+ {
+  "id": "HF-019",
+  "module": "Human Factors",
+  "topic": "Hazardous attitudes",
+  "difficulty": "hard",
+  "question": "Partway through a flight in deteriorating wind, a pilot mutters, 'Whatever I do, it's going to crash anyway,' and hands the controls to his junior. What is the correct antidote for this attitude?",
+  "options": [
+   {
+    "text": "'It could happen to me.'",
+    "correct": false,
+    "why": "That is the antidote to Invulnerability. This pilot already believes the worst will happen, so his problem is giving up."
+   },
+   {
+    "text": "'Follow the rules. They are usually right.'",
+    "correct": false,
+    "why": "That is the antidote to Anti-authority. No rule is being rejected here."
+   },
+   {
+    "text": "'I'm not helpless. I can make a difference.'",
+    "correct": true,
+    "why": "This is Resignation ('What's the use?'). Such pilots leave the action to others, and the FAA antidote is 'I'm not helpless. I can make a difference.'"
+   },
+   {
+    "text": "'Not so fast. Think first.'",
+    "correct": false,
+    "why": "That is the antidote to Impulsivity. The pilot is not rushing, he is giving up."
+   }
+  ],
+  "source": "FAA PHAK ch.2 Fig 2-4 (hazardous attitudes and antidotes); FAA-G-8082-22 ch.10 Fig 10-2; AC 101-4-1(5) LO 060 02 05",
+  "note": "Resignation pilots pass the action to others and go along with unreasonable requests to be a 'nice guy'."
+ },
+ {
+  "id": "HF-020",
+  "module": "Human Factors",
+  "topic": "Hazardous attitudes",
+  "difficulty": "hard",
+  "question": "A pilot tells his colleague: 'Flyaways only happen to cheap drones and careless flyers, not to someone with my kit.' Which hazardous attitude is this?",
+  "options": [
+   {
+    "text": "Invulnerability",
+    "correct": true,
+    "why": "Invulnerability ('It won't happen to me') is knowing that accidents happen while believing you will not personally be involved. Such pilots take more chances."
+   },
+   {
+    "text": "Macho",
+    "correct": false,
+    "why": "Macho ('I can do it, I'll show them') is about proving yourself by taking risks to impress others. This statement is a belief in personal immunity, not a display of skill."
+   },
+   {
+    "text": "Resignation",
+    "correct": false,
+    "why": "Resignation is a feeling of helplessness, which is the opposite of this pilot's overconfidence."
+   },
+   {
+    "text": "Anti-authority",
+    "correct": false,
+    "why": "No rule or instruction is being resisted."
+   }
+  ],
+  "source": "FAA PHAK ch.2 Fig 2-4 (hazardous attitudes and antidotes); FAA-G-8082-22 ch.10 Fig 10-2; AC 101-4-1(5) LO 060 02 05"
+ },
+ {
+  "id": "HF-021",
+  "module": "Human Factors",
+  "topic": "Fatigue",
+  "difficulty": "medium",
+  "question": "A pilot comes straight from a 12-hour night shift to a morning job and feels drained. Which action is consistent with FAA guidance on fatigue?",
+  "options": [
+   {
+    "text": "Do not fly until properly rested",
+    "correct": true,
+    "why": "The FAA lists degraded judgement and decision-making among the effects of fatigue, says a pilot with acute fatigue should not operate, and says adequate rest is the only way to prevent fatigue."
+   },
+   {
+    "text": "Fly, but have a visual observer watch for errors",
+    "correct": false,
+    "why": "A VO supports situational awareness but cannot take over the impaired PIC's decision-making."
+   },
+   {
+    "text": "Fly a shorter mission to limit exposure",
+    "correct": false,
+    "why": "A shorter flight does not remove the impaired judgement and memory that fatigue causes. The pilot is still unfit."
+   },
+   {
+    "text": "Drink an energy drink and fly as planned",
+    "correct": false,
+    "why": "Stimulants mask the feeling of fatigue but do not restore judgement, and no source endorses this."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.9 (Fatigue); AC 101-4-1(5) LO 050 04 02, 050 04 03"
+ },
+ {
+  "id": "HF-022",
+  "module": "Human Factors",
+  "topic": "Stress",
+  "difficulty": "medium",
+  "question": "The FAA groups stressors into three types. Which type does 'skipped lunch, resulting in low blood sugar' belong to?",
+  "options": [
+   {
+    "text": "Physiological",
+    "correct": true,
+    "why": "The FAA lists missed meals leading to low blood sugar under physiological stress, along with fatigue, lack of fitness, sleep loss and illness."
+   },
+   {
+    "text": "Environmental",
+    "correct": false,
+    "why": "Environmental stressors are conditions such as temperature and humidity extremes, noise, vibration and lack of oxygen. A missed meal is not one of them."
+   },
+   {
+    "text": "Physical",
+    "correct": false,
+    "why": "The FAA guide uses 'physical stress' for noise or vibration, the same ground as 'environmental'. A missed meal is a bodily condition, which is physiological."
+   },
+   {
+    "text": "Psychological",
+    "correct": false,
+    "why": "Psychological stressors are social or emotional factors, such as a death in the family, a divorce or a demotion, plus heavy mental workload."
+   }
+  ],
+  "source": "FAA PHAK ch.2 Fig 2-16 (System stressors); FAA-G-8082-22 ch.9 (Stress) and ch.10 Fig 10-7; AC 101-4-1(5) LO 050 05 01"
+ },
+ {
+  "id": "HF-023",
+  "module": "Human Factors",
+  "topic": "Stress",
+  "difficulty": "medium",
+  "question": "Which of the following is an effect of stress on pilot performance, according to the FAA?",
+  "options": [
+   {
+    "text": "Greater willingness to accept personal responsibility",
+    "correct": false,
+    "why": "Nothing in the FAA guidance supports this. Stress degrades performance rather than improving it."
+   },
+   {
+    "text": "Faster and more accurate decision-making under pressure",
+    "correct": false,
+    "why": "The FAA says performance falls off rapidly once stress exceeds a person's ability to cope, and that stress can impair effective decision-making."
+   },
+   {
+    "text": "Improved vigilance and sharper situational awareness",
+    "correct": false,
+    "why": "The FAA names stress, with fatigue and work overload, as a cause of fixation and lost situational awareness."
+   },
+   {
+    "text": "Problems with concentration, and impaired decision-making",
+    "correct": true,
+    "why": "The FAA guide says stress causes concentration and performance problems, and that the ability to make effective decisions in flight can be impaired by stress."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.10 (IMSAFE 'Stress'; Stress Management; Obstacles to Maintaining Situational Awareness); AC 101-4-1(5) LO 050 05 02"
+ },
+ {
+  "id": "HF-024",
+  "module": "Human Factors",
+  "topic": "Complacency",
+  "difficulty": "hard",
+  "question": "A pilot has flown the same weekly site survey 80 times without a problem. He now skips the written pre-flight checklist and 'just eyeballs it', and today he takes off with the gimbal clamp still fitted. What human factor is at work, and what is the control?",
+  "options": [
+   {
+    "text": "Complacency. The control is to run the full checklist before every flight.",
+    "correct": true,
+    "why": "The FAA names complacency as a key human factor, and lists neglect of preflight inspections and checklists, typical of experienced pilots, as an operational pitfall. The inspection is due before every flight."
+   },
+   {
+    "text": "Resignation. The control is to tell himself 'I can make a difference'.",
+    "correct": false,
+    "why": "Resignation is helplessness. This pilot is overconfident, which is the opposite."
+   },
+   {
+    "text": "Fatigue. The control is to take more breaks.",
+    "correct": false,
+    "why": "Nothing suggests he is tired. The error comes from routine and over-familiarity."
+   },
+   {
+    "text": "Get-home-itis. The control is to cancel the mission.",
+    "correct": false,
+    "why": "Get-there-itis is a fixation on the original goal with disregard for alternatives. This pilot is not under pressure to finish. He has become over-familiar with the task."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.10 (Human Factors); FAA PHAK ch.2 Fig 2-15 (Operational pitfalls); FAA AC 107-2A para 7.3 (preflight inspection before each flight)"
+ },
+ {
+  "id": "HF-025",
+  "module": "Human Factors",
+  "topic": "Situational awareness",
+  "difficulty": "hard",
+  "question": "While working through a gimbal fault on the GCS screen, a pilot fails to notice a helicopter approaching. According to the FAA guide, which factors typically cause this loss of situational awareness?",
+  "options": [
+   {
+    "text": "Monitoring the emergency frequency 121.5 MHz",
+    "correct": false,
+    "why": "Listening to aviation frequencies adds situational awareness. The FAA suggests a radio as an extra layer of SA."
+   },
+   {
+    "text": "Using a visual observer, which divides responsibility",
+    "correct": false,
+    "why": "A VO adds situational awareness. AC 107-2A says a VO lets the PIC handle other duties, such as checking displays, while SA is kept."
+   },
+   {
+    "text": "Following a written checklist, which slows the pilot down",
+    "correct": false,
+    "why": "Checklists reduce workload and omissions. They do not cause fixation."
+   },
+   {
+    "text": "Fatigue, stress and work overload causing fixation on a single item",
+    "correct": true,
+    "why": "The FAA guide says fatigue, stress and work overload can make a pilot fixate on one perceived important item and lose overall SA, and that distraction is a contributing factor in many accidents."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.10 (Obstacles to Maintaining Situational Awareness) and ch.7 (radio for situational awareness); FAA AC 107-2A para 5.9.2"
+ }
+]

@@ -1,0 +1,2297 @@
+[
+ {
+  "id": "AL-001",
+  "module": "Air Law",
+  "topic": "ANA penalties",
+  "difficulty": "medium",
+  "question": "A UA operator flies his drone over a protected area without a permit. This is his first conviction. What is the maximum penalty under the Air Navigation Act?",
+  "options": [
+   {
+    "text": "A fine not exceeding $50,000, or imprisonment not exceeding 2 years, or both",
+    "correct": true,
+    "why": "Section 33 (old s7A) sets $50,000 / 2 years for a first offence; the higher tier applies only to repeat offenders."
+   },
+   {
+    "text": "A fine not exceeding $100,000, or imprisonment not exceeding 5 years, or both",
+    "correct": false,
+    "why": "That is the repeat-offender tier for protected-area overflight, not the first-offence penalty."
+   },
+   {
+    "text": "A fine not exceeding $20,000 only",
+    "correct": false,
+    "why": "$20,000 is the first-offence fine for failing to produce a licence or permit, not for overflying a protected area."
+   },
+   {
+    "text": "A fine not exceeding $10,000, or imprisonment not exceeding 6 months, or both",
+    "correct": false,
+    "why": "$10,000 / 6 months is the registration and B-RID penalty tier under ANR-101."
+   }
+  ],
+  "source": "Air Navigation Act 1966 (2020 Rev Ed) s33(3) (formerly s7A); https://sso.agc.gov.sg/Act/ANA1966"
+ },
+ {
+  "id": "AL-002",
+  "module": "Air Law",
+  "topic": "ANA penalties",
+  "difficulty": "hard",
+  "question": "A drone accidentally releases a payload of liquid fertiliser over a housing estate. Assuming no valid defence applies, what is the maximum penalty for a FIRST offence under the CURRENT ANA section on discharge from unmanned aircraft?",
+  "options": [
+   {
+    "text": "A fine not exceeding $20,000",
+    "correct": false,
+    "why": "Older study materials may show $20,000, but that is out of date. The current s35 first-offence penalty is $50,000 or 2 years or both."
+   },
+   {
+    "text": "A fine not exceeding $100,000, or imprisonment not exceeding 5 years, or both",
+    "correct": false,
+    "why": "That is the repeat-offender tier for discharge, and also the flat penalty for carrying dangerous materials (s34)."
+   },
+   {
+    "text": "A fine not exceeding $50,000, or imprisonment not exceeding 2 years, or both",
+    "correct": true,
+    "why": "Section 35(2)(a) (old s7C), as amended by Act 34/2019, sets a $50,000 / 2-year first-offence penalty."
+   },
+   {
+    "text": "A fine not exceeding $5,000",
+    "correct": false,
+    "why": "$5,000 is the penalty for trespassing at aerodromes (s41), not for discharging anything from a UA."
+   }
+  ],
+  "source": "Air Navigation Act 1966 (2020 Rev Ed) s35 (formerly s7C); https://sso.agc.gov.sg/Act/ANA1966",
+  "note": "Older study materials and question banks may still show 'unauthorised discharge from UA: fine not exceeding $20,000'. The current ANA s35(2) penalty is $50k/2y (first offence) and $100k/5y (repeat)."
+ },
+ {
+  "id": "AL-003",
+  "module": "Air Law",
+  "topic": "ANA penalties",
+  "difficulty": "medium",
+  "question": "What is the maximum penalty for operating an unmanned aircraft that carries a prohibited item, such as an explosive or radioactive material, over Singapore?",
+  "options": [
+   {
+    "text": "A fine not exceeding $50,000, or imprisonment not exceeding 2 years, or both, for a first offence",
+    "correct": false,
+    "why": "Section 34 has no first-offence tier. This $50k/2y tier belongs to protected-area and discharge offences."
+   },
+   {
+    "text": "A fine not exceeding $100,000, or imprisonment not exceeding 10 years, or both",
+    "correct": false,
+    "why": "The 10-year term applies only to the aggravated UA case of the 'dangerous activity' offence (s39(5)), not to carrying dangerous materials."
+   },
+   {
+    "text": "A fine not exceeding $10,000, or imprisonment not exceeding 6 months, or both",
+    "correct": false,
+    "why": "That is the ANR-101 tier for registration and B-RID offences. It is far too low for an 'absolute prohibition' offence."
+   },
+   {
+    "text": "A fine not exceeding $100,000, or imprisonment not exceeding 5 years, or both",
+    "correct": true,
+    "why": "Section 34(1) (old s7B) sets one penalty with no first/repeat split: $100,000 or 5 years or both."
+   }
+  ],
+  "source": "Air Navigation Act 1966 (2020 Rev Ed) s34 (formerly s7B); https://sso.agc.gov.sg/Act/ANA1966"
+ },
+ {
+  "id": "AL-004",
+  "module": "Air Law",
+  "topic": "ANA penalties",
+  "difficulty": "hard",
+  "question": "A UA pilot deliberately flies his drone low over a crowd, knowing that this could endanger their lives. Under the ANA 'dangerous activity involving aircraft' provision, what is the maximum penalty for this UA-specific aggravated case?",
+  "options": [
+   {
+    "text": "A fine not exceeding $100,000, or imprisonment not exceeding 5 years, or both",
+    "correct": false,
+    "why": "That is the general s39(4) penalty. The scenario's knowing/reckless conduct with a UA triggers the higher s39(5) tier."
+   },
+   {
+    "text": "A fine not exceeding $100,000, or imprisonment not exceeding 10 years, or both",
+    "correct": true,
+    "why": "Section 39(5) (old s8C) raises the jail term to 10 years where the act involves a UA and the person knew, or was reckless as to whether, life or property could be endangered."
+   },
+   {
+    "text": "A fine not exceeding $50,000, or imprisonment not exceeding 2 years, or both",
+    "correct": false,
+    "why": "This is the first-offence tier for protected-area and licensing offences, not for dangerous activity."
+   },
+   {
+    "text": "A fine not exceeding $200,000, or imprisonment not exceeding 10 years, or both",
+    "correct": false,
+    "why": "The 10-year term is right but the fine cap is wrong. The maximum fine is $100,000."
+   }
+  ],
+  "source": "Air Navigation Act 1966 (2020 Rev Ed) s39(4)-(5) (formerly s8C); https://sso.agc.gov.sg/Act/ANA1966",
+  "note": "Some summaries show only $100k/10y. The 10-year term is the UA knowing/reckless case in s39(5). The base s39(4) penalty is $100k/5y."
+ },
+ {
+  "id": "AL-005",
+  "module": "Air Law",
+  "topic": "ANA penalties",
+  "difficulty": "medium",
+  "question": "Without CAAS authorisation, a hobbyist walks into a posted 'prohibited area' at an aerodrome to retrieve his crashed drone. What is the maximum penalty under the ANA for trespassing at aerodromes?",
+  "options": [
+   {
+    "text": "A fine not exceeding $10,000",
+    "correct": false,
+    "why": "$10,000 is the fine for breaching a registered responsible person's general obligations under ANR-101 reg 47."
+   },
+   {
+    "text": "A fine not exceeding $5,000",
+    "correct": true,
+    "why": "Section 41(2) (old s8E) provides a fine not exceeding $5,000. There is no imprisonment term."
+   },
+   {
+    "text": "A fine not exceeding $50,000, or imprisonment not exceeding 2 years, or both",
+    "correct": false,
+    "why": "This mixes in the protected-area tier. Aerodrome trespass carries a fine only."
+   },
+   {
+    "text": "A fine not exceeding $20,000",
+    "correct": false,
+    "why": "$20,000 is the first-offence fine for failing to produce a licence or permit."
+   }
+  ],
+  "source": "Air Navigation Act 1966 (2020 Rev Ed) s41 (formerly s8E); https://sso.agc.gov.sg/Act/ANA1966"
+ },
+ {
+  "id": "AL-006",
+  "module": "Air Law",
+  "topic": "ANA provisions",
+  "difficulty": "hard",
+  "question": "Under the ANA provision on prohibited photography over protected areas, which of the following statements are correct?\nI. If the person taking the photograph is not the operator, both the operator and that person are each guilty of an offence.\nII. The prosecution must prove that the accused knew the area was a protected area.\nIII. 'Taking a photograph' includes making a video recording or recording images for live-streaming.\nIV. The offence is an arrestable offence.",
+  "options": [
+   {
+    "text": "I, II and III only",
+    "correct": false,
+    "why": "Statement II is false. Section 32(5)(a) says the prosecution need NOT prove the accused knew the area was protected."
+   },
+   {
+    "text": "II and IV only",
+    "correct": false,
+    "why": "II is false (knowledge need not be proven), and this option leaves out the true statements I and III."
+   },
+   {
+    "text": "I, III and IV only",
+    "correct": true,
+    "why": "Section 32(2), (6) and (7) make both the operator and the photographer liable, make the offence arrestable, and extend 'photograph' to film, video and live-streaming."
+   },
+   {
+    "text": "I, II, III and IV",
+    "correct": false,
+    "why": "II is false. Knowledge that the area was protected is not an element the prosecution must prove."
+   }
+  ],
+  "source": "Air Navigation Act 1966 (2020 Rev Ed) s32 (formerly s7); https://sso.agc.gov.sg/Act/ANA1966"
+ },
+ {
+  "id": "AL-007",
+  "module": "Air Law",
+  "topic": "Other permits",
+  "difficulty": "medium",
+  "question": "A surveying company needs to take aerial photographs over a gazetted protected area. In addition to its CAAS permits, from which authority must it obtain a permit to photograph or overfly the protected area?",
+  "options": [
+   {
+    "text": "The Singapore Police Force (SPF)",
+    "correct": true,
+    "why": "AC 101-2-1 para 5.1 says SPF grants permits under ANA s32 (photography) and s33 (overflight) of protected areas."
+   },
+   {
+    "text": "CAAS, by way of a Class 2 Activity Permit",
+    "correct": false,
+    "why": "A CAAS activity permit does not authorise protected-area photography or overflight. That permit comes from SPF (a 'competent security officer')."
+   },
+   {
+    "text": "The Infocomm Media Development Authority (IMDA)",
+    "correct": false,
+    "why": "IMDA permits cover radio frequencies and power limits that do not meet its short-range-device guidelines, not protected areas."
+   },
+   {
+    "text": "The Ministry of Defence (MINDEF)",
+    "correct": false,
+    "why": "The ANA and CAAS guidance name SPF, not MINDEF, as the permit-granting agency for protected areas."
+   }
+  ],
+  "source": "AC 101-2-1 (Rev 8), 3 Jul 2025 para 5.1; Air Navigation Act 1966 (2020 Rev Ed) ss32-33"
+ },
+ {
+  "id": "AL-008",
+  "module": "Air Law",
+  "topic": "ANA provisions",
+  "difficulty": "hard",
+  "question": "A UA operator is charged under the ANA with discharging a substance from an unmanned aircraft. Which of the following is NOT a valid defence?",
+  "options": [
+   {
+    "text": "The accused held a discharge permit from CAAS and discharged in accordance with it",
+    "correct": false,
+    "why": "This is a valid defence under s35(4)(c). CAAS issues discharge permits for this purpose."
+   },
+   {
+    "text": "The discharge was unintentional, not due to any want of reasonable care, and the accused took all reasonably practicable steps to stop it",
+    "correct": false,
+    "why": "This is the statutory defence in s35(4)(a)."
+   },
+   {
+    "text": "The item escaped because of unintentional damage to the UA, and all reasonable precautions were taken afterwards",
+    "correct": false,
+    "why": "This is the statutory defence in s35(4)(b), which covers damage other than intentional damage."
+   },
+   {
+    "text": "No one was hurt and no property was damaged as a result of the discharge",
+    "correct": true,
+    "why": "Section 35(5) says expressly that it is not a defence that no one died or was hurt, no property was damaged, or no hazard was caused."
+   }
+  ],
+  "source": "Air Navigation Act 1966 (2020 Rev Ed) s35(4)-(5); https://sso.agc.gov.sg/Act/ANA1966"
+ },
+ {
+  "id": "AL-009",
+  "module": "Air Law",
+  "topic": "ANA provisions",
+  "difficulty": "medium",
+  "question": "Under the ANA section on discharge from unmanned aircraft, which of the following does NOT count as a 'discharge'?",
+  "options": [
+   {
+    "text": "Dropping a small parcel from the UA",
+    "correct": false,
+    "why": "Section 35(8) says expressly that 'discharge' includes dropping things from a UA."
+   },
+   {
+    "text": "Spraying liquid pesticide over a farm",
+    "correct": false,
+    "why": "Spraying a liquid is a discharge (gaseous, liquid or solid) under s35(1)(b). It needs a CAAS discharge permit."
+   },
+   {
+    "text": "Releasing confetti during a celebration",
+    "correct": false,
+    "why": "Releasing any solid matter is a discharge under s35(1)(b)."
+   },
+   {
+    "text": "Exhaust emitted by the UA's engine during flight",
+    "correct": true,
+    "why": "Section 35(8) says discharge includes dropping things but does not include exhaust discharged during flight."
+   }
+  ],
+  "source": "Air Navigation Act 1966 (2020 Rev Ed) s35(1),(8); https://sso.agc.gov.sg/Act/ANA1966"
+ },
+ {
+  "id": "AL-010",
+  "module": "Air Law",
+  "topic": "ANA provisions",
+  "difficulty": "medium",
+  "question": "Under the pre-2020 (Cap. 6) Air Navigation Act numbering still seen in older materials, what does Section 7A deal with?",
+  "options": [
+   {
+    "text": "Permit needed for certain overflight by unmanned aircraft",
+    "correct": true,
+    "why": "Old s7A (now s33 in the 2020 Revised Edition) bans flying a UA at any height over a protected area without a permit."
+   },
+   {
+    "text": "Prohibited photography over protected areas",
+    "correct": false,
+    "why": "That is old Section 7 (now s32)."
+   },
+   {
+    "text": "Absolute prohibition of carriage of dangerous materials on unmanned aircraft",
+    "correct": false,
+    "why": "That is old Section 7B (now s34)."
+   },
+   {
+    "text": "Discharge from unmanned aircraft",
+    "correct": false,
+    "why": "That is old Section 7C (now s35)."
+   }
+  ],
+  "source": "Air Navigation Act 1966 (2020 Rev Ed) s33 (bracket note '[7A'); https://sso.agc.gov.sg/Act/ANA1966; https://laws.sg/legislation/air-navigation-act-1966",
+  "note": "The 2020 Revised Edition renumbered the UA sections: 7->32, 7A->33, 7B->34, 7C->35, 8C->39, 8D->40, 8E->41, 10->43. Older materials and question banks may use either numbering, so know both."
+ },
+ {
+  "id": "AL-011",
+  "module": "Air Law",
+  "topic": "ANA provisions",
+  "difficulty": "hard",
+  "question": "A drone hired by a company is flown in a way that causes unnecessary danger to people on the ground. Under the ANA 'penalty for dangerous flying' provision, who may be guilty of the offence?",
+  "options": [
+   {
+    "text": "Only the pilot, because the owner is never liable for how the aircraft is flown",
+    "correct": false,
+    "why": "Wrong. Section 43 also makes the owner liable unless it proves no actual fault or privity."
+   },
+   {
+    "text": "Only the registered responsible person of the UA",
+    "correct": false,
+    "why": "'Registered responsible person' is an ANR-101 registration concept. Section 43 targets the pilot/person in charge and the owner."
+   },
+   {
+    "text": "The pilot or person in charge, and also the owner (including a hirer), subject to the owner's defence",
+    "correct": true,
+    "why": "Section 43(1)-(2) (old s10) makes the pilot/person in charge and the owner liable. 'Owner' includes the hirer, and the owner has a no-fault-or-privity defence."
+   },
+   {
+    "text": "Only the UA Operator Permit holder, whose permit is then automatically revoked",
+    "correct": false,
+    "why": "Section 43 does not limit liability to OP holders and provides no automatic revocation. Liability rests on the pilot and owner."
+   }
+  ],
+  "source": "Air Navigation Act 1966 (2020 Rev Ed) s43 (formerly s10); https://sso.agc.gov.sg/Act/ANA1966"
+ },
+ {
+  "id": "AL-012",
+  "module": "Air Law",
+  "topic": "ANA penalties",
+  "difficulty": "medium",
+  "question": "What is the maximum penalty under the ANA for 'flying without satisfying safety requirements' and for 'dangerous flying'?",
+  "options": [
+   {
+    "text": "A fine not exceeding $50,000, or imprisonment not exceeding 2 years, or both, for each",
+    "correct": false,
+    "why": "This is the first-offence tier for protected-area and licensing offences. These two offences carry $100k / 5 years."
+   },
+   {
+    "text": "A fine not exceeding $100,000, or imprisonment not exceeding 5 years, or both, for each",
+    "correct": true,
+    "why": "Sections 40(3) (old s8D) and 43(1) (old s10) each provide $100,000 or 5 years or both."
+   },
+   {
+    "text": "A fine not exceeding $100,000, or imprisonment not exceeding 10 years, or both, for each",
+    "correct": false,
+    "why": "Ten years applies only to the aggravated UA case of 'dangerous activity' (s39(5))."
+   },
+   {
+    "text": "A fine not exceeding $20,000 for a first offence and $40,000 for a repeat offence",
+    "correct": false,
+    "why": "These are the ANR-101 figures for failing to produce a licence or permit."
+   }
+  ],
+  "source": "Air Navigation Act 1966 (2020 Rev Ed) ss40, 43; https://sso.agc.gov.sg/Act/ANA1966"
+ },
+ {
+  "id": "AL-013",
+  "module": "Air Law",
+  "topic": "ANR-101 general rules",
+  "difficulty": "medium",
+  "question": "A UAPL holder who also holds an Operator Permit and a Class 1 Activity Permit wants to fly outdoors inside a declared Prohibited Area. Which statement is correct?",
+  "options": [
+   {
+    "text": "A Class 1 Activity Permit authorises it if the OP covers that UA type",
+    "correct": false,
+    "why": "Reg 4(4) says expressly that an activity permit does not authorise operation in a prohibited area."
+   },
+   {
+    "text": "A Class 2 Activity Permit is the correct permit for prohibited areas",
+    "correct": false,
+    "why": "Class 2 permits cover restricted and danger areas, flights within 5 km of aerodromes, and flights above 200 ft AMSL. No permit is issued for prohibited areas."
+   },
+   {
+    "text": "An SPF permit under ANA section 33 authorises it",
+    "correct": false,
+    "why": "SPF permits cover protected areas, not prohibited areas. CAAS says UA activities are not allowed in prohibited areas at any time."
+   },
+   {
+    "text": "None of these permits or licences authorises it",
+    "correct": true,
+    "why": "ANR-101 reg 4(1) and (4): a UA OP, UAPL, activity permit or cross-border permit does not authorise operation in a prohibited area. Outdoor UA operation there is an offence."
+   }
+  ],
+  "source": "ANR-101 reg 4 (as amended S 838/2025); https://sso.agc.gov.sg/SL/ANA1966-S833-2019; https://www.caas.gov.sg/unmanned-aircraft/requirements-for-flying-ua/"
+ },
+ {
+  "id": "AL-014",
+  "module": "Air Law",
+  "topic": "ANR-101 general rules",
+  "difficulty": "medium",
+  "question": "Under ANR-101, which of the following is EXCLUDED from the definition of 'psychoactive substances'?",
+  "options": [
+   {
+    "text": "Alcohol",
+    "correct": false,
+    "why": "Alcohol is the first item listed in the ANR-101 definition."
+   },
+   {
+    "text": "Volatile solvents",
+    "correct": false,
+    "why": "Volatile solvents are listed in the definition."
+   },
+   {
+    "text": "Coffee",
+    "correct": true,
+    "why": "The First Schedule definition covers alcohol, opioids, cannabinoids, sedatives, hypnotics, cocaine, other psychostimulants, hallucinogens and volatile solvents, but excludes coffee and tobacco."
+   },
+   {
+    "text": "Sedatives and hypnotics",
+    "correct": false,
+    "why": "Sedatives and hypnotics are listed in the definition."
+   }
+  ],
+  "source": "ANR-101 First Schedule 'psychoactive substances'; https://sso.agc.gov.sg/SL/ANA1966-S833-2019"
+ },
+ {
+  "id": "AL-015",
+  "module": "Air Law",
+  "topic": "ANR-101 penalties",
+  "difficulty": "hard",
+  "question": "A UA pilot is convicted a SECOND time of operating a UA while under the influence of a psychoactive substance. What is the maximum penalty?",
+  "options": [
+   {
+    "text": "A fine not exceeding $100,000, or imprisonment not exceeding 5 years, or both",
+    "correct": true,
+    "why": "ANR-101 reg 5(2)(b): the second or subsequent offence is $100,000 or 5 years or both."
+   },
+   {
+    "text": "A fine not exceeding $50,000, or imprisonment not exceeding 2 years, or both",
+    "correct": false,
+    "why": "This is the FIRST-offence penalty under reg 5(2)(a)."
+   },
+   {
+    "text": "A fine not exceeding $40,000, or imprisonment not exceeding 15 months, or both",
+    "correct": false,
+    "why": "This is the repeat penalty for failing to produce a licence or permit."
+   },
+   {
+    "text": "A fine not exceeding $100,000 only, with no imprisonment",
+    "correct": false,
+    "why": "A fine-only $100,000 repeat penalty applies to failing to report accidents (reg 6) and to UA operator responsibilities (reg 19), not to psychoactive substances."
+   }
+  ],
+  "source": "ANR-101 reg 5; https://sso.agc.gov.sg/SL/ANA1966-S833-2019"
+ },
+ {
+  "id": "AL-016",
+  "module": "Air Law",
+  "topic": "Accident reporting",
+  "difficulty": "medium",
+  "question": "A UA pilot fails to notify CAAS of an accident in which his drone damaged a parked car. What is the maximum penalty for a FIRST offence under ANR-101?",
+  "options": [
+   {
+    "text": "A fine not exceeding $50,000, or imprisonment not exceeding 2 years, or both",
+    "correct": false,
+    "why": "Reg 6 has no imprisonment term. The $50k/2y tier belongs to offences such as reg 4, 5 and 39."
+   },
+   {
+    "text": "A fine not exceeding $50,000",
+    "correct": true,
+    "why": "Reg 6(2)(a) provides a fine only ($50,000) for a first offence. The repeat fine is $100,000."
+   },
+   {
+    "text": "A fine not exceeding $10,000, or imprisonment not exceeding 6 months, or both",
+    "correct": false,
+    "why": "That is the registration and B-RID penalty tier."
+   },
+   {
+    "text": "No penalty, because only accidents with serious injury or death must be reported",
+    "correct": false,
+    "why": "Reg 6(1) also covers damage to any property."
+   }
+  ],
+  "source": "ANR-101 reg 6; https://sso.agc.gov.sg/SL/ANA1966-S833-2019"
+ },
+ {
+  "id": "AL-017",
+  "module": "Air Law",
+  "topic": "Accident reporting",
+  "difficulty": "hard",
+  "question": "Under CAAS guidance on reportable safety matters, by when should a UA operator inform the CAAS UAS Duty Officer, and by when should the written report follow?",
+  "options": [
+   {
+    "text": "Within 48 hours, with a written report within 7 working days",
+    "correct": false,
+    "why": "Both deadlines are too long. The AC sets 24 hours and 3 working days."
+   },
+   {
+    "text": "Within 72 hours, with a written report within 14 days",
+    "correct": false,
+    "why": "Both deadlines are too long. The AC sets 24 hours and 3 working days."
+   },
+   {
+    "text": "Within 24 hours of the occurrence, with a written report within 3 working days",
+    "correct": true,
+    "why": "AC 101-2-1 Appendix 1: phone the UAS Duty Officer within 24 hours, then email a written report within 3 working days."
+   },
+   {
+    "text": "Within 7 working days, which is the same deadline as a change of address",
+    "correct": false,
+    "why": "Seven working days is the deadline for a registered responsible person to notify a change of name or address (reg 47), not for safety reporting."
+   }
+  ],
+  "source": "AC 101-2-1 (Rev 8), 3 Jul 2025 Appendix 1",
+  "note": "Statute (reg 6) says 'by the quickest available means'. The 24 h / 3 working days figures come from AC guidance."
+ },
+ {
+  "id": "AL-018",
+  "module": "Air Law",
+  "topic": "Accident reporting",
+  "difficulty": "medium",
+  "question": "During an operation, your UA nearly collides with a building, but nothing is damaged. According to CAAS guidance, what should the UA operator do?",
+  "options": [
+   {
+    "text": "Report it to CAAS as a reportable safety matter",
+    "correct": true,
+    "why": "AC 101-2-1 Appendix 1 item 3 lists 'near collision of the UA with other aircraft or objects, near misses' as a reportable safety matter."
+   },
+   {
+    "text": "Nothing, because there was no damage or injury",
+    "correct": false,
+    "why": "Near misses are reportable even without damage. Only the statutory reg 6 offence is tied to injury or damage."
+   },
+   {
+    "text": "Inform the building owner and apologise. CAAS need not be told.",
+    "correct": false,
+    "why": "Courtesy to the owner does not replace the CAAS report that the guidance expects."
+   },
+   {
+    "text": "Report it to the Singapore Police Force only",
+    "correct": false,
+    "why": "Reportable safety matters go to the CAAS UAS Duty Officer. SPF handles protected-area and special-event permits."
+   }
+  ],
+  "source": "AC 101-2-1 (Rev 8), 3 Jul 2025 para 1.1 & Appendix 1",
+  "note": "The statutory reg 6 duty is tied to injury or damage, but AC 101-2-1 also asks for near misses to be reported."
+ },
+ {
+  "id": "AL-019",
+  "module": "Air Law",
+  "topic": "Purposes of operation",
+  "difficulty": "medium",
+  "question": "Which of the following counts as a 'recreation purpose' under ANR-101?",
+  "options": [
+   {
+    "text": "Taking part in an organised drone race with a hobby club",
+    "correct": false,
+    "why": "Recreation purpose excludes sporting activities that are part of an organised group activity or competition, race or tournament."
+   },
+   {
+    "text": "An individual flying higher than 200 ft AMSL to take aerial photographs for his personal collection",
+    "correct": true,
+    "why": "AC 101-2-1 Appendix 2 gives this exact example of recreation. Because of the altitude it needs a Class 2 AP, but the purpose is still recreational."
+   },
+   {
+    "text": "Flying for customers at a drone experience run by a business",
+    "correct": false,
+    "why": "Recreation purpose excludes recreational activities provided as part of carrying on a business."
+   },
+   {
+    "text": "Flying in a flying display at an event expected to draw 1,000 people",
+    "correct": false,
+    "why": "Flying displays are excluded from recreation purpose."
+   }
+  ],
+  "source": "ANR-101 First Schedule 'recreation purpose'; AC 101-2-1 (Rev 8), 3 Jul 2025 Appendix 2"
+ },
+ {
+  "id": "AL-020",
+  "module": "Air Law",
+  "topic": "Purposes of operation",
+  "difficulty": "hard",
+  "question": "Which of the following activities is neither a recreation purpose nor an education purpose?",
+  "options": [
+   {
+    "text": "A polytechnic running a course in which its enrolled students fly UA as part of the full-time curriculum",
+    "correct": false,
+    "why": "This is the AC's example of education purpose (para 2.2(a))."
+   },
+   {
+    "text": "A public school within 5 km of an airbase flying a UA outdoors to show students its capabilities",
+    "correct": false,
+    "why": "This is an education purpose (para 2.2(b)). The 5 km location only adds a Class 2 AP requirement."
+   },
+   {
+    "text": "University students doing flight tests for their final-year project",
+    "correct": false,
+    "why": "This is an education purpose (para 2.2(e))."
+   },
+   {
+    "text": "A public educational institute using its UA to take photos and videos of its own school events",
+    "correct": true,
+    "why": "AC 101-2-1 Appendix 2 para 3.1(j) lists this as non-recreation/non-education, because it is not a lecture, class or similar activity for enrolled students."
+   }
+  ],
+  "source": "AC 101-2-1 (Rev 8), 3 Jul 2025 Appendix 2 paras 2.2, 3.1"
+ },
+ {
+  "id": "AL-021",
+  "module": "Air Law",
+  "topic": "Purposes of operation",
+  "difficulty": "hard",
+  "question": "A volunteer uses his own 900 g drone, unpaid, to film a charity run outdoors. Which of the following does he need?\nI. UA registration\nII. UA Operator Permit\nIII. Class 1 Activity Permit\nIV. UA Pilot Licence",
+  "options": [
+   {
+    "text": "I only",
+    "correct": false,
+    "why": "Being unpaid doesn't make it recreational. ANR-101 defines 'business' as not depending on a fee or profit, and the AC lists charity filming as non-recreational."
+   },
+   {
+    "text": "I and IV only",
+    "correct": false,
+    "why": "Non-recreation/non-education operations need an OP and a Class 1 AP as well as the UAPL (reg 9)."
+   },
+   {
+    "text": "II and III only",
+    "correct": false,
+    "why": "This leaves out registration (over 250 g) and the UAPL, which reg 35 requires for any non-recreation/non-education flight."
+   },
+   {
+    "text": "I, II, III and IV",
+    "correct": true,
+    "why": "AC Appendix 2 para 3.1(l) treats a volunteer filming a charity event as non-recreation/non-education. That needs OP + AP1 + UAPL at any mass, and registration because the drone is over 250 g."
+   }
+  ],
+  "source": "AC 101-2-1 (Rev 8), 3 Jul 2025 App 2 para 3.1(l); ANR-101 regs 9, 35, 42; First Schedule 'business'"
+ },
+ {
+  "id": "AL-022",
+  "module": "Air Law",
+  "topic": "Purposes of operation",
+  "difficulty": "medium",
+  "question": "A hobbyist gives his personal aerial photos, free of charge, to a café that uses them in its marketing. How does CAAS classify this use?",
+  "options": [
+   {
+    "text": "Recreation purpose, because the photos were taken for fun",
+    "correct": false,
+    "why": "Once the photos are shared with a business for marketing, CAAS treats the activity as non-recreational."
+   },
+   {
+    "text": "Non-recreation / non-education purpose, whether or not money changes hands",
+    "correct": true,
+    "why": "AC 101-2-1 App 2 para 3.1(h): sharing personal aerial photos with a business for marketing is non-recreational, regardless of any monetary exchange."
+   },
+   {
+    "text": "Education purpose, because the public learns about the café",
+    "correct": false,
+    "why": "Education purpose is limited to lectures, classes and similar activities by a Private Education Act s45 institution for its enrolled students."
+   },
+   {
+    "text": "Recreation purpose, unless the café pays for the photos",
+    "correct": false,
+    "why": "The AC says 'regardless of whether there are any monetary exchanges'."
+   }
+  ],
+  "source": "AC 101-2-1 (Rev 8), 3 Jul 2025 Appendix 2 para 3.1(h)"
+ },
+ {
+  "id": "AL-023",
+  "module": "Air Law",
+  "topic": "Activity Permits",
+  "difficulty": "hard",
+  "question": "A pilot wants to fly his 20 kg (total mass) UA for recreation in a park within 5 km of Paya Lebar Air Base, within visual line of sight and below 200 ft AMSL. Which of the following does he need?\nI. UA Operator Permit\nII. Class 1 Activity Permit\nIII. Class 2 Activity Permit\nIV. UA Pilot Licence",
+  "options": [
+   {
+    "text": "III and IV only",
+    "correct": true,
+    "why": "Recreation at 25 kg or below within 5 km of an aerodrome triggers a Class 2 AP (reg 8(1)), and over 7 kg needs a UAPL (reg 35(1)(b)). No OP or AP1 is needed below 25 kg. Registration and B-RID also apply but are not listed."
+   },
+   {
+    "text": "I, II and IV only",
+    "correct": false,
+    "why": "OP + AP1 are needed for recreation only above 25 kg or for BVLOS. At 20 kg a Class 2 AP is enough."
+   },
+   {
+    "text": "III only",
+    "correct": false,
+    "why": "This leaves out the UAPL. Any UA over 7 kg needs a UAPL for any purpose."
+   },
+   {
+    "text": "I, III and IV only",
+    "correct": false,
+    "why": "An OP is not needed for a Class 2 AP. An OP goes with a Class 1 AP, which this flight does not need."
+   }
+  ],
+  "source": "ANR-101 regs 7, 8(1), 35; AC 101-2-1 (Rev 8), 3 Jul 2025 para 2.2-2.3",
+  "note": "Registration (over 250 g) and B-RID also apply to this flight but are not among the listed options."
+ },
+ {
+  "id": "AL-024",
+  "module": "Air Law",
+  "topic": "Activity Permits",
+  "difficulty": "hard",
+  "question": "An institute of higher learning wants to fly a 20 kg (total mass) UA outdoors in a lesson for its enrolled students, at a site well away from any aerodrome and below 200 ft AMSL. Which of the following does it need?\nI. UA Operator Permit\nII. Class 1 Activity Permit\nIII. Class 2 Activity Permit\nIV. UA Pilot Licence for the pilot",
+  "options": [
+   {
+    "text": "III and IV only",
+    "correct": false,
+    "why": "This would be right for recreation at 20 kg. For education the cut-off is 7 kg, so this needs OP + AP1."
+   },
+   {
+    "text": "IV only",
+    "correct": false,
+    "why": "A UAPL alone is not enough. Education above 7 kg always needs OP + AP1, wherever and at whatever height it flies."
+   },
+   {
+    "text": "I, II and IV only",
+    "correct": true,
+    "why": "Education purpose with a UA between 7 kg and 25 kg needs an OP and a Class 1 AP (reg 8(3)), and the pilot needs a UAPL because the UA is over 7 kg (reg 35)."
+   },
+   {
+    "text": "I, II, III and IV",
+    "correct": false,
+    "why": "A Class 2 AP is not needed on top of a Class 1 AP. AP1 covers the activity, and the flight meets no Class 2 condition anyway."
+   }
+  ],
+  "source": "ANR-101 reg 8(3), 35; AC 101-2-1 (Rev 8), 3 Jul 2025 para 2.2(b)"
+ },
+ {
+  "id": "AL-025",
+  "module": "Air Law",
+  "topic": "Activity Permits",
+  "difficulty": "medium",
+  "question": "A UA of 7 kg or less is to be flown outdoors, for recreation or education, higher than 200 ft above mean sea level. What permit is required?",
+  "options": [
+   {
+    "text": "A Class 1 Activity Permit together with an Operator Permit",
+    "correct": false,
+    "why": "OP + AP1 are for business, education over 7 kg, recreation over 25 kg, or BVLOS, not for altitude alone."
+   },
+   {
+    "text": "No permit, as long as the UA stays within visual line of sight",
+    "correct": false,
+    "why": "VLOS does not remove the requirement. Above 200 ft AMSL is itself a Class 2 condition."
+   },
+   {
+    "text": "A UA cross-border permit",
+    "correct": false,
+    "why": "Cross-border permits are only for flights into or out of Singapore (reg 9A)."
+   },
+   {
+    "text": "A Class 2 Activity Permit",
+    "correct": true,
+    "why": "Flying above 200 ft AMSL is a Class 2 AP condition, for recreation up to 25 kg and education up to 7 kg (reg 8(1)-(2))."
+   }
+  ],
+  "source": "ANR-101 reg 8, First Schedule 'Class 2 activity permit conditions'",
+  "note": ""
+ },
+ {
+  "id": "AL-026",
+  "module": "Air Law",
+  "topic": "Activity Permits",
+  "difficulty": "hard",
+  "question": "Which of the following, on its own, does NOT trigger a Class 2 Activity Permit for a 2 kg recreational UA?",
+  "options": [
+   {
+    "text": "Flying beyond visual line of sight",
+    "correct": true,
+    "why": "BVLOS is not a Class 2 condition. It needs an OP and a Class 1 AP (AC 101-2-1 para 2.2(d)). The three Class 2 conditions are above 200 ft AMSL, within 5 km of an aerodrome, and within a restricted or danger area."
+   },
+   {
+    "text": "Flying at 250 ft above mean sea level",
+    "correct": false,
+    "why": "Altitude above 200 ft AMSL is a Class 2 condition."
+   },
+   {
+    "text": "Flying 3 km from a military airbase",
+    "correct": false,
+    "why": "Within 5 km of any aerodrome, including military airbases, is a Class 2 condition."
+   },
+   {
+    "text": "Flying inside a Danger Area",
+    "correct": false,
+    "why": "Restricted and danger areas are Class 2 conditions."
+   }
+  ],
+  "source": "AC 101-2-1 (Rev 8), 3 Jul 2025 paras 2.2-2.3; ANR-101 First Schedule"
+ },
+ {
+  "id": "AL-027",
+  "module": "Air Law",
+  "topic": "Activity Permits",
+  "difficulty": "hard",
+  "question": "According to the CURRENT ANR-101 (as amended by S 838/2025, in force from 29 Dec 2025) and AC 101-2-1, which of the following is a Class 2 Activity Permit condition?",
+  "options": [
+   {
+    "text": "Flying within a Protected Area declared under the ANA",
+    "correct": false,
+    "why": "Protected areas are no longer Class 2 conditions. Photographing or overflying them needs an SPF permit under ANA ss32-33. Older study materials may still list them."
+   },
+   {
+    "text": "Flying within a Restricted Area or a Danger Area",
+    "correct": true,
+    "why": "The First Schedule now defines Class 2 conditions as above 200 ft AMSL, within a restricted area (ANR-91 reg 55C(1)(b)) or danger area (55C(5)), or within 5 km of any aerodrome."
+   },
+   {
+    "text": "Flying within a Prohibited Area",
+    "correct": false,
+    "why": "No permit of any kind is issued for prohibited areas (reg 4)."
+   },
+   {
+    "text": "Flying within 10 km of Changi Airport",
+    "correct": false,
+    "why": "The distance is 5 km, not 10 km."
+   }
+  ],
+  "source": "ANR-101 First Schedule 'Class 2 activity permit conditions'; AC 101-2-1 (Rev 8), 3 Jul 2025 para 2.3; https://www.caas.gov.sg/unmanned-aircraft/requirements-for-flying-ua/",
+  "note": "Older study materials list 'restricted, danger or protected area' as a Class 2 condition. Current law and AC 101-2-1 Rev 8 list restricted or danger areas only; protected areas need an SPF permit. Some older question banks may still expect 'protected'."
+ },
+ {
+  "id": "AL-028",
+  "module": "Air Law",
+  "topic": "Operator Permit",
+  "difficulty": "medium",
+  "question": "A recreational flyer wants to fly his 3 kg UA beyond visual line of sight. What does he need?",
+  "options": [
+   {
+    "text": "A Class 2 Activity Permit only",
+    "correct": false,
+    "why": "BVLOS is not a Class 2 condition. It needs OP + AP1."
+   },
+   {
+    "text": "Nothing, because the UA is under 7 kg",
+    "correct": false,
+    "why": "Mass doesn't matter here. BVLOS always needs OP + AP1, and reg 39(2)(b) requires VLOS unless the UAPL allows BVLOS."
+   },
+   {
+    "text": "A UA Operator Permit and a Class 1 Activity Permit",
+    "correct": true,
+    "why": "AC 101-2-1 para 2.2(d) and the CAAS requirements page list BVLOS among the activities that need OP + AP1, whatever the purpose."
+   },
+   {
+    "text": "A UA Basic Training Certificate only",
+    "correct": false,
+    "why": "UABT is the competency requirement for UA over 1.5 kg up to 7 kg. It does not authorise BVLOS."
+   }
+  ],
+  "source": "AC 101-2-1 (Rev 8), 3 Jul 2025 para 2.2(d); https://www.caas.gov.sg/unmanned-aircraft/requirements-for-flying-ua/"
+ },
+ {
+  "id": "AL-029",
+  "module": "Air Law",
+  "topic": "Definitions",
+  "difficulty": "medium",
+  "question": "Under ANR-101, 'visual line of sight' requires direct, unaided and unobstructed visual contact with the UA, AND that the distance between the UA pilot and the UA does not exceed:",
+  "options": [
+   {
+    "text": "500 m",
+    "correct": false,
+    "why": "500 is a number from the 'flying display' definition (more than 500 persons), not a VLOS distance."
+   },
+   {
+    "text": "400 m",
+    "correct": true,
+    "why": "The First Schedule definition of 'visual line of sight' caps the pilot-to-UA distance at 400 m."
+   },
+   {
+    "text": "200 m",
+    "correct": false,
+    "why": "200 is the altitude figure (200 ft AMSL) for Class 2 permits, not the VLOS distance in metres."
+   },
+   {
+    "text": "5 km",
+    "correct": false,
+    "why": "5 km is the aerodrome-proximity distance for Class 2 permits."
+   }
+  ],
+  "source": "ANR-101 First Schedule 'visual line of sight'; https://sso.agc.gov.sg/SL/ANA1966-S833-2019"
+ },
+ {
+  "id": "AL-030",
+  "module": "Air Law",
+  "topic": "Permit exemptions",
+  "difficulty": "hard",
+  "question": "A secondary school sets up a fully netted cage (enclosed on top and all sides) on its school field, 3 km from Paya Lebar Air Base. Students fly 1 kg drones inside it during a normal class. What CAAS permit is needed?",
+  "options": [
+   {
+    "text": "A Class 2 Activity Permit, because the site is within 5 km of an airbase",
+    "correct": false,
+    "why": "Class 2 conditions apply to outdoor operations. The enclosed cage is legally 'indoors'."
+   },
+   {
+    "text": "An OP and a Class 1 Activity Permit, because students are involved",
+    "correct": false,
+    "why": "OP + AP1 indoors is needed only for organised sport, competitions or races, events with more than 50 attendees, or flying displays."
+   },
+   {
+    "text": "An SPF permit under the Public Order Act",
+    "correct": false,
+    "why": "SPF POA permits are for special event areas, not for school netted cages."
+   },
+   {
+    "text": "None, because the netted cage counts as 'indoors'",
+    "correct": true,
+    "why": "'Indoors' means enclosed at the top and on all sides so that a UA cannot fly in or out, so no OP or activity permit is needed for this purpose. AC 101-2-1 para 2.6 confirms netted cages outdoors need no permit even within 5 km of an aerodrome, unless the flight is for an excluded purpose."
+   }
+  ],
+  "source": "ANR-101 reg 3(aa), First Schedule 'indoors'; AC 101-2-1 (Rev 8), 3 Jul 2025 para 2.6 note"
+ },
+ {
+  "id": "AL-031",
+  "module": "Air Law",
+  "topic": "Permit exemptions",
+  "difficulty": "hard",
+  "question": "An indoor drone exhibition at a convention hall is expected to be attended by about 120 people at any one time. What do the UA operators need?",
+  "options": [
+   {
+    "text": "A UA Operator Permit and a Class 1 Activity Permit",
+    "correct": true,
+    "why": "Reg 3(aa) and AC 101-2-1 para 2.6(b): indoor operation for an event attended by more than 50 individuals at any time needs OP + AP1."
+   },
+   {
+    "text": "No permit, because all indoor flying is exempt",
+    "correct": false,
+    "why": "The indoor exemption does not cover events with more than 50 attendees, organised sport or races, or flying displays."
+   },
+   {
+    "text": "A Class 2 Activity Permit only",
+    "correct": false,
+    "why": "Class 2 permits are for outdoor flights under Class 2 conditions. Large indoor events need OP + AP1."
+   },
+   {
+    "text": "An IMDA permit only",
+    "correct": false,
+    "why": "IMDA permits deal with non-compliant radio frequencies. They do not replace CAAS permits."
+   }
+  ],
+  "source": "ANR-101 reg 3(aa); AC 101-2-1 (Rev 8), 3 Jul 2025 para 2.6",
+  "note": "Some study materials phrase the threshold as '50 or more' or 'less than 50'. ANR-101 reg 3(aa) and AC 101-2-1 say 'more than 50'."
+ },
+ {
+  "id": "AL-032",
+  "module": "Air Law",
+  "topic": "Definitions",
+  "difficulty": "medium",
+  "question": "Under ANR-101, a 'flying display' is the flying of one or more UA as an exhibition or for entertainment at an organised event that the organiser reasonably believes will be attended by:",
+  "options": [
+   {
+    "text": "More than 50 persons",
+    "correct": false,
+    "why": "50 is the indoor-event attendance threshold in reg 3(aa) and 3A, not the flying-display definition."
+   },
+   {
+    "text": "More than 100 persons",
+    "correct": false,
+    "why": "No 100-person threshold appears in ANR-101."
+   },
+   {
+    "text": "More than 500 persons",
+    "correct": true,
+    "why": "The First Schedule definition of 'flying display' uses the more-than-500-persons threshold."
+   },
+   {
+    "text": "More than 1,000 persons",
+    "correct": false,
+    "why": "The definition uses 500, not 1,000."
+   }
+  ],
+  "source": "ANR-101 First Schedule 'flying display'; https://sso.agc.gov.sg/SL/ANA1966-S833-2019"
+ },
+ {
+  "id": "AL-033",
+  "module": "Air Law",
+  "topic": "UA registration",
+  "difficulty": "hard",
+  "question": "Which of the following UA is NOT a 'registrable unmanned aircraft' under ANR-101?",
+  "options": [
+   {
+    "text": "A 300 g UA used solely for light shows under a Class 1 Activity Permit",
+    "correct": true,
+    "why": "The definition of 'registrable unmanned aircraft' (over 250 g) specifically excludes UA used solely for light shows under a Class 1 AP (S 567/2024)."
+   },
+   {
+    "text": "A drone listed at 245 g that weighs 262 g once a clip-on camera is attached",
+    "correct": false,
+    "why": "'Total mass' includes payload, battery and fuel, so the listed (bare) weight is not what counts. At 262 g with the camera it is over 250 g, so it is registrable."
+   },
+   {
+    "text": "A 400 g remote-controlled kite flown for recreation",
+    "correct": false,
+    "why": "CAAS counts remote-controlled kites as UA. At 400 g it is over 250 g, so it must be registered."
+   },
+   {
+    "text": "A 2 kg powered-lift UA used for education",
+    "correct": false,
+    "why": "Over 250 g, used for something other than light shows, so it is registrable."
+   }
+  ],
+  "source": "ANR-101 First Schedule 'registrable unmanned aircraft', 'total mass'; https://www.caas.gov.sg/unmanned-aircraft/registration-deregistration/ ('UA (drone, remote-controlled aircraft, kite, etc.)')",
+  "note": "Registration goes by TOTAL mass in flight (payload included). The light-show exception is a rare trap; the kite is the classic one, since CAAS treats remote-controlled kites as UA."
+ },
+ {
+  "id": "AL-034",
+  "module": "Air Law",
+  "topic": "Permit application",
+  "difficulty": "medium",
+  "question": "A company plans a 300-drone light show. What is the minimum lead time CAAS asks for when submitting the Activity Permit application?",
+  "options": [
+   {
+    "text": "At least 1 week before the intended activity",
+    "correct": false,
+    "why": "One week is the standard lead time for ordinary AP applications, variations and repeats. Multiple-UA events need 1 month."
+   },
+   {
+    "text": "At least 3 months before the intended activity",
+    "correct": false,
+    "why": "Three months is the lead time for Operator Permit applications involving BVLOS."
+   },
+   {
+    "text": "At least 5 working days before the intended activity",
+    "correct": false,
+    "why": "Five working days is the average AP processing time, not the minimum lead time."
+   },
+   {
+    "text": "At least 1 month before the intended activity",
+    "correct": true,
+    "why": "AC 101-2-1 para 6.1(b): AP applications involving multiple UA, such as light shows and drone races, should be submitted at least 1 month ahead."
+   }
+  ],
+  "source": "AC 101-2-1 (Rev 8), 3 Jul 2025 para 6.1"
+ },
+ {
+  "id": "AL-035",
+  "module": "Air Law",
+  "topic": "Permit application",
+  "difficulty": "hard",
+  "question": "Which of the following statements about permit application lead times are correct?\nI. A new UA Operator Permit application should be submitted at least 1 month before the intended activity.\nII. A UA OP application involving BVLOS should be submitted at least 3 months in advance.\nIII. A standard Activity Permit application should be submitted at least 2 weeks in advance.\nIV. An application to renew a UA OP must be made at least 1 month before the existing permit expires (or a shorter period CAAS specifies).",
+  "options": [
+   {
+    "text": "I, II, III and IV",
+    "correct": false,
+    "why": "III is false. The standard AP lead time is at least 1 week, not 2 weeks."
+   },
+   {
+    "text": "I and III only",
+    "correct": false,
+    "why": "III is false (1 week, not 2), and this option leaves out the true statements II and IV."
+   },
+   {
+    "text": "I, II and IV only",
+    "correct": true,
+    "why": "AC 101-2-1 para 6.1 gives 1 month (OP), 3 months (BVLOS OP) and 1 week (AP). ANR-101 reg 11(3)(a) requires OP renewal at least 1 month before expiry."
+   },
+   {
+    "text": "II and IV only",
+    "correct": false,
+    "why": "This leaves out statement I, which is true."
+   }
+  ],
+  "source": "AC 101-2-1 (Rev 8), 3 Jul 2025 para 6.1; ANR-101 reg 11(3)"
+ },
+ {
+  "id": "AL-036",
+  "module": "Air Law",
+  "topic": "Operator Permit",
+  "difficulty": "medium",
+  "question": "For how long may a UA Operator Permit be granted or renewed?",
+  "options": [
+   {
+    "text": "For two years",
+    "correct": false,
+    "why": "Twenty-four months is the validity of a theory-test pass and the maximum AFE(UA) authorisation, not an OP."
+   },
+   {
+    "text": "For the period specified in the permit, not exceeding one year",
+    "correct": true,
+    "why": "ANR-101 reg 12(4) caps a UA OP at one year, and AC 101-2-1 para 3.1 says it is typically valid for up to one year."
+   },
+   {
+    "text": "For the lifetime of the holder",
+    "correct": false,
+    "why": "That describes a UAPL (reg 37(2)), not an Operator Permit."
+   },
+   {
+    "text": "For four years",
+    "correct": false,
+    "why": "Four years is the UAPL proficiency-check cycle."
+   }
+  ],
+  "source": "ANR-101 reg 12(4); AC 101-2-1 (Rev 8), 3 Jul 2025 para 3.1"
+ },
+ {
+  "id": "AL-037",
+  "module": "Air Law",
+  "topic": "Operator Permit",
+  "difficulty": "medium",
+  "question": "A company forgets to renew its UA Operator Permit, which expired last week. What is the position under CAAS guidance?",
+  "options": [
+   {
+    "text": "It can renew within a 30-day grace period by paying a late fee",
+    "correct": false,
+    "why": "The AC provides no grace-period renewal after expiry."
+   },
+   {
+    "text": "Its Class 1 Activity Permits remain valid, so operations can continue",
+    "correct": false,
+    "why": "A Class 1 AP is not valid without a UA OP (ANR-101 reg 9 and AC 101-2-1)."
+   },
+   {
+    "text": "A renewal is no longer allowed, so the company must submit a new UA OP application",
+    "correct": true,
+    "why": "AC 101-2-1 para 6.2(b): once a UA OP expires, renewal is not allowed and a new application is required."
+   },
+   {
+    "text": "It may keep flying as long as every pilot holds a valid UAPL",
+    "correct": false,
+    "why": "A UAPL does not replace the OP. Business operations need both OP and AP1 (reg 9)."
+   }
+  ],
+  "source": "AC 101-2-1 (Rev 8), 3 Jul 2025 para 6.2(b)"
+ },
+ {
+  "id": "AL-038",
+  "module": "Air Law",
+  "topic": "Activity Permits",
+  "difficulty": "medium",
+  "question": "Under ANR-101, a holder of a Class 1 or Class 2 Activity Permit may apply to vary the permit:",
+  "options": [
+   {
+    "text": "Before the activity starts, and only because of a change in the date or time of the activity",
+    "correct": true,
+    "why": "ANR-101 reg 17(1) limits AP variations to date or time changes, made before the activity starts."
+   },
+   {
+    "text": "At any time, to change the location of the activity",
+    "correct": false,
+    "why": "A location change is not a permitted AP variation. A new AP is needed (AC 101-2-1 para 4.2)."
+   },
+   {
+    "text": "After the activity, to add a new UA type that was flown",
+    "correct": false,
+    "why": "Variations must come before the start. Adding a UA type is an OP variation (reg 13), not an AP variation."
+   },
+   {
+    "text": "Only to raise the maximum operating altitude",
+    "correct": false,
+    "why": "Reg 17 allows only date/time changes. Altitude is a condition of the original grant."
+   }
+  ],
+  "source": "ANR-101 reg 17; AC 101-2-1 (Rev 8), 3 Jul 2025 para 4.6"
+ },
+ {
+  "id": "AL-039",
+  "module": "Air Law",
+  "topic": "Activity Permits",
+  "difficulty": "hard",
+  "question": "A shipyard that holds a UA OP wants a 'repeat' Class 1 AP for the same inspection, using the same UA type at the same location, on new dates. Under CAAS guidance, when is a repeat allowed?",
+  "options": [
+   {
+    "text": "At any time, provided the fee of $45 is paid",
+    "correct": false,
+    "why": "The $45 repeat fee is right, but the 1-year limit still applies."
+   },
+   {
+    "text": "Only if the earlier AP was granted less than 1 year before the intended new period",
+    "correct": true,
+    "why": "AC 101-2-1 para 4.7 note: a repeat is allowed only for APs granted less than 1 year before the intended new period."
+   },
+   {
+    "text": "Only if the earlier AP was granted less than 3 months before",
+    "correct": false,
+    "why": "The AC limit is 1 year, not 3 months."
+   },
+   {
+    "text": "Only if the location changes but the UA type stays the same",
+    "correct": false,
+    "why": "A repeat needs the same operation, same UA type and same location."
+   }
+  ],
+  "source": "AC 101-2-1 (Rev 8), 3 Jul 2025 paras 4.5-4.7"
+ },
+ {
+  "id": "AL-040",
+  "module": "Air Law",
+  "topic": "Fees",
+  "difficulty": "hard",
+  "question": "For an application made after 15 January 2024, what are the CAAS fees for a Class 2 Activity Permit?",
+  "options": [
+   {
+    "text": "$120 for the first application and $45 for a repeat",
+    "correct": false,
+    "why": "These are Class 1 AP fees (non-light-show) under para 4."
+   },
+   {
+    "text": "$85 for the first application and $28 for a repeat",
+    "correct": false,
+    "why": "These are the old Class 2 fees for applications from 23 Dec 2022 to before 15 Jan 2024."
+   },
+   {
+    "text": "$500 for the first application and $425 for a repeat",
+    "correct": false,
+    "why": "These are Class 1 AP light-show fees from 6 Jul 2024."
+   },
+   {
+    "text": "$110 for the first application and $36 for a repeat",
+    "correct": true,
+    "why": "ANR-101 Second Schedule para 5(b) sets $110 for the first application and $36 for a subsequent (repeat) application with no change in UA, UA type or location."
+   }
+  ],
+  "source": "ANR-101 Second Schedule paras 4-5"
+ },
+ {
+  "id": "AL-041",
+  "module": "Air Law",
+  "topic": "Cross-border permit",
+  "difficulty": "medium",
+  "question": "A person in Johor wants to fly a UA into Singapore airspace. In addition to any other permits, what does ANR-101 require?",
+  "options": [
+   {
+    "text": "Nothing, because flights outside Singapore are excluded from permit requirements",
+    "correct": false,
+    "why": "Reg 3(a) excludes flights outside Singapore UNLESS the flight is into or out of Singapore."
+   },
+   {
+    "text": "Only a Class 2 Activity Permit, if the UA weighs 25 kg or less",
+    "correct": false,
+    "why": "Reg 9A applies in addition to regs 7-9. A cross-border permit is needed whatever the mass."
+   },
+   {
+    "text": "A cross-border permit only if the UA is over 25 kg",
+    "correct": false,
+    "why": "Reg 9A says 'an unmanned aircraft of any total mass'."
+   },
+   {
+    "text": "A UA cross-border permit, whatever the UA's mass",
+    "correct": true,
+    "why": "Reg 9A requires a UA cross-border permit for flying any UA into or out of Singapore, and Second Schedule para 5A sets the fee at $8,100."
+   }
+  ],
+  "source": "ANR-101 regs 3(a), 9A, Second Schedule para 5A; https://sso.agc.gov.sg/SL/ANA1966-S833-2019"
+ },
+ {
+  "id": "AL-042",
+  "module": "Air Law",
+  "topic": "Permit application",
+  "difficulty": "medium",
+  "question": "Which item must be included in an Activity Permit application but is NOT one of the items listed for a UA Operator Permit application?",
+  "options": [
+   {
+    "text": "The intended time and date, location and operating altitude of the flying activity",
+    "correct": true,
+    "why": "Reg 15(2)(c)(iii) requires time, date, location and operating altitude for an AP. An OP application (reg 11) is about the operator's identity, UA type, purpose and qualifications."
+   },
+   {
+    "text": "The identity and contact address of the applicant",
+    "correct": false,
+    "why": "Both OP (reg 11(2)(c)(i)) and AP (reg 15(2)(c)(i)) applications require this."
+   },
+   {
+    "text": "The qualifications of the applicant, including training undergone",
+    "correct": false,
+    "why": "This is an OP requirement (reg 11(2)(c)(iv)), not one listed for an AP."
+   },
+   {
+    "text": "The type of UA to be operated",
+    "correct": false,
+    "why": "The UA type is an OP item (reg 11(2)(c)(ii)). An AP asks for the type of flying activity."
+   }
+  ],
+  "source": "ANR-101 regs 11, 15"
+ },
+ {
+  "id": "AL-043",
+  "module": "Air Law",
+  "topic": "Other permits",
+  "difficulty": "medium",
+  "question": "A drone operator wants to fly within a special event area gazetted for a large public event. Which permit, from which agency, does CAAS guidance identify?",
+  "options": [
+   {
+    "text": "A discharge permit from CAAS under ANA section 35",
+    "correct": false,
+    "why": "A discharge permit authorises dropping or spraying from a UA, not entry into a special event area."
+   },
+   {
+    "text": "A permit from the Singapore Police Force under section 26 of the Public Order Act",
+    "correct": true,
+    "why": "AC 101-2-1 para 5.1(c) names an SPF permit under POA s26 for using UA in a special event area."
+   },
+   {
+    "text": "A frequency permit from IMDA",
+    "correct": false,
+    "why": "IMDA permits deal with radio frequencies and power limits."
+   },
+   {
+    "text": "A Class 2 Activity Permit from CAAS, which on its own covers special event areas",
+    "correct": false,
+    "why": "CAAS permits do not replace the SPF special-event-area permit. The AC lists it as a separate permit."
+   }
+  ],
+  "source": "AC 101-2-1 (Rev 8), 3 Jul 2025 para 5.1"
+ },
+ {
+  "id": "AL-044",
+  "module": "Air Law",
+  "topic": "Airspace",
+  "difficulty": "medium",
+  "question": "According to AC 101-2-1, which source is the only authoritative one for checking Singapore's UA no-fly zones?",
+  "options": [
+   {
+    "text": "The UA manufacturer's geofencing app",
+    "correct": false,
+    "why": "The AC warns that manufacturer apps may not show Singapore's no-fly zones correctly."
+   },
+   {
+    "text": "The FlyItSafe app",
+    "correct": false,
+    "why": "FlyItSafe is the CFMS designated mobile application for OP holders, not the authoritative no-fly-zone map."
+   },
+   {
+    "text": "OneMap (go.gov.sg/dronequery)",
+    "correct": true,
+    "why": "AC 101-2-1 para 2.3 note: OneMap is the only authoritative source, and other sources and manufacturer apps may be wrong."
+   },
+   {
+    "text": "Google Maps satellite view",
+    "correct": false,
+    "why": "General mapping tools do not show gazetted restricted or danger areas."
+   }
+  ],
+  "source": "AC 101-2-1 (Rev 8), 3 Jul 2025 para 2.3 note"
+ },
+ {
+  "id": "AL-045",
+  "module": "Air Law",
+  "topic": "CFMS",
+  "difficulty": "hard",
+  "question": "A UA Operator Permit holder flies a 1.2 kg UA outdoors under its OP. Which of the following are required under Part 2A of ANR-101 (CFMS), assuming no waiver?\nI. The OP holder subscribes to the CFMS service throughout the OP's validity.\nII. The UA has a CFMS tracking device affixed, unless the OP states that telemetry can be sent without one.\nIII. The pilot, or another individual in the pilot's presence, carries a mobile device with the designated app (FlyItSafe) in active use.\nIV. The pilot obtains a fresh Class 2 Activity Permit for every flight.",
+  "options": [
+   {
+    "text": "I, II and III only",
+    "correct": true,
+    "why": "Regs 19C and 19D(1)-(2) require CFMS subscription, a tracker on UA over 250 g (unless the OP says otherwise), and FlyItSafe in active use by the pilot or a person present."
+   },
+   {
+    "text": "I and III only",
+    "correct": false,
+    "why": "This leaves out II. UA over 250 g flown under an OP must carry a CFMS tracking device unless the OP says otherwise."
+   },
+   {
+    "text": "I, II, III and IV",
+    "correct": false,
+    "why": "IV is false. CFMS doesn't require a Class 2 AP, and OP operations normally use Class 1 APs."
+   },
+   {
+    "text": "II and III only",
+    "correct": false,
+    "why": "This leaves out I. Reg 19C requires the OP holder to subscribe to CFMS and stay subscribed while the OP is valid."
+   }
+  ],
+  "source": "ANR-101 regs 19C-19D; https://sso.agc.gov.sg/SL/ANA1966-S833-2019"
+ },
+ {
+  "id": "AL-046",
+  "module": "Air Law",
+  "topic": "CFMS",
+  "difficulty": "medium",
+  "question": "Under the CFMS regime, what fee is charged for each UA tracker purchased?",
+  "options": [
+   {
+    "text": "$200",
+    "correct": false,
+    "why": "$200 is the CFMS fee charged on the initial grant and the renewal of a UA OP (Second Schedule paras 2A-2B), not the tracker price."
+   },
+   {
+    "text": "$25",
+    "correct": false,
+    "why": "$25 is the UA registration (label) fee."
+   },
+   {
+    "text": "$265, subject to prevailing GST",
+    "correct": true,
+    "why": "AC 101-2A-1 para 6.2 sets the UA tracker price at $265 before GST."
+   },
+   {
+    "text": "$136.25",
+    "correct": false,
+    "why": "$136.25 is the UAPL theory test fee."
+   }
+  ],
+  "source": "AC 101-2A-1 (CFMS), 4 Apr 2022 para 6.2; ANR-101 Second Schedule paras 2A-2B"
+ },
+ {
+  "id": "AL-047",
+  "module": "Air Law",
+  "topic": "CFMS",
+  "difficulty": "hard",
+  "question": "According to CAAS CFMS guidance on waivers under regulation 19D, for which scenario may BOTH the UA tracker requirement AND the active use of FlyItSafe be waived?",
+  "options": [
+   {
+    "text": "A UA OP holder carrying out tethered UA operations",
+    "correct": false,
+    "why": "For tethered operations only the tracker may be waived. Active FlyItSafe use is still required."
+   },
+   {
+    "text": "A UA OP holder operating UA inside indoor premises",
+    "correct": true,
+    "why": "In the AC 101-2A-1 waiver table, indoor operations are 'Yes' for both the tracker waiver and the FlyItSafe waiver."
+   },
+   {
+    "text": "A UA OP holder operating a large number of UA, for example in a flying display",
+    "correct": false,
+    "why": "For large fleets or displays only the tracker may be waived. FlyItSafe is still required."
+   },
+   {
+    "text": "A UA OP holder flying a 5 kg UA outdoors within 5 km of an aerodrome",
+    "correct": false,
+    "why": "This is not one of the waiver scenarios. Outdoor operations near aerodromes face stricter controls, not fewer."
+   }
+  ],
+  "source": "AC 101-2A-1 (CFMS), 4 Apr 2022 para 1.4 waiver table"
+ },
+ {
+  "id": "AL-048",
+  "module": "Air Law",
+  "topic": "B-RID",
+  "difficulty": "medium",
+  "question": "From what date must UA with a total mass above 250 g be equipped with Broadcast Remote Identification (B-RID) in Singapore, unless an exemption applies?",
+  "options": [
+   {
+    "text": "1 June 2022",
+    "correct": false,
+    "why": "1 June 2022 is when the CFMS requirements for OP holders took effect."
+   },
+   {
+    "text": "2 January 2020",
+    "correct": false,
+    "why": "2 January 2020 is when most of ANR-101 came into operation."
+   },
+   {
+    "text": "1 February 2021",
+    "correct": false,
+    "why": "1 February 2021 is when the UAPL and UABT requirements (regs 33-35, 40) took effect."
+   },
+   {
+    "text": "1 December 2025",
+    "correct": true,
+    "why": "Part 2A Division 3 (regs 19E-19F), added by S 109/2025, came into force on 1 December 2025."
+   }
+  ],
+  "source": "ANR-101 reg 19F (S 109/2025 wef 01/12/2025); AC 101-2A-2(1), 9 Jun 2025 para 1.2; CAAS press release"
+ },
+ {
+  "id": "AL-049",
+  "module": "Air Law",
+  "topic": "B-RID",
+  "difficulty": "hard",
+  "question": "Which of the following UA are EXEMPT from the B-RID requirement under ANR-101 regulation 19E?\nI. A UA that is not a registrable UA\nII. A UA operated indoors\nIII. A UA flown under an OP where the pilot must have FlyItSafe in active use (reg 19D(1)(b))\nIV. A UA flown below 200 ft AMSL and more than 5 km from any aerodrome",
+  "options": [
+   {
+    "text": "I, II, III and IV",
+    "correct": false,
+    "why": "IV is false. Low altitude and distance from aerodromes do not exempt a registrable outdoor UA from B-RID."
+   },
+   {
+    "text": "I and II only",
+    "correct": false,
+    "why": "This leaves out III. OP flights that comply with CFMS (FlyItSafe) are exempt."
+   },
+   {
+    "text": "I, II and III only",
+    "correct": true,
+    "why": "Reg 19E(1) excludes non-registrable UA, indoor operation, and UA/flights to which the reg 19D(1)(b) FlyItSafe requirement applies."
+   },
+   {
+    "text": "II and IV only",
+    "correct": false,
+    "why": "IV is not an exemption, and this option leaves out I and III."
+   }
+  ],
+  "source": "ANR-101 reg 19E; AC 101-2A-2(1), 9 Jun 2025 para 2.1; https://www.caas.gov.sg/unmanned-aircraft/requirements-for-flying-ua/"
+ },
+ {
+  "id": "AL-050",
+  "module": "Air Law",
+  "topic": "B-RID",
+  "difficulty": "hard",
+  "question": "Which of the following is NOT part of the 'remote identification information' a UA must broadcast under ANR-101?",
+  "options": [
+   {
+    "text": "The identification number CAAS assigned to the person who registered the UA (Operator ID)",
+    "correct": false,
+    "why": "Item (a) of the reg 19B definition. AC 101-2A-2 calls it the Operator ID."
+   },
+   {
+    "text": "The UA pilot's UAPL licence number or CAPELS PID",
+    "correct": true,
+    "why": "Reg 19B's list does not include the pilot's licence number or CAPELS PID. It covers the registrant's Operator ID, the serial number, UA position, height, course, ground speed and pilot or take-off position."
+   },
+   {
+    "text": "The serial number of the UA (if B-RID is built in) or of the affixed B-RID module",
+    "correct": false,
+    "why": "Item (b) of the reg 19B definition."
+   },
+   {
+    "text": "The geographical position of the remote pilot, or failing that, the take-off point",
+    "correct": false,
+    "why": "Item (g) of the reg 19B definition."
+   }
+  ],
+  "source": "ANR-101 reg 19B 'remote identification information'; AC 101-2A-2(1), 9 Jun 2025 para 3.5",
+  "note": "The broadcast identifies the operator (Operator ID) and the UA or B-RID module (serial number). A CAPELS ID is a licensing ID and is not broadcast."
+ },
+ {
+  "id": "AL-051",
+  "module": "Air Law",
+  "topic": "B-RID",
+  "difficulty": "medium",
+  "question": "A hobbyist intentionally sets his B-RID module to broadcast a fake Operator ID. What is the maximum penalty?",
+  "options": [
+   {
+    "text": "A fine not exceeding $50,000, or imprisonment not exceeding 2 years, or both",
+    "correct": false,
+    "why": "That tier is for offences such as reg 4, reg 5 and protected-area overflight, not B-RID."
+   },
+   {
+    "text": "A fine not exceeding $20,000",
+    "correct": false,
+    "why": "That is the first-offence fine for failing to produce a licence or permit."
+   },
+   {
+    "text": "A fine not exceeding $5,000",
+    "correct": false,
+    "why": "That is the ANA aerodrome-trespass fine."
+   },
+   {
+    "text": "A fine not exceeding $10,000, or imprisonment not exceeding 6 months, or both",
+    "correct": true,
+    "why": "Reg 19F(3) and (5): broadcasting false or misleading remote ID information carries $10,000 or 6 months or both."
+   }
+  ],
+  "source": "ANR-101 reg 19F(3),(5); AC 101-2A-2(1), 9 Jun 2025 para 3.5 note"
+ },
+ {
+  "id": "AL-052",
+  "module": "Air Law",
+  "topic": "UA registration",
+  "difficulty": "medium",
+  "question": "Which of the following is NOT a requirement to be eligible as the registered responsible person of a registrable UA?",
+  "options": [
+   {
+    "text": "Holding a valid UA Basic Training Certificate",
+    "correct": true,
+    "why": "Reg 43(2) requires only minimum age (16), a valid contact address, and a valid SingPass or other approved credential. UABT is a pilot-competency requirement, not a registration one."
+   },
+   {
+    "text": "Being at least 16 years old",
+    "correct": false,
+    "why": "The 'requisite minimum age' of 16 is a reg 43(2)(a) requirement."
+   },
+   {
+    "text": "Having a valid contact address",
+    "correct": false,
+    "why": "This is a reg 43(2)(b) requirement."
+   },
+   {
+    "text": "Having a valid SingPass credential or other authentication credential approved by CAAS",
+    "correct": false,
+    "why": "This is a reg 43(2)(c) requirement. Tourists can use a UAPass account."
+   }
+  ],
+  "source": "ANR-101 reg 43, First Schedule 'requisite minimum age'; AC 101-5-1(2), 14 Feb 2025 para 1.2"
+ },
+ {
+  "id": "AL-053",
+  "module": "Air Law",
+  "topic": "UA registration",
+  "difficulty": "medium",
+  "question": "What is the fee for a UA registration label for an application made on or after 15 January 2024, and where can labels be bought?",
+  "options": [
+   {
+    "text": "$20, at any CAAS-approved UATO",
+    "correct": false,
+    "why": "$20 was the fee before 15 January 2024, and UATOs don't sell labels."
+   },
+   {
+    "text": "$25, only on the eSOMS UA portal",
+    "correct": false,
+    "why": "The UA portal is used to complete the online registration after buying the label. Labels are sold through SingPost."
+   },
+   {
+    "text": "$25, from SingPost (its online CAAS shop or designated post offices)",
+    "correct": true,
+    "why": "Second Schedule para 15(b) sets $25, and AC 101-5-1(2) para 2.1 names the SingPost online shop and designated post offices."
+   },
+   {
+    "text": "$200, through CAPELS",
+    "correct": false,
+    "why": "$200 is a UAPL variation or CFMS fee, and CAPELS is for pilot licensing."
+   }
+  ],
+  "source": "ANR-101 Second Schedule para 15; AC 101-5-1(2), 14 Feb 2025 paras 2.1, 2.4"
+ },
+ {
+  "id": "AL-054",
+  "module": "Air Law",
+  "topic": "UA registration",
+  "difficulty": "hard",
+  "question": "In which of the following situations must the registrant de-register his UA via the UA portal?\nI. The UA is sold to a friend.\nII. The registration label has become illegible.\nIII. The registrant moves to a new home address.\nIV. The UA is lost.",
+  "options": [
+   {
+    "text": "I, II, III and IV",
+    "correct": false,
+    "why": "III is false. A change of address is notified to CAAS within 7 working days under reg 47(1)(c). It does not need de-registration."
+   },
+   {
+    "text": "I, II and IV only",
+    "correct": true,
+    "why": "AC 101-5-1(2) para 4.1 requires de-registration when the UA is lost or damaged beyond repair, the label is damaged or illegible, or the UA is sold or given away."
+   },
+   {
+    "text": "I and IV only",
+    "correct": false,
+    "why": "This leaves out II. A damaged or illegible label also requires de-registration."
+   },
+   {
+    "text": "II and III only",
+    "correct": false,
+    "why": "III is not a de-registration trigger, and this option leaves out I and IV."
+   }
+  ],
+  "source": "AC 101-5-1(2), 14 Feb 2025 para 4.1; ANR-101 reg 47(1)(c)"
+ },
+ {
+  "id": "AL-055",
+  "module": "Air Law",
+  "topic": "UA registration",
+  "difficulty": "hard",
+  "question": "Under the CURRENT CAAS guidance (AC 101-5-1 Rev 2, effective 14 February 2025), how many UA registration labels may a Singapore Citizen buy?",
+  "options": [
+   {
+    "text": "There is no purchasing limit",
+    "correct": true,
+    "why": "Rev 2 removed the label purchasing limits. The AC 101-5-1(2) cancellation note says 'the purchasing limits for UA registration labels have been removed'."
+   },
+   {
+    "text": "A maximum of 5 labels",
+    "correct": false,
+    "why": "This was the old limit for Citizens and PRs. It was removed on 14 Feb 2025."
+   },
+   {
+    "text": "A maximum of 1 label",
+    "correct": false,
+    "why": "This was the old limit for non-Citizens/non-PRs. It was also removed."
+   },
+   {
+    "text": "One label per UAPL category held",
+    "correct": false,
+    "why": "Registration has nothing to do with UAPL categories, and no such limit exists."
+   }
+  ],
+  "source": "AC 101-5-1(2), 14 Feb 2025 (Cancellation note, paras 2.2-2.3 deleted)",
+  "note": "Older study materials may still show 'Citizens/PRs max 5 labels; others 1 label'. AC 101-5-1(2) removed these limits from 14 Feb 2025."
+ },
+ {
+  "id": "AL-056",
+  "module": "Air Law",
+  "topic": "UA registration",
+  "difficulty": "medium",
+  "question": "Where should the UA registration label be affixed?",
+  "options": [
+   {
+    "text": "On the removable battery, so it can be checked easily",
+    "correct": false,
+    "why": "The AC forbids putting the label on removable batteries."
+   },
+   {
+    "text": "On a propeller guard",
+    "correct": false,
+    "why": "Easily removed parts such as propellers or guards are unsuitable. The label must go on the main body."
+   },
+   {
+    "text": "Inside the battery compartment, to protect it from wear",
+    "correct": false,
+    "why": "The label must be clearly visible and conspicuous, not hidden."
+   },
+   {
+    "text": "On the outside of a non-detachable part, such as the top of the main body",
+    "correct": true,
+    "why": "AC 101-5-1(2) para 3.1: the label goes on the outer surface of a non-detachable part where it is clearly visible, and reg 47(1)(a) requires it to be permanently affixed in a conspicuous place."
+   }
+  ],
+  "source": "AC 101-5-1(2), 14 Feb 2025 para 3.1; ANR-101 reg 47(1)(a)"
+ },
+ {
+  "id": "AL-057",
+  "module": "Air Law",
+  "topic": "Registration penalties",
+  "difficulty": "medium",
+  "question": "A person knowingly flies an unregistered 600 g drone. What is the maximum penalty under ANR-101?",
+  "options": [
+   {
+    "text": "A fine not exceeding $10,000, or imprisonment not exceeding 6 months, or both",
+    "correct": true,
+    "why": "Reg 42(3): operating, or causing or permitting someone to operate, an unregistered registrable UA carries $10,000 or 6 months or both."
+   },
+   {
+    "text": "A fine not exceeding $10,000 only",
+    "correct": false,
+    "why": "The fine-only $10,000 penalty is for breaching the registered responsible person's general obligations (reg 47). Reg 42 adds up to 6 months' jail."
+   },
+   {
+    "text": "A fine not exceeding $50,000, or imprisonment not exceeding 2 years, or both",
+    "correct": false,
+    "why": "That tier is for offences such as prohibited operation and pilot responsibilities, not registration."
+   },
+   {
+    "text": "A fine not exceeding $20,000 for a first offence",
+    "correct": false,
+    "why": "That is the penalty for failing to produce a licence or permit."
+   }
+  ],
+  "source": "ANR-101 regs 42, 47"
+ },
+ {
+  "id": "AL-058",
+  "module": "Air Law",
+  "topic": "UAPL requirement",
+  "difficulty": "medium",
+  "question": "Which of the following pilots needs a UA Pilot Licence?",
+  "options": [
+   {
+    "text": "A hobbyist flying a 6 kg drone for recreation in an open field",
+    "correct": false,
+    "why": "6 kg recreational is in the UABT band (over 1.5 kg up to 7 kg). A UAPL is needed only above 7 kg or for business."
+   },
+   {
+    "text": "A student flying a 2 kg UA under the supervision of a UAPL holder during UATO licence training",
+    "correct": false,
+    "why": "Reg 35(2) exempts trainees flying under a UAPL holder's supervision during UATO training or assessments."
+   },
+   {
+    "text": "A person flying a drone indoors in his own home",
+    "correct": false,
+    "why": "Reg 3A(1)(a) exempts indoor flying within a private residence from the UAPL requirement."
+   },
+   {
+    "text": "A pilot flying a 600 g drone outdoors to inspect a building roof for a property company",
+    "correct": true,
+    "why": "Reg 35(1)(a): a UAPL is needed for a UA of any mass flown for business or for a non-recreation/non-education purpose."
+   }
+  ],
+  "source": "ANR-101 regs 3A, 35; AC 101-4-1(5), 9 Jan 2026 paras 1.1-1.3"
+ },
+ {
+  "id": "AL-059",
+  "module": "Air Law",
+  "topic": "UAPL theory test",
+  "difficulty": "hard",
+  "question": "Which of the following statements about the UAPL theory test are correct?\nI. The pass mark is 75%.\nII. A candidate may not attempt it more than 2 times within one month.\nIII. A pass is valid for 24 months from the date of the attempt.\nIV. A candidate may take the practical assessment before passing the theory test, provided both are passed within 24 months.",
+  "options": [
+   {
+    "text": "I, II, III and IV",
+    "correct": false,
+    "why": "IV is false. Fourth Schedule para 2(3) and AC FAQ 3 require a valid theory pass before any practical assessment."
+   },
+   {
+    "text": "I and III only",
+    "correct": false,
+    "why": "This leaves out II. The limit of 2 attempts per month is in Fourth Schedule para 1(3)."
+   },
+   {
+    "text": "I, II and III only",
+    "correct": true,
+    "why": "ANR-101 Fourth Schedule para 1 sets 75%, at most 2 attempts a month and 24-month validity. Para 2(3) requires a valid theory pass BEFORE the practical assessment."
+   },
+   {
+    "text": "II, III and IV only",
+    "correct": false,
+    "why": "IV is false, and this option leaves out I (the 75% pass mark)."
+   }
+  ],
+  "source": "ANR-101 Fourth Schedule paras 1-2; AC 101-4-1(5), 9 Jan 2026 para 3.1(3)-(4), App 1, App 5 FAQ 3"
+ },
+ {
+  "id": "AL-060",
+  "module": "Air Law",
+  "topic": "UAPL theory test",
+  "difficulty": "medium",
+  "question": "Under AC 101-4-1(5), effective 9 January 2026, what is the fee for a UAPL theory test or re-test?",
+  "options": [
+   {
+    "text": "$500",
+    "correct": false,
+    "why": "$500 is the UAPL application fee for the first category."
+   },
+   {
+    "text": "$136.25, inclusive of 9% GST",
+    "correct": true,
+    "why": "AC 101-4-1(5) Appendix 4 and ANR-101 Second Schedule para 8 (S 800/2025, from 1 Jan 2026) set $136.25. NA03/2026 updated this fee."
+   },
+   {
+    "text": "$200",
+    "correct": false,
+    "why": "$200 is the fee for each additional category, each Class B rating, or a UAPL variation."
+   },
+   {
+    "text": "$110",
+    "correct": false,
+    "why": "$110 is the first-application fee for a Class 2 Activity Permit."
+   }
+  ],
+  "source": "AC 101-4-1(5), 9 Jan 2026 Appendix 4; ANR-101 Second Schedule para 8; NA03/2026",
+  "note": "NA03/2026 (9 Jan 2026) only updated the theory test fee."
+ },
+ {
+  "id": "AL-061",
+  "module": "Air Law",
+  "topic": "UAPL maintenance",
+  "difficulty": "hard",
+  "question": "A pilot holds a UAPL with Class A Rotorcraft and a Class B rating for a 40 kg rotorcraft model. Which of the following does he need to keep both valid?",
+  "options": [
+   {
+    "text": "A proficiency check every 2 years for both classes",
+    "correct": false,
+    "why": "There is no 2-year cycle. Class A is every 4 years, and Class B needs yearly refresher training."
+   },
+   {
+    "text": "Nothing, because a UAPL remains in force for the holder's lifetime",
+    "correct": false,
+    "why": "The licence stays in force for life, but categories and ratings expire if checks or refreshers are missed (reg 37(3)-(4))."
+   },
+   {
+    "text": "Class B refresher training once every 4 years, conducted only by CAAS",
+    "correct": false,
+    "why": "Refresher training is yearly and is run by a UATO or the OP holder that employs or engages the pilot."
+   },
+   {
+    "text": "A Class A proficiency check at least every 4 years, and Class B refresher training at least yearly",
+    "correct": true,
+    "why": "Reg 37(3)-(4): each Class A category needs a proficiency check every 4 years, and each Class B rating needs refresher training every year from a UATO or the employing OP holder."
+   }
+  ],
+  "source": "ANR-101 reg 37(2)-(5); AC 101-4-1(5), 9 Jan 2026 paras 4.9-4.11"
+ },
+ {
+  "id": "AL-062",
+  "module": "Air Law",
+  "topic": "UAPL fees",
+  "difficulty": "hard",
+  "question": "An applicant applies for a UAPL with two Class A categories (Rotorcraft and Aeroplane). What is the total licence application fee?",
+  "options": [
+   {
+    "text": "$1,000",
+    "correct": false,
+    "why": "This charges $500 for each category. Each additional category costs $200."
+   },
+   {
+    "text": "$500",
+    "correct": false,
+    "why": "This leaves out the $200 for the second category."
+   },
+   {
+    "text": "$700",
+    "correct": true,
+    "why": "Second Schedule para 6: $500 for the first category plus $200 for each additional category, so $500 + $200 = $700."
+   },
+   {
+    "text": "$836.25",
+    "correct": false,
+    "why": "This adds the $136.25 theory test fee, which is paid separately and is not part of the licence application fee."
+   }
+  ],
+  "source": "ANR-101 Second Schedule para 6; AC 101-4-1(5), 9 Jan 2026 Appendix 4"
+ },
+ {
+  "id": "AL-063",
+  "module": "Air Law",
+  "topic": "UAPL classes and categories",
+  "difficulty": "hard",
+  "question": "A Class A UAPL holder (Rotorcraft only) wants to add a Class B rating for a 30 kg fixed-wing aeroplane model. What is the correct position?",
+  "options": [
+   {
+    "text": "He can add it at once, because any Class A category qualifies for any Class B rating",
+    "correct": false,
+    "why": "AC para 4.4 says a rotorcraft-only holder cannot add Class B aeroplane, powered-lift or airship ratings."
+   },
+   {
+    "text": "He cannot yet: he first needs a Class A Aeroplane category without mass limitations",
+    "correct": true,
+    "why": "AC 101-4-1(5) paras 2.3, 4.4 and 4.5: a Class B rating needs the corresponding Class A category without mass limits, and the model should also be listed in a valid Operator Permit."
+   },
+   {
+    "text": "He needs only to pass a new theory test",
+    "correct": false,
+    "why": "Class B is a rating for a specific model. It needs the matching Class A category and evidence of competency on that model, not a new theory test."
+   },
+   {
+    "text": "He can add it if the model weighs under 25 kg",
+    "correct": false,
+    "why": "Class B covers UA over 25 kg. A UA of 25 kg or less falls under Class A."
+   }
+  ],
+  "source": "AC 101-4-1(5), 9 Jan 2026 paras 2.3, 4.4-4.5; ANR-101 Third Schedule"
+ },
+ {
+  "id": "AL-064",
+  "module": "Air Law",
+  "topic": "UAPL classes and categories",
+  "difficulty": "medium",
+  "question": "Which of the following is NOT one of the four UA categories in a UAPL?",
+  "options": [
+   {
+    "text": "Multi-rotor",
+    "correct": true,
+    "why": "The four categories are Aeroplane, Rotorcraft, Powered-lift and Airship. Multi-rotors and helicopters both fall under Rotorcraft."
+   },
+   {
+    "text": "Rotorcraft",
+    "correct": false,
+    "why": "Rotorcraft is a UAPL category, and it includes helicopters and multi-rotors."
+   },
+   {
+    "text": "Powered-lift",
+    "correct": false,
+    "why": "Powered-lift is a UAPL category (for example, VTOL fixed-wing hybrids)."
+   },
+   {
+    "text": "Airship",
+    "correct": false,
+    "why": "Airship is a UAPL category (a power-driven lighter-than-air aircraft)."
+   }
+  ],
+  "source": "AC 101-4-1(5), 9 Jan 2026 para 2.4; ANR-101 Third Schedule"
+ },
+ {
+  "id": "AL-065",
+  "module": "Air Law",
+  "topic": "UAPL issue",
+  "difficulty": "medium",
+  "question": "Which of the following statements about obtaining a UAPL is correct?",
+  "options": [
+   {
+    "text": "Attending a UATO training course is mandatory before the theory test",
+    "correct": false,
+    "why": "Training is optional, though strongly encouraged (AC para 3.1(1), FAQ 2)."
+   },
+   {
+    "text": "A foreign UA pilot licence cannot be converted into a Singapore UAPL",
+    "correct": true,
+    "why": "AC 101-4-1(5) Appendix 5 FAQ 1: conversion of a foreign UA pilot licence is not allowed."
+   },
+   {
+    "text": "The minimum age to hold a UAPL is 18",
+    "correct": false,
+    "why": "The minimum age is 16 (AC para 1.5, reg 36(2)(a))."
+   },
+   {
+    "text": "The applicant must upload the practical assessment results himself",
+    "correct": false,
+    "why": "The AFE uploads the practical assessment results. The applicant uploads the theory results."
+   }
+  ],
+  "source": "AC 101-4-1(5), 9 Jan 2026 paras 1.5, 3.1, Appendix 5"
+ },
+ {
+  "id": "AL-066",
+  "module": "Air Law",
+  "topic": "UAPL penalties",
+  "difficulty": "medium",
+  "question": "A UA pilot fails, without reasonable excuse, to produce his UAPL when an authorised person asks for it. This is his SECOND such offence. What is the maximum penalty?",
+  "options": [
+   {
+    "text": "A fine not exceeding $20,000",
+    "correct": false,
+    "why": "This is the FIRST-offence penalty under reg 40(2)(a)."
+   },
+   {
+    "text": "A fine not exceeding $100,000, or imprisonment not exceeding 5 years, or both",
+    "correct": false,
+    "why": "This is the repeat tier for offences such as reg 39 (pilot responsibilities), not for failing to produce a licence."
+   },
+   {
+    "text": "A fine not exceeding $10,000",
+    "correct": false,
+    "why": "This is the general-obligations penalty for a registered responsible person."
+   },
+   {
+    "text": "A fine not exceeding $40,000, or imprisonment not exceeding 15 months, or both",
+    "correct": true,
+    "why": "Reg 40(2)(b): a second or subsequent offence carries $40,000 or 15 months or both. The first offence is a $20,000 fine."
+   }
+  ],
+  "source": "ANR-101 reg 40",
+  "note": "A common slip is to read the repeat penalty as '$40,000 and 15 months jail'. It is a fine up to $40,000 OR jail up to 15 months OR both."
+ },
+ {
+  "id": "AL-067",
+  "module": "Air Law",
+  "topic": "UAPL penalties",
+  "difficulty": "hard",
+  "question": "A person flies a 10 kg UA for recreation without holding a UAPL. This is his first conviction. What is the maximum penalty?",
+  "options": [
+   {
+    "text": "A fine not exceeding $20,000",
+    "correct": false,
+    "why": "$20,000 is for failing to PRODUCE a licence (reg 40), not for flying without one."
+   },
+   {
+    "text": "A fine not exceeding $10,000, or imprisonment not exceeding 6 months, or both",
+    "correct": false,
+    "why": "This is the registration and B-RID tier."
+   },
+   {
+    "text": "A fine not exceeding $50,000, or imprisonment not exceeding 2 years, or both",
+    "correct": true,
+    "why": "Reg 35(3) makes it an offence under ANA s14(3), and s14(4)(a) sets $50,000 or 2 years or both (repeat: $100,000 / 5 years)."
+   },
+   {
+    "text": "A fine not exceeding $100,000, or imprisonment not exceeding 5 years, or both",
+    "correct": false,
+    "why": "This applies only to repeat offenders under ANA s14(4)(b)."
+   }
+  ],
+  "source": "ANR-101 reg 35(3); Air Navigation Act 1966 (2020 Rev Ed) s14(3)-(4); https://sso.agc.gov.sg/Act/ANA1966"
+ },
+ {
+  "id": "AL-068",
+  "module": "Air Law",
+  "topic": "UAPL holder responsibilities",
+  "difficulty": "medium",
+  "question": "Under ANR-101 regulation 39, which of the following is a responsibility of a UA pilot?",
+  "options": [
+   {
+    "text": "Keeping the UA within visual line of sight at all times, unless the UAPL allows BVLOS",
+    "correct": true,
+    "why": "Reg 39(2)(b) requires VLOS at all times unless the UAPL allows BVLOS. Reg 39 also requires awareness of the UA's limitations, an airworthiness check, and compliance with the manufacturer's specifications."
+   },
+   {
+    "text": "Subscribing to the CFMS service",
+    "correct": false,
+    "why": "CFMS subscription is the UA OP holder's duty (reg 19C), not the pilot's under reg 39."
+   },
+   {
+    "text": "Notifying CAAS within 7 working days of a change of address",
+    "correct": false,
+    "why": "That is the registered responsible person's duty (reg 47)."
+   },
+   {
+    "text": "Renewing the Operator Permit at least 1 month before it expires",
+    "correct": false,
+    "why": "OP renewal is the OP holder's duty (reg 11(3))."
+   }
+  ],
+  "source": "ANR-101 reg 39"
+ },
+ {
+  "id": "AL-069",
+  "module": "Air Law",
+  "topic": "UAPL holder responsibilities",
+  "difficulty": "medium",
+  "question": "A UA pilot flies a drone he has not checked for airworthiness, and it crashes. This is his first offence under ANR-101 reg 39 (responsibilities of a UA pilot). What is the maximum penalty?",
+  "options": [
+   {
+    "text": "A fine not exceeding $50,000, or imprisonment not exceeding 2 years, or both",
+    "correct": true,
+    "why": "Reg 39(3)(a) sets a first-offence penalty of $50,000 or 2 years or both (repeat: $100,000 / 5 years)."
+   },
+   {
+    "text": "A fine not exceeding $50,000 only",
+    "correct": false,
+    "why": "The fine-only $50,000 tier is for accident reporting (reg 6) and UA operator responsibilities (reg 19). Reg 39 adds imprisonment."
+   },
+   {
+    "text": "A fine not exceeding $20,000, or imprisonment not exceeding 15 months, or both",
+    "correct": false,
+    "why": "This mixes up the licence-production penalties."
+   },
+   {
+    "text": "A fine not exceeding $100,000, or imprisonment not exceeding 10 years, or both",
+    "correct": false,
+    "why": "This is the aggravated ANA s39(5) dangerous-activity penalty, not reg 39 of ANR-101."
+   }
+  ],
+  "source": "ANR-101 reg 39(3)"
+ },
+ {
+  "id": "AL-070",
+  "module": "Air Law",
+  "topic": "Authorised Flight Examiner",
+  "difficulty": "medium",
+  "question": "Which of the following is a requirement for initial authorisation as an Authorised Flight Examiner (UA)?",
+  "options": [
+   {
+    "text": "Being at least 16 years old and holding any UAPL",
+    "correct": false,
+    "why": "Sixteen is the UAPL minimum age. An AFE(UA) must be 21 or older with a UAPL without limitations."
+   },
+   {
+    "text": "Being at least 21 years old and holding a valid UAPL without limitations",
+    "correct": true,
+    "why": "AC 101-3-1(5) para 11.4 requires a valid UAPL without limitations, age 21 or over, a CAAS induction briefing, and a pass in the CAAS practical evaluation."
+   },
+   {
+    "text": "Holding a UAPL with a 'less than 7 kg' limitation",
+    "correct": false,
+    "why": "The UAPL must have no limitations."
+   },
+   {
+    "text": "Being authorised for an indefinite period once qualified",
+    "correct": false,
+    "why": "AFE(UA) authorisation lasts up to 24 months, and reauthorisation needs recency."
+   }
+  ],
+  "source": "AC 101-3-1(5), 1 Sep 2026 paras 11.2-11.6",
+  "note": "Some older materials add '1 year of training experience'. The current AC 101-3-1(5) para 11.4 does not list this, so don't rely on it."
+ },
+ {
+  "id": "AL-071",
+  "module": "Air Law",
+  "topic": "UAPL limitations",
+  "difficulty": "medium",
+  "question": "A UAPL was issued with the limitation 'restricted to multi-rotor UA less than 7 kg'. How can this limitation be removed?",
+  "options": [
+   {
+    "text": "Retake the full theory test and score at least 90%",
+    "correct": false,
+    "why": "Limitations come from the practical assessment and are removed by a practical assessment, not a theory test."
+   },
+   {
+    "text": "It is removed automatically after 4 years",
+    "correct": false,
+    "why": "It is not automatic. A removal-of-limitations practical assessment is required."
+   },
+   {
+    "text": "Pass a 'removal of limitations' practical assessment with a UATO",
+    "correct": true,
+    "why": "AC 101-4-1(5) paras 4.6-4.8: pass the practical assessment, then apply to CAAS with the AFE-uploaded results. Removing a limitation does not extend the licence's validity."
+   },
+   {
+    "text": "Complete a Class B refresher training course",
+    "correct": false,
+    "why": "Class B refresher training keeps Class B ratings valid. It does not remove Class A limitations."
+   }
+  ],
+  "source": "AC 101-4-1(5), 9 Jan 2026 paras 4.6-4.8"
+ },
+ {
+  "id": "AL-072",
+  "module": "Air Law",
+  "topic": "UA Basic Training",
+  "difficulty": "hard",
+  "question": "A 15-year-old wants to fly his 3 kg drone for recreation in an open field, away from any Class 2 permit condition. Under ANR-101, which of the following is correct?",
+  "options": [
+   {
+    "text": "He may fly it alone once he completes the online UABT",
+    "correct": false,
+    "why": "The UABT certificate route in reg 33(1) also requires the minimum age of 16, so he needs supervision."
+   },
+   {
+    "text": "He needs a UAPL because he is under 16",
+    "correct": false,
+    "why": "A UAPL is needed above 7 kg or for business, and it also has a minimum age of 16."
+   },
+   {
+    "text": "He needs a Class 2 Activity Permit because he is a minor",
+    "correct": false,
+    "why": "Age doesn't trigger a Class 2 AP. Only altitude, the 5 km aerodrome rule, or restricted/danger areas do."
+   },
+   {
+    "text": "He may fly it only under a supervising pilot aged 16 or over with a UABT certificate or UAPL",
+    "correct": true,
+    "why": "Reg 33(2)-(3): a person under the requisite minimum age (16) may fly a UA over 1.5 kg up to 7 kg only under a qualified supervising pilot."
+   }
+  ],
+  "source": "ANR-101 reg 33, First Schedule 'requisite minimum age'; AC 101-5-1(2), 14 Feb 2025 para 1.3"
+ },
+ {
+  "id": "AL-073",
+  "module": "Air Law",
+  "topic": "UA Basic Training",
+  "difficulty": "medium",
+  "question": "For which of the following UA operations is a UA Basic Training (UABT) certificate (or a UAPL) required?",
+  "options": [
+   {
+    "text": "Flying a 2 kg UA outdoors for recreation",
+    "correct": true,
+    "why": "Reg 33(1): UABT or UAPL is needed for UA over 1.5 kg up to 7 kg flown for recreation or education."
+   },
+   {
+    "text": "Flying a 1.2 kg UA outdoors for recreation",
+    "correct": false,
+    "why": "At 1.5 kg or below, no UABT is needed. Registration still applies because it is over 250 g."
+   },
+   {
+    "text": "Flying an 8 kg UA outdoors for recreation",
+    "correct": false,
+    "why": "Above 7 kg a UAPL is needed. UABT is not enough."
+   },
+   {
+    "text": "Flying a 5 kg UA for a paid real-estate shoot",
+    "correct": false,
+    "why": "Business use needs a UAPL whatever the mass. UABT covers only recreation and education."
+   }
+  ],
+  "source": "ANR-101 regs 33, 35; AC 101-3-1(5), 1 Sep 2026 para 1.2"
+ },
+ {
+  "id": "AL-074",
+  "module": "Air Law",
+  "topic": "UA Basic Training",
+  "difficulty": "medium",
+  "question": "Under CAAS requirements for approved UABT courses, how is the UABT quiz delivered and passed?",
+  "options": [
+   {
+    "text": "A 50-question test with a pass mark of 75%",
+    "correct": false,
+    "why": "That describes the UAPL theory test format (50 questions, 75%), not the UABT quiz."
+   },
+   {
+    "text": "A practical flight assessment run by an AFE(UA)",
+    "correct": false,
+    "why": "UABT is an online course of about 2 hours with a quiz. Practical assessments are for the UAPL."
+   },
+   {
+    "text": "20 random questions from a question bank, all 20 to be answered correctly",
+    "correct": true,
+    "why": "AC 101-3-1(5) para 2.1(c)-(d): 20 questions drawn at random from a bank of at least 50, all must be answered correctly, and a wrong answer brings up a different question."
+   },
+   {
+    "text": "A 20-question test with a pass mark of 50%",
+    "correct": false,
+    "why": "All 20 questions must be answered correctly."
+   }
+  ],
+  "source": "AC 101-3-1(5), 1 Sep 2026 para 2.1"
+ },
+ {
+  "id": "AL-075",
+  "module": "Air Law",
+  "topic": "UA Basic Training penalties",
+  "difficulty": "medium",
+  "question": "A person flies a 4 kg UA for recreation without a UABT certificate or a UAPL. This is his first offence. What is the maximum penalty?",
+  "options": [
+   {
+    "text": "A fine not exceeding $20,000",
+    "correct": false,
+    "why": "That is the penalty for failing to PRODUCE a UABT certificate when asked (reg 34), not for flying without one."
+   },
+   {
+    "text": "A fine not exceeding $10,000, or imprisonment not exceeding 6 months, or both",
+    "correct": false,
+    "why": "This is the registration and B-RID tier."
+   },
+   {
+    "text": "No penalty, because UABT is only recommended",
+    "correct": false,
+    "why": "UABT has been mandatory since 1 February 2021 for UA over 1.5 kg up to 7 kg flown for recreation or education."
+   },
+   {
+    "text": "A fine not exceeding $50,000, or imprisonment not exceeding 2 years, or both",
+    "correct": true,
+    "why": "Reg 33(4)(a) sets a first-offence penalty of $50,000 or 2 years or both (repeat: $100,000 / 5 years)."
+   }
+  ],
+  "source": "ANR-101 regs 1(4), 33(4), 34"
+ },
+ {
+  "id": "AL-076",
+  "module": "Air Law",
+  "topic": "UA Operator responsibilities",
+  "difficulty": "medium",
+  "question": "A UA OP holder fails to ensure that each pilot it employs holds a valid UAPL, and fails to give pilots the relevant activity permit. This is a first offence under ANR-101 reg 19. What is the maximum penalty?",
+  "options": [
+   {
+    "text": "A fine not exceeding $50,000, or imprisonment not exceeding 2 years, or both",
+    "correct": false,
+    "why": "Reg 19 has no imprisonment term. It is fine-only."
+   },
+   {
+    "text": "A fine not exceeding $50,000",
+    "correct": true,
+    "why": "Reg 19(5)(a) provides a fine only ($50,000) for a first offence. The repeat fine is $100,000."
+   },
+   {
+    "text": "A fine not exceeding $10,000, or imprisonment not exceeding 6 months, or both",
+    "correct": false,
+    "why": "This is the tier for CFMS (regs 19C-19D) and registration offences."
+   },
+   {
+    "text": "A fine not exceeding $20,000",
+    "correct": false,
+    "why": "This is the licence/permit-production penalty."
+   }
+  ],
+  "source": "ANR-101 reg 19"
+ }
+]

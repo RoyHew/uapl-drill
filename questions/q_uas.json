@@ -1,0 +1,1068 @@
+[
+ {
+  "id": "GU-001",
+  "module": "General UAS Knowledge",
+  "topic": "UA definition",
+  "difficulty": "medium",
+  "question": "Which statement best matches the definition of an unmanned aircraft (UA) in Singapore's Air Navigation Act?",
+  "options": [
+   {
+    "text": "Any aircraft below 25 kg that is flown for recreational purposes.",
+    "correct": false,
+    "why": "Weight and purpose drive permit requirements under ANR-101, but they are not part of what makes an aircraft 'unmanned'."
+   },
+   {
+    "text": "An aircraft that can only be flown manually through a radio transmitter.",
+    "correct": false,
+    "why": "Too narrow: the definition only requires that no one on board operates it. It can be remotely piloted or fly autonomously."
+   },
+   {
+    "text": "The complete system of aircraft, ground control station and data links.",
+    "correct": false,
+    "why": "That is the UAS (unmanned aircraft system): the UA plus its associated elements. The UA is only the aircraft."
+   },
+   {
+    "text": "Any aircraft that can be flown or used without any person on board to operate it.",
+    "correct": true,
+    "why": "This matches the Act: the defining feature is that no one on board operates it, whether it is remotely piloted or autonomous."
+   }
+  ],
+  "source": "Air Navigation Act 1966 (Singapore), s.2 (https://sso.agc.gov.sg/Act/ANA1966), definitions of 'unmanned aircraft' and 'unmanned aircraft system'; CAAS AC 101-4-1(5) UAPL theory syllabus 010 01 01",
+  "note": "UA = the aircraft; UAS = the aircraft plus everything needed to fly it."
+ },
+ {
+  "id": "GU-002",
+  "module": "General UAS Knowledge",
+  "topic": "RPAS components",
+  "difficulty": "medium",
+  "question": "Under the Air Navigation Act definition of a remotely piloted aircraft system (RPAS), which of the following is NOT listed as a component?",
+  "options": [
+   {
+    "text": "The visual observer assisting the remote pilot.",
+    "correct": true,
+    "why": "The Act lists hardware/link elements only: the RPA, the remote pilot station(s), the C2 links, and other type-design components. A person is not a system component."
+   },
+   {
+    "text": "Every remote pilot station containing the equipment used to pilot the aircraft.",
+    "correct": false,
+    "why": "Listed as item (b) in the Act's definition."
+   },
+   {
+    "text": "The command and control links between the aircraft and its remote pilot station(s).",
+    "correct": false,
+    "why": "Listed as item (c); the C2 link is integral to an RPAS."
+   },
+   {
+    "text": "Any other components specified in the type design to fly that aircraft.",
+    "correct": false,
+    "why": "Listed as item (d), a catch-all for type-design elements."
+   }
+  ],
+  "source": "Air Navigation Act 1966 (Singapore), s.2 (https://sso.agc.gov.sg/Act/ANA1966), definition of 'remotely piloted aircraft system'"
+ },
+ {
+  "id": "GU-003",
+  "module": "General UAS Knowledge",
+  "topic": "UA categories",
+  "difficulty": "hard",
+  "question": "A delivery drone has a fixed wing plus a separate set of vertical lifting rotors used only for take-off, landing and hover, and a pusher motor for cruise. Under the standard aircraft category definitions, it is a:",
+  "options": [
+   {
+    "text": "Rotorcraft (multi-rotor)",
+    "correct": false,
+    "why": "A rotorcraft depends principally on rotors for support in flight. This aircraft's rotors work only for take-off, landing and hover; in cruise the wing carries it."
+   },
+   {
+    "text": "Powered-lift aircraft",
+    "correct": true,
+    "why": "Powered-lift = vertical take-off, landing and low-speed flight on engine-driven lift, with non-rotating wings giving lift in horizontal flight. Lift+cruise designs fit exactly."
+   },
+   {
+    "text": "Aeroplane",
+    "correct": false,
+    "why": "An aeroplane is supported in flight by the air acting on its fixed wings. It cannot take off vertically on engine-driven lift."
+   },
+   {
+    "text": "Airship",
+    "correct": false,
+    "why": "Airships are lighter-than-air; this aircraft is heavier-than-air."
+   }
+  ],
+  "source": "14 CFR 1.1 definitions (airplane, rotorcraft, powered-lift, airship); CAAS AC 101-4-1(5) UAPL theory syllabus para 2.4 (UA categories)",
+  "note": "Powered-lift = 'VTOL fixed wing' (tilt-rotor, lift+cruise, tailsitter, vectored thrust)."
+ },
+ {
+  "id": "GU-004",
+  "module": "General UAS Knowledge",
+  "topic": "Airship",
+  "difficulty": "hard",
+  "question": "Which statement about airship construction is correct?",
+  "options": [
+   {
+    "text": "A blimp is a rigid airship held in shape by an internal frame",
+    "correct": false,
+    "why": "Reversed. A blimp is the non-rigid type; it is the rigid airship that has an internal framework."
+   },
+   {
+    "text": "Rigid airships use ballonets to hold their shape; blimps use a frame",
+    "correct": false,
+    "why": "Reversed. Rigid airships keep their shape with a framework and need no ballonets. Non-rigid ones rely on gas pressure, helped by ballonets."
+   },
+   {
+    "text": "A blimp is a non-rigid airship that keeps its shape by gas pressure",
+    "correct": true,
+    "why": "A non-rigid airship, often called a blimp, has no internal frame. The pressure of the lifting gas in the envelope holds its shape."
+   },
+   {
+    "text": "Rigid and non-rigid describe the lifting gas: hydrogen versus helium",
+    "correct": false,
+    "why": "The rigid / semi-rigid / non-rigid split is about construction, not lifting gas. Early rigid airships often used hydrogen; modern airships mostly use helium."
+   }
+  ],
+  "source": "Airship Association, 'Airship types' (https://airship-association.org/types); US War Department TM 1-325 Aerostatics, paras 3-4 (https://www.govinfo.gov/content/pkg/GOVPUB-W-1dd24ac953d89af38f150976805820d2/pdf/GOVPUB-W-1dd24ac953d89af38f150976805820d2.pdf)",
+  "note": "Three builds: non-rigid (blimp, gas pressure), semi-rigid (load-bearing keel), rigid (internal frame)."
+ },
+ {
+  "id": "GU-005",
+  "module": "General UAS Knowledge",
+  "topic": "Airship",
+  "difficulty": "hard",
+  "question": "A non-rigid airship climbs and the helium inside expands. What keeps the envelope's pressure and shape under control?",
+  "options": [
+   {
+    "text": "Dropping ballast, which lowers the envelope pressure",
+    "correct": false,
+    "why": "Ballast changes the airship's weight and buoyancy balance. It does not regulate the pressure inside the envelope."
+   },
+   {
+    "text": "Opening the helium valve continuously during the climb",
+    "correct": false,
+    "why": "Venting helium throws away lift. Air is let out of the ballonets instead; gas is valved only if the ballonets have no air left."
+   },
+   {
+    "text": "The gondola, which acts as a pressure reservoir",
+    "correct": false,
+    "why": "The gondola (car) carries the crew, engines and load. It is not part of the gas envelope."
+   },
+   {
+    "text": "Ballonets, air bags inside the envelope that are vented or filled",
+    "correct": true,
+    "why": "Ballonets are air bags inside the envelope. Air is valved out as the gas expands in a climb and pumped back in on descent, holding pressure and shape."
+   }
+  ],
+  "source": "US War Department TM 1-325 Aerostatics, paras 3-4 (https://www.govinfo.gov/content/pkg/GOVPUB-W-1dd24ac953d89af38f150976805820d2/pdf/GOVPUB-W-1dd24ac953d89af38f150976805820d2.pdf), para 4c(1)-(4); Airship Association, 'Airship types' (https://airship-association.org/types)"
+ },
+ {
+  "id": "GU-006",
+  "module": "General UAS Knowledge",
+  "topic": "UA suitability",
+  "difficulty": "medium",
+  "question": "A client needs a 40 km² agricultural estate mapped in one day from a site that has a cleared strip for launch and recovery. Which UA type is the best fit?",
+  "options": [
+   {
+    "text": "Multi-rotor",
+    "correct": false,
+    "why": "Multi-rotors have shorter flight times and need many flights and battery swaps to cover a large area. They suit precision or small-area work."
+   },
+   {
+    "text": "Airship",
+    "correct": false,
+    "why": "Airships are slow, with limited manoeuvrability, so they are a poor fit for a time-bound survey."
+   },
+   {
+    "text": "Fixed wing",
+    "correct": true,
+    "why": "Fixed wing has the greatest endurance and covers large areas in fewer flights. Its main drawback, needing space or a launcher to launch and recover, is solved by the strip."
+   },
+   {
+    "text": "Helicopter with a heavy gimbal",
+    "correct": false,
+    "why": "Rotorcraft share the multi-rotor's high power need and shorter endurance. Nothing in the task calls for hovering."
+   }
+  ],
+  "source": "Advexure, 'Multirotor vs Fixed Wing' (https://advexure.com/blogs/news/multirotor-vs-fixed-wing-choosing-the-right-platform-for-your-enterprise-missions); CAAS AC 101-4-1(5) UAPL theory syllabus 010 01 03",
+  "note": "Big area + long range = fixed wing. Hover/precision/confined = multi-rotor."
+ },
+ {
+  "id": "GU-007",
+  "module": "General UAS Knowledge",
+  "topic": "UA suitability",
+  "difficulty": "medium",
+  "question": "Which task is best suited to a multi-rotor rather than a fixed wing?",
+  "options": [
+   {
+    "text": "Confined-space and building inspection",
+    "correct": true,
+    "why": "Multi-rotors take off vertically from a small patch of ground and can hover close to a structure, which is what confined-space and building inspection needs."
+   },
+   {
+    "text": "Large-area search and rescue",
+    "correct": false,
+    "why": "Large-area search suits fixed wing, which has the range and endurance to cover big areas."
+   },
+   {
+    "text": "Military surveillance over long range",
+    "correct": false,
+    "why": "Long-range surveillance suits fixed wing, with its greater endurance and range."
+   },
+   {
+    "text": "Ad-hoc communication tower for days",
+    "correct": false,
+    "why": "Multi-day persistence suits a lighter-than-air platform, which gets its lift from buoyancy rather than engine power."
+   }
+  ],
+  "source": "Advexure, 'Multirotor vs Fixed Wing' (https://advexure.com/blogs/news/multirotor-vs-fixed-wing-choosing-the-right-platform-for-your-enterprise-missions); US War Department TM 1-325 Aerostatics, paras 3-4 (https://www.govinfo.gov/content/pkg/GOVPUB-W-1dd24ac953d89af38f150976805820d2/pdf/GOVPUB-W-1dd24ac953d89af38f150976805820d2.pdf), para 3b (buoyant lift); CAAS AC 101-4-1(5) UAPL theory syllabus 010 01 03"
+ },
+ {
+  "id": "GU-008",
+  "module": "General UAS Knowledge",
+  "topic": "UA suitability",
+  "difficulty": "hard",
+  "question": "An operator must survey a long coastal corridor but there is no runway, launcher or recovery net available, only a small clearing. Which category best satisfies both the range and the site constraint?",
+  "options": [
+   {
+    "text": "Conventional fixed wing",
+    "correct": false,
+    "why": "Range is fine, but a conventional fixed wing needs a runway or launch mechanism, and none is available."
+   },
+   {
+    "text": "Multi-rotor (quadcopter)",
+    "correct": false,
+    "why": "It fits the clearing, but shorter flight times make long-range corridor work its weak point."
+   },
+   {
+    "text": "Powered-lift (VTOL fixed wing)",
+    "correct": true,
+    "why": "Powered-lift takes off and lands vertically, then cruises on its wing, so it gets range without a runway. The trade-off is higher cost and complexity."
+   },
+   {
+    "text": "Airship (blimp)",
+    "correct": false,
+    "why": "It is slow and has limited manoeuvrability, so it is a poor choice for a corridor survey."
+   }
+  ],
+  "source": "14 CFR 1.1 definitions (airplane, rotorcraft, powered-lift, airship); Advexure, 'Multirotor vs Fixed Wing' (https://advexure.com/blogs/news/multirotor-vs-fixed-wing-choosing-the-right-platform-for-your-enterprise-missions)",
+  "note": "Near-miss trap: 'fixed wing' is right for range but wrong for the site."
+ },
+ {
+  "id": "GU-009",
+  "module": "General UAS Knowledge",
+  "topic": "Helicopter components",
+  "difficulty": "medium",
+  "question": "On a small RC helicopter UA, which component changes the pitch of the main rotor blades, and which provides anti-torque/directional control?",
+  "options": [
+   {
+    "text": "Swashplate; tail rotor assembly",
+    "correct": true,
+    "why": "The swashplate turns the pilot's stationary control inputs into rotating inputs that change main-rotor blade pitch. The tail rotor's thrust counters torque and gives directional control."
+   },
+   {
+    "text": "Main mast; swashplate",
+    "correct": false,
+    "why": "The mast is the shaft that drives the main rotor from the transmission. The swashplate does not counter torque."
+   },
+   {
+    "text": "Tail boom; main rotor",
+    "correct": false,
+    "why": "The tail boom just mounts the tail rotor. The main rotor creates the torque that must be countered."
+   },
+   {
+    "text": "Freewheeling unit; transmission",
+    "correct": false,
+    "why": "The freewheeling unit disengages the engine from the rotor when the engine slows, and the transmission carries power. Neither sets blade pitch or controls yaw."
+   }
+  ],
+  "source": "FAA-H-8083-21B Helicopter Flying Handbook ch.4 (Main Rotor System, Swash Plate Assembly, Freewheeling Unit, Antitorque System)"
+ },
+ {
+  "id": "GU-010",
+  "module": "General UAS Knowledge",
+  "topic": "Critical systems",
+  "difficulty": "medium",
+  "question": "The electronic speed controller (ESC), motor and propeller together belong to which critical system of a UA?",
+  "options": [
+   {
+    "text": "Propulsion system",
+    "correct": true,
+    "why": "The propulsion system is the power train that turns the propellers: motors, propellers, and the ESCs that drive the motors."
+   },
+   {
+    "text": "Command and control (C2) system",
+    "correct": false,
+    "why": "C2 is the data link between the UA and the ground control station: antenna, receiver, link."
+   },
+   {
+    "text": "Flight control and navigation system",
+    "correct": false,
+    "why": "This covers the flight controller and sensors that command the ESCs. The ESC itself is part of the propulsion train."
+   },
+   {
+    "text": "Ground control system",
+    "correct": false,
+    "why": "The ground side is the transmitter or GCS software. ESCs are on board the aircraft."
+   }
+  ],
+  "source": "PX4 User Guide, Basic Concepts (https://docs.px4.io/main/en/getting_started/px4_basic_concepts.html) (motors driven via ESCs); CAAS AC 101-4-1(5) UAPL theory syllabus 010 02 01"
+ },
+ {
+  "id": "GU-011",
+  "module": "General UAS Knowledge",
+  "topic": "Internal components",
+  "difficulty": "medium",
+  "question": "On a multi-rotor, which component takes the operator's stick inputs and sensor data and converts them into individual signals that vary each propeller's speed?",
+  "options": [
+   {
+    "text": "Power distribution board (PDB)",
+    "correct": false,
+    "why": "The power module or PDB only supplies battery power to the flight controller and ESCs. It does no control logic."
+   },
+   {
+    "text": "Flight controller",
+    "correct": true,
+    "why": "The 'brain' of the UA: it reads its sensors and the pilot's inputs, then drives each ESC to stabilise and move the vehicle."
+   },
+   {
+    "text": "Receiver",
+    "correct": false,
+    "why": "The receiver only receives commands from the remote controller and passes them to the flight controller."
+   },
+   {
+    "text": "Electronic speed controller (ESC)",
+    "correct": false,
+    "why": "Each ESC regulates one motor's speed as commanded. It does not decide the mix across motors."
+   }
+  ],
+  "source": "PX4 User Guide, Basic Concepts (https://docs.px4.io/main/en/getting_started/px4_basic_concepts.html)",
+  "note": "Chain: TX → receiver → flight controller → ESC → motor."
+ },
+ {
+  "id": "GU-012",
+  "module": "General UAS Knowledge",
+  "topic": "Internal components",
+  "difficulty": "medium",
+  "question": "On an electric fixed-wing UA, which component physically moves the ailerons, elevator and rudder?",
+  "options": [
+   {
+    "text": "ESC",
+    "correct": false,
+    "why": "The ESC regulates electric motor speed (thrust). It does not drive control surfaces."
+   },
+   {
+    "text": "Trim tab",
+    "correct": false,
+    "why": "A trim tab is a small aerodynamic surface used to relieve control pressure. It is not an actuator."
+   },
+   {
+    "text": "Power distribution board",
+    "correct": false,
+    "why": "The PDB distributes electrical power and moves nothing."
+   },
+   {
+    "text": "Servo",
+    "correct": true,
+    "why": "Servos are the actuators linked to the control surfaces. The autopilot's servo outputs drive the aileron, elevator and rudder."
+   }
+  ],
+  "source": "ArduPilot Plane, Servo Output Functions (https://ardupilot.org/plane/docs/servo-functions.html); FAA-H-8083-25C PHAK ch.6 (Trim Systems)"
+ },
+ {
+  "id": "GU-013",
+  "module": "General UAS Knowledge",
+  "topic": "Sensors",
+  "difficulty": "medium",
+  "question": "A drone's flight controller holds a steady heading during hover by referencing the Earth's magnetic field. Which sensor provides this?",
+  "options": [
+   {
+    "text": "Gyroscope",
+    "correct": false,
+    "why": "Gyros measure rotation/angular velocity for stabilisation. They do not sense magnetic north."
+   },
+   {
+    "text": "Magnetometer",
+    "correct": true,
+    "why": "The magnetometer measures the Earth's magnetic field to give magnetic heading and direction for orientation."
+   },
+   {
+    "text": "Barometer",
+    "correct": false,
+    "why": "The barometer measures pressure changes to determine altitude."
+   },
+   {
+    "text": "Accelerometer",
+    "correct": false,
+    "why": "Accelerometers measure change in speed and tilt relative to gravity, not heading."
+   }
+  ],
+  "source": "FAA-H-8083-25C PHAK ch.8 (heading from the magnetometer via AHRS; altimeter uses static pressure); PX4 User Guide, Basic Concepts (https://docs.px4.io/main/en/getting_started/px4_basic_concepts.html) (gyroscope, accelerometer, magnetometer, barometer)",
+  "note": "Mag = Map direction; Baro = height; Gyro = rotation rate; Accel = speed change/tilt."
+ },
+ {
+  "id": "GU-014",
+  "module": "General UAS Knowledge",
+  "topic": "Sensors",
+  "difficulty": "hard",
+  "question": "A fixed-wing UA autopilot uses two different pressure sensors. Which pairing of sensor and output is correct?",
+  "options": [
+   {
+    "text": "Differential-pressure sensor → altitude; absolute-pressure sensor → airspeed",
+    "correct": false,
+    "why": "Reversed. Altitude comes from absolute (static) pressure; airspeed needs the difference between ram and static pressure."
+   },
+   {
+    "text": "Both sensors → heading",
+    "correct": false,
+    "why": "Heading comes from the magnetometer, not pressure sensors."
+   },
+   {
+    "text": "Differential-pressure sensor → tilt; absolute-pressure sensor → roll rate",
+    "correct": false,
+    "why": "Tilt comes from accelerometers and roll rate from gyroscopes."
+   },
+   {
+    "text": "Differential-pressure sensor → airspeed; absolute-pressure sensor → altitude",
+    "correct": true,
+    "why": "Airspeed comes from the difference between ram (pitot) and static pressure. Altitude comes from static pressure alone."
+   }
+  ],
+  "source": "FAA-H-8083-25C PHAK ch.8 (Pitot-Static Flight Instruments: airspeed indicator, altimeter)",
+  "note": "Differential (pitot minus static) = airspeed. Absolute (static) = altitude."
+ },
+ {
+  "id": "GU-015",
+  "module": "General UAS Knowledge",
+  "topic": "RC channels",
+  "difficulty": "medium",
+  "question": "How many primary flight-control channels does an RC transmitter use to fly a UA (no camera or gimbal), and what are they?",
+  "options": [
+   {
+    "text": "3: throttle, pitch, roll",
+    "correct": false,
+    "why": "Yaw is missing, so there is no heading control. Rudder/yaw is one of the four main channels."
+   },
+   {
+    "text": "6: four flight channels plus mode and gimbal",
+    "correct": false,
+    "why": "Mode and gimbal are extra channels. They are useful, but they are not the primary flight controls."
+   },
+   {
+    "text": "4: aileron/roll, elevator/pitch, throttle, rudder/yaw",
+    "correct": true,
+    "why": "The four primary controls are roll, pitch, throttle and yaw. Extra channels go to flight modes, cameras and other functions."
+   },
+   {
+    "text": "2: throttle and steering",
+    "correct": false,
+    "why": "That is a ground-vehicle mindset. An aircraft needs control about all three axes plus throttle."
+   }
+  ],
+  "source": "DJI Mobile SDK, DJIRCControlStyle and Remote Controller guide (https://developer.dji.com/mobile-sdk/documentation/introduction/component-guide-remotecontroller.html); ArduPilot, RC Systems (https://ardupilot.org/copter/docs/common-rc-systems.html)",
+  "note": "Autopilots such as ArduPilot usually want a fifth channel for flight-mode switching."
+ },
+ {
+  "id": "GU-016",
+  "module": "General UAS Knowledge",
+  "topic": "Controller modes",
+  "difficulty": "medium",
+  "question": "On a Mode 2 transmitter, which functions are on the LEFT stick?",
+  "options": [
+   {
+    "text": "Pitch (up/down) and yaw (left/right)",
+    "correct": false,
+    "why": "That is the Mode 1 left stick."
+   },
+   {
+    "text": "Pitch (up/down) and roll (left/right)",
+    "correct": false,
+    "why": "That is the Mode 2 right stick, or the Mode 3 left stick."
+   },
+   {
+    "text": "Throttle (up/down) and yaw (left/right)",
+    "correct": true,
+    "why": "Mode 2: left stick = throttle + yaw, right stick = pitch + roll. It is the most common layout."
+   },
+   {
+    "text": "Throttle (up/down) and roll (left/right)",
+    "correct": false,
+    "why": "On Mode 2, roll is on the right stick, not the left."
+   }
+  ],
+  "source": "DJI Mobile SDK, DJIRCControlStyle and Remote Controller guide (https://developer.dji.com/mobile-sdk/documentation/introduction/component-guide-remotecontroller.html) (Mode 1 / Mode 2 / Mode 3 stick layouts)"
+ },
+ {
+  "id": "GU-017",
+  "module": "General UAS Knowledge",
+  "topic": "Controller modes",
+  "difficulty": "hard",
+  "question": "A pilot trained on Mode 2 is handed a Mode 1 transmitter. Wanting to climb vertically from a hover, he pushes the LEFT stick forward. What does the UA actually do?",
+  "options": [
+   {
+    "text": "Climbs, because throttle is always on the left vertical axis",
+    "correct": false,
+    "why": "True only for Mode 2 and Mode 4. That habit is exactly what makes this scenario dangerous."
+   },
+   {
+    "text": "Rolls right, because Mode 1 puts roll on the left stick",
+    "correct": false,
+    "why": "Mode 1 puts roll on the RIGHT stick, horizontal axis."
+   },
+   {
+    "text": "Yaws, because Mode 1 puts yaw on the left vertical axis",
+    "correct": false,
+    "why": "Yaw is on the left stick's HORIZONTAL axis in Mode 1, not the vertical."
+   },
+   {
+    "text": "Pitches forward, because Mode 1 puts pitch on the left vertical axis",
+    "correct": true,
+    "why": "On Mode 1 the left stick is pitch (vertical) + yaw (horizontal). Throttle has moved to the right stick."
+   }
+  ],
+  "source": "DJI Mobile SDK, DJIRCControlStyle and Remote Controller guide (https://developer.dji.com/mobile-sdk/documentation/introduction/component-guide-remotecontroller.html) (Mode 1 / Mode 2 stick layouts)",
+  "note": "Mode 1 = throttle on the right. Always confirm the mode before arming."
+ },
+ {
+  "id": "GU-018",
+  "module": "General UAS Knowledge",
+  "topic": "Binding",
+  "difficulty": "medium",
+  "question": "What does 'binding' mean in an RC UAS?",
+  "options": [
+   {
+    "text": "Locking the GNSS receiver onto at least four satellites before take-off",
+    "correct": false,
+    "why": "That is GNSS lock, a navigation function unrelated to the RC link pairing."
+   },
+   {
+    "text": "Pairing the UA's receiver with one specific RC transmitter",
+    "correct": true,
+    "why": "Binding teaches the receiver the specific code of one transmitter, so it responds only to that transmitter."
+   },
+   {
+    "text": "Calibrating the compass by rotating the UA",
+    "correct": false,
+    "why": "That is magnetometer calibration."
+   },
+   {
+    "text": "Adjusting the PWM value of a channel's neutral position",
+    "correct": false,
+    "why": "That is trim, a separate adjustment of a channel's neutral position."
+   }
+  ],
+  "source": "Spektrum AR6300 receiver manual, Binding (https://www.manualsdir.com/manuals/429158/spektrum-spmar6300-spmar6300f.html); CAAS AC 101-2-2 LC2 (positive indication the UA is paired before flight)",
+  "note": "Receiver (on the aircraft) is bound to one transmitter (in the pilot's hands)."
+ },
+ {
+  "id": "GU-019",
+  "module": "General UAS Knowledge",
+  "topic": "Frequencies",
+  "difficulty": "medium",
+  "question": "Which statement about UA radio frequencies in Singapore is correct?",
+  "options": [
+   {
+    "text": "Any frequency may be used as long as the UA stays within VLOS.",
+    "correct": false,
+    "why": "VLOS is an operational rule. Spectrum use is separately regulated by IMDA."
+   },
+   {
+    "text": "IMDA regulates them; 2.4 and 5.8 GHz are licence-exempt within power limits.",
+    "correct": true,
+    "why": "IMDA lists 2.4 GHz and 5.8 GHz (up to 100 mW EIRP) among the bands UAS may use without a licence, if used within its guidelines."
+   },
+   {
+    "text": "433 MHz is the standard approved control band, and 2.4 GHz is for video only.",
+    "correct": false,
+    "why": "IMDA does not limit 2.4 GHz to video, and it allows 433 MHz only at a much lower power (10 mW)."
+   },
+   {
+    "text": "Frequencies are approved by CAAS as part of the UA Operator Permit.",
+    "correct": false,
+    "why": "IMDA, not CAAS, regulates the radio spectrum. CAAS flying rules apply separately."
+   }
+  ],
+  "source": "IMDA, Operation of Unmanned Aircraft Systems (UAS) (https://www.imda.gov.sg/regulations-and-licensing-listing/operation-of-unmanned-aircraft-systems-uas); FAA AC 107-2A Appendix B.6"
+ },
+ {
+  "id": "GU-020",
+  "module": "General UAS Knowledge",
+  "topic": "Frequencies",
+  "difficulty": "hard",
+  "question": "A UA uses 2.4 GHz for control and 5.8 GHz for FPV video. All else equal (same transmit power and antennas), why does the 5.8 GHz video usually drop out before the 2.4 GHz control link as range increases?",
+  "options": [
+   {
+    "text": "5.8 GHz is reserved for emergency use, so the UA throttles its power.",
+    "correct": false,
+    "why": "No such rule exists. Both bands are used for UA links."
+   },
+   {
+    "text": "Lower frequencies suffer more multipath, so 2.4 GHz should drop first.",
+    "correct": false,
+    "why": "Multipath depends on reflective surroundings, not mainly on frequency. And the question asks why 5.8 GHz fades first."
+   },
+   {
+    "text": "Free-space path loss rises with frequency, so 5.8 GHz loses about 7–8 dB more over the same distance",
+    "correct": true,
+    "why": "Path loss scales with 20·log10(f): 20·log10(5.8/2.4) ≈ 7.7 dB. 5.8 GHz is chosen for video for its wider bandwidth, not its range."
+   },
+   {
+    "text": "5.8 GHz signals are reflected by the ionosphere and return to Earth beyond range.",
+    "correct": false,
+    "why": "Ionospheric reflection applies to HF (MHz) bands. GHz signals pass through, which is why line of sight matters."
+   }
+  ],
+  "source": "ITU-R P.525 free-space attenuation (loss rises 20·log10 f); FAA AC 107-2A Appendix B.6.1 (2.4/5.8 GHz are line-of-sight bands)",
+  "note": "Higher frequency = more bandwidth, less range."
+ },
+ {
+  "id": "GU-021",
+  "module": "General UAS Knowledge",
+  "topic": "Interference",
+  "difficulty": "medium",
+  "question": "A quadcopter flies erratically and loses link inside a four-walled enclosed room, even though it is close to the pilot. What is the most likely cause?",
+  "options": [
+   {
+    "text": "Multipath interference from signals reflecting off the walls",
+    "correct": true,
+    "why": "Copies of the signal reflected off the walls arrive out of phase with the direct signal and corrupt it. Reflective surroundings are a known cause of link problems."
+   },
+   {
+    "text": "Diffraction around the drone's arms",
+    "correct": false,
+    "why": "Diffraction (bending around edges) is not what disrupts a link a few metres away in a closed room. The reflections are."
+   },
+   {
+    "text": "Loss of radio line-of-sight",
+    "correct": false,
+    "why": "The drone is close and within view, so RLOS is intact. The problem is the reflected copies of the signal."
+   },
+   {
+    "text": "Weakening of received power from excessive distance",
+    "correct": false,
+    "why": "The distance is short. Weak received power is a range or battery/antenna problem."
+   }
+  ],
+  "source": "ITU-R P.1238 (indoor radio propagation and multipath); FAA AC 107-2A Appendix B.6.1; CAAS AC 101-4-1(5) UAPL theory syllabus 010 02 03"
+ },
+ {
+  "id": "GU-022",
+  "module": "General UAS Knowledge",
+  "topic": "Loss of link",
+  "difficulty": "hard",
+  "question": "Which practice best protects against loss of the C2 link?",
+  "options": [
+   {
+    "text": "Skip the pre-flight link check if the controller's rated range is long",
+    "correct": false,
+    "why": "Rated range is no guarantee. FAA and CAAS guidance call for checking the control link before flight."
+   },
+   {
+    "text": "Stay within radio range and line of sight, and check the link before flight",
+    "correct": true,
+    "why": "2.4 and 5.8 GHz links are line-of-sight and fail when barriers come between pilot and UA. Stay in range and in view, and verify the link first."
+   },
+   {
+    "text": "Fly between tall buildings, since reflections strengthen the signal",
+    "correct": false,
+    "why": "Reflections cause multipath, and dense buildings bring interference from other wireless signals. Both degrade the link."
+   },
+   {
+    "text": "Disable the fail-safe so the UA cannot act on its own if the link drops",
+    "correct": false,
+    "why": "The opposite: a lost-link strategy such as return-to-home or hover should be set and verified before flight."
+   }
+  ],
+  "source": "FAA AC 107-2A ch.5 (preflight checks) and Appendix B.6.1; CAAS AC 101-2-2 LC5-LC6 (link range and link-loss strategy)"
+ },
+ {
+  "id": "GU-023",
+  "module": "General UAS Knowledge",
+  "topic": "C2 links",
+  "difficulty": "hard",
+  "question": "Mid-flight, the FPV camera feed freezes, but the UA still responds normally to stick inputs and the telemetry (battery, altitude) keeps updating. Which of the three UAS links has failed?",
+  "options": [
+   {
+    "text": "Uplink control",
+    "correct": false,
+    "why": "Stick inputs are still obeyed, so the uplink is fine."
+   },
+   {
+    "text": "Downlink telemetry",
+    "correct": false,
+    "why": "Battery and altitude still update, so telemetry is fine."
+   },
+   {
+    "text": "Downlink payload",
+    "correct": true,
+    "why": "Video is payload data sent down from the UA. Commands still go up (uplink) and status data still comes down (telemetry), so only the payload downlink has failed."
+   },
+   {
+    "text": "All three, since they share one antenna",
+    "correct": false,
+    "why": "The symptoms show one link failing while the others keep working."
+   }
+  ],
+  "source": "CAAS AC 101-2-2 LC1 (uplink commands, downlink status data); FAA AC 107-2A Appendix B.6.2 (control link and real-time video downlink)"
+ },
+ {
+  "id": "GU-024",
+  "module": "General UAS Knowledge",
+  "topic": "RLOS / VLOS",
+  "difficulty": "hard",
+  "question": "A UA is flown 1.5 km out over open water. Its control link is direct point-to-point radio from the pilot's controller, with no network or satellite. The pilot can no longer see it with the naked eye. How is the operation classified?",
+  "options": [
+   {
+    "text": "BRLOS and BVLOS",
+    "correct": false,
+    "why": "BRLOS means the link goes via a satellite or terrestrial network instead of direct radio. This link is direct, so it is RLOS."
+   },
+   {
+    "text": "RLOS and VLOS",
+    "correct": false,
+    "why": "VLOS needs direct, unaided visual contact, and CAAS treats a UA more than 400 m away as BVLOS. Both conditions fail here."
+   },
+   {
+    "text": "BRLOS and VLOS",
+    "correct": false,
+    "why": "Wrong on both counts: the link is direct radio, and the aircraft is out of sight."
+   },
+   {
+    "text": "RLOS and BVLOS",
+    "correct": true,
+    "why": "The link is direct point-to-point radio (RLOS), but the aircraft is out of unaided view and beyond 400 m, so it is BVLOS."
+   }
+  ],
+  "source": "CAAS AC 101-2-2 para 2.1(a) BVLOS definition (direct, unaided visual contact; more than 400 m); BSI Flex 1903 vocabulary, 'radio line of sight' (https://future-flight.bsigroup.com/bsi-flex-1903-v1/v1-vocabulary/radio-line-of-sight-r73); ESA DeSIRE (BRLOS via satellite) (https://business.esa.int/projects/desire-ii)",
+  "note": "Radio and visual line of sight are classified independently."
+ },
+ {
+  "id": "GU-025",
+  "module": "General UAS Knowledge",
+  "topic": "VLOS",
+  "difficulty": "medium",
+  "question": "A pilot keeps watching his UA through 10× binoculars at about 350 m. Is this VLOS?",
+  "options": [
+   {
+    "text": "Yes: it is under 400 m, and distance is the only VLOS criterion.",
+    "correct": false,
+    "why": "Distance is not the only test. Visual contact must also be direct and unaided."
+   },
+   {
+    "text": "Yes: binoculars improve collision avoidance, so they are encouraged.",
+    "correct": false,
+    "why": "Binoculars narrow the field of view. FAA guidance allows them only momentarily; VLOS must be kept with unaided vision."
+   },
+   {
+    "text": "No: binoculars are not unaided vision, so this is BVLOS even within 400 m.",
+    "correct": true,
+    "why": "VLOS needs direct, unaided visual contact. Continuous binocular use is not unaided vision, so this is BVLOS even within 400 m."
+   },
+   {
+    "text": "Only if a visual observer also uses binoculars",
+    "correct": false,
+    "why": "Adding aided vision for an observer does not satisfy the unaided requirement."
+   }
+  ],
+  "source": "CAAS AC 101-2-2 para 2.1(a) BVLOS definition; FAA AC 107-2A para 5.9.1 (unaided vision; binoculars only momentarily)"
+ },
+ {
+  "id": "GU-026",
+  "module": "General UAS Knowledge",
+  "topic": "Headless mode",
+  "difficulty": "hard",
+  "question": "A drone takes off with its nose pointing directly away from the pilot. The pilot then yaws it 90° so the nose points to the pilot's LEFT. With headless mode ON, the pilot pushes the pitch stick forward. The drone moves:",
+  "options": [
+   {
+    "text": "To the pilot's left, in the direction the nose now points",
+    "correct": false,
+    "why": "That is what happens with headless mode OFF: forward follows the nose."
+   },
+   {
+    "text": "Toward the pilot",
+    "correct": false,
+    "why": "That would need pitch-back input relative to the take-off orientation."
+   },
+   {
+    "text": "It yaws back to its original heading first, then moves forward",
+    "correct": false,
+    "why": "Headless mode does not auto-yaw. It only remaps stick directions."
+   },
+   {
+    "text": "Directly away from the pilot (the original take-off 'forward')",
+    "correct": true,
+    "why": "Headless mode remembers the take-off orientation, so 'forward' stays the pilot's forward whatever the nose heading."
+   }
+  ],
+  "source": "Drone Launch Academy, 'What is headless mode on a drone' (https://dronelaunchacademy.com/resources/what-is-headless-mode-on-a-drone-how-to-use-it/); DJI Phantom-series user manuals, Intelligent Orientation Control: Course Lock"
+ },
+ {
+  "id": "GU-027",
+  "module": "General UAS Knowledge",
+  "topic": "LiPo voltages",
+  "difficulty": "medium",
+  "question": "For a single LiPo cell, which set of values is correct (full / nominal / minimum safe)?",
+  "options": [
+   {
+    "text": "4.2 V / 3.7 V / 3.0 V",
+    "correct": true,
+    "why": "Full charge 4.2 V, nominal 3.7 V, and 3.0 V is the minimum safe voltage. Going below it can damage the cell permanently."
+   },
+   {
+    "text": "3.7 V / 4.2 V / 3.25 V",
+    "correct": false,
+    "why": "Full and nominal are swapped, and 3.25 V is not the minimum safe voltage."
+   },
+   {
+    "text": "4.2 V / 3.8 V / 3.4 V",
+    "correct": false,
+    "why": "3.8 V is close to storage voltage, not nominal, and 3.4 V is not the minimum safe voltage."
+   },
+   {
+    "text": "5.0 V / 3.7 V / 2.5 V",
+    "correct": false,
+    "why": "A LiPo is never charged to 5.0 V (the maximum is 4.2 V), and 2.5 V is well below the 3.0 V critical limit."
+   }
+  ],
+  "source": "DroneBot Workshop, 'LiPo Battery Safety' (https://dronebotworkshop.com/lipo-safety/): nominal 3.7 V, full 4.2 V, minimum safe 3.0 V per cell",
+  "note": "Full 4.2 V, nominal 3.7 V, minimum 3.0 V per cell. '4.2 V per cell' means FULLY CHARGED."
+ },
+ {
+  "id": "GU-028",
+  "module": "General UAS Knowledge",
+  "topic": "LiPo voltages",
+  "difficulty": "medium",
+  "question": "A battery labelled 6S is fully charged. What should its pack voltage read?",
+  "options": [
+   {
+    "text": "22.2 V",
+    "correct": false,
+    "why": "That is the 6S NOMINAL voltage (6 × 3.7 V)."
+   },
+   {
+    "text": "24.0 V",
+    "correct": false,
+    "why": "That would be 4.0 V per cell, which is not a standard reference point."
+   },
+   {
+    "text": "19.5 V",
+    "correct": false,
+    "why": "That is 3.25 V per cell, a well-discharged pack, not a full one."
+   },
+   {
+    "text": "25.2 V",
+    "correct": true,
+    "why": "6 cells × 4.2 V = 25.2 V."
+   }
+  ],
+  "source": "DroneBot Workshop, 'LiPo Battery Safety' (https://dronebotworkshop.com/lipo-safety/) (6S: 22.2 V nominal, 25.2 V full)"
+ },
+ {
+  "id": "GU-029",
+  "module": "General UAS Knowledge",
+  "topic": "LiPo charging",
+  "difficulty": "hard",
+  "question": "An unlabelled LiPo has a balance plug with 7 wire connections. What series cell count and full-charge voltage should you program into the balance charger?",
+  "options": [
+   {
+    "text": "6S, 25.2 V",
+    "correct": true,
+    "why": "Cells = N − 1 connections = 7 − 1 = 6, and 6 × 4.2 V = 25.2 V."
+   },
+   {
+    "text": "7S, 29.4 V",
+    "correct": false,
+    "why": "Treats every connection as a cell. The balance lead has one more wire than there are cells."
+   },
+   {
+    "text": "6S, 22.2 V",
+    "correct": false,
+    "why": "The cell count is right, but 22.2 V is nominal. Charging targets 4.2 V per cell."
+   },
+   {
+    "text": "3S, 12.6 V",
+    "correct": false,
+    "why": "Halves the connection count. The rule is N − 1, so 4 connections would mean 3S."
+   }
+  ],
+  "source": "DroneBot Workshop, 'LiPo Battery Safety' (https://dronebotworkshop.com/lipo-safety/) (balance lead to each cell; charge to 4.2 V per cell); OZRC balance cable listings (2S = 3 pins, 3S = 4 pins, 6S = 7 pins) (https://ozrc.com.au/products/ozrc-extended-balance-cable-30cm-2s-3s-4s-6s-options)"
+ },
+ {
+  "id": "GU-030",
+  "module": "General UAS Knowledge",
+  "topic": "LiPo charging",
+  "difficulty": "medium",
+  "question": "A 2200 mAh LiPo shows no charge-rate marking. Using the usual safe default, what charge current should you set, and roughly how long will a full charge take?",
+  "options": [
+   {
+    "text": "4.4 A (2C), about 1 hour",
+    "correct": false,
+    "why": "2C is a fast-charge rate that must be marked on the pack. At 2C it would finish in about 30 min, not an hour."
+   },
+   {
+    "text": "2.2 A (1C), about 1 hour",
+    "correct": true,
+    "why": "With no rate shown, charge at 1C, i.e. current equal to capacity: 2.2 Ah → 2.2 A, finishing in about an hour."
+   },
+   {
+    "text": "22 A (10C), about 6 minutes",
+    "correct": false,
+    "why": "Far above any unmarked safe rate. This risks heat and fire."
+   },
+   {
+    "text": "0.22 A, about 1 hour",
+    "correct": false,
+    "why": "0.1C would take about 10 hours, not 1."
+   }
+  ],
+  "source": "DroneBot Workshop, 'LiPo Battery Safety' (https://dronebotworkshop.com/lipo-safety/) (safest charge current is 1C; quick-charge rates are marked as a C value)",
+  "note": "1C charge current in amps = capacity in Ah."
+ },
+ {
+  "id": "GU-031",
+  "module": "General UAS Knowledge",
+  "topic": "LiPo C-rating",
+  "difficulty": "hard",
+  "question": "A pack is labelled 1500 mAh 35C. What is the maximum continuous current that can safely be drawn, by the C-rating definition?",
+  "options": [
+   {
+    "text": "35 A",
+    "correct": false,
+    "why": "Ignores the capacity term. The C-rating is a multiple of capacity, not amps."
+   },
+   {
+    "text": "52.5 A",
+    "correct": true,
+    "why": "Max current = capacity (Ah) × C = 1.5 × 35 = 52.5 A."
+   },
+   {
+    "text": "1500 A",
+    "correct": false,
+    "why": "Mixes up the mAh number with amps."
+   },
+   {
+    "text": "5.25 A",
+    "correct": false,
+    "why": "A decimal slip: it uses 0.15 Ah instead of 1.5 Ah."
+   }
+  ],
+  "source": "DroneBot Workshop, 'LiPo Battery Safety' (https://dronebotworkshop.com/lipo-safety/) (C rating × capacity = maximum safe current)"
+ },
+ {
+  "id": "GU-032",
+  "module": "General UAS Knowledge",
+  "topic": "LiPo cell arrangement",
+  "difficulty": "hard",
+  "question": "A pack is built '3S2P' from identical 3.7 V, 2500 mAh cells. What are its nominal voltage and capacity?",
+  "options": [
+   {
+    "text": "11.1 V, 5000 mAh",
+    "correct": true,
+    "why": "Series cells set the voltage (3 × 3.7 V = 11.1 V). Parallel branches add capacity (2 × 2500 mAh)."
+   },
+   {
+    "text": "7.4 V, 7500 mAh",
+    "correct": false,
+    "why": "Swaps S and P: it treats 2 cells as series and 3 branches as parallel."
+   },
+   {
+    "text": "22.2 V, 2500 mAh",
+    "correct": false,
+    "why": "Treats all 6 cells as series and ignores the parallel branch."
+   },
+   {
+    "text": "11.1 V, 2500 mAh",
+    "correct": false,
+    "why": "Voltage is right, but it ignores the 2P: two parallel branches double the capacity."
+   }
+  ],
+  "source": "DroneBot Workshop, 'LiPo Battery Safety' (https://dronebotworkshop.com/lipo-safety/) (S = cells in series; P = parallel banks)",
+  "note": "S = voltage, P = capacity."
+ },
+ {
+  "id": "GU-033",
+  "module": "General UAS Knowledge",
+  "topic": "LiPo storage",
+  "difficulty": "medium",
+  "question": "You will not fly for three weeks. How should your LiPo packs be left?",
+  "options": [
+   {
+    "text": "Fully charged to 4.2 V per cell so they are ready to fly",
+    "correct": false,
+    "why": "LiPo safety guidance warns explicitly against storing a fully charged LiPo."
+   },
+   {
+    "text": "Fully discharged to 3.0 V per cell to minimise fire risk",
+    "correct": false,
+    "why": "3.0 V is the critical floor. Sitting there, cells can drift below it and be permanently damaged."
+   },
+   {
+    "text": "At storage voltage, about 3.8–3.85 V per cell, using the charger's storage function",
+    "correct": true,
+    "why": "LiPos should never be stored fully charged. Bring them to about 3.8–3.85 V per cell for storage."
+   },
+   {
+    "text": "At nominal 3.7 V, discharged by flying until the low-battery alarm",
+    "correct": false,
+    "why": "Close to storage level, but alarm-based landing gives no controlled, balanced storage voltage. The recommended value is 3.8–3.85 V."
+   }
+  ],
+  "source": "DroneBot Workshop, 'LiPo Battery Safety' (https://dronebotworkshop.com/lipo-safety/), Storage Voltage (3.8-3.85 V per cell; never store fully charged)"
+ },
+ {
+  "id": "GU-034",
+  "module": "General UAS Knowledge",
+  "topic": "Failsafe",
+  "difficulty": "hard",
+  "question": "A pilot will fly a 4S multi-rotor 1 km out over a reservoir in a strong headwind on the return leg. Their usual low-voltage RTH trigger is 13.6 V (3.4 V per cell). What should the pilot do?",
+  "options": [
+   {
+    "text": "Lower it to 13.0 V to gain more flight time on the outbound leg",
+    "correct": false,
+    "why": "This removes margin, and the return leg into wind needs MORE energy."
+   },
+   {
+    "text": "Raise the RTH trigger above 13.6 V to leave margin for the headwind return",
+    "correct": true,
+    "why": "A headwind cuts groundspeed on the way back, so the return takes longer and uses more energy. Raise the trigger to keep a margin."
+   },
+   {
+    "text": "Keep 13.6 V, because RTH settings are fixed limits",
+    "correct": false,
+    "why": "An RTH trigger is a planning setting, not a fixed limit. It should allow for distance and wind."
+   },
+   {
+    "text": "Set it to 12.0 V (3.0 V per cell), the critical voltage",
+    "correct": false,
+    "why": "3.0 V per cell is the minimum safe voltage. Planning to arrive there is unsafe."
+   }
+  ],
+  "source": "DroneBot Workshop, 'LiPo Battery Safety' (https://dronebotworkshop.com/lipo-safety/) (3.0 V per cell minimum; do not run a LiPo until it dies); FAA AC 107-2A ch.5 (return-to-home; check battery levels before flight)"
+ },
+ {
+  "id": "GU-035",
+  "module": "General UAS Knowledge",
+  "topic": "Damaged components",
+  "difficulty": "medium",
+  "question": "During pre-flight inspection you find the LiPo pack is slightly puffed (swollen) and the enclosure is out of shape. What is the correct decision?",
+  "options": [
+   {
+    "text": "Do not fly it: swelling or deformation means the pack has failed",
+    "correct": true,
+    "why": "A ballooned or deformed pack is damaged. It should not be charged or flown and is due for replacement."
+   },
+   {
+    "text": "Fly, but land at 50% to reduce stress",
+    "correct": false,
+    "why": "A swollen LiPo is already damaged. Limiting the flight does not make it safe."
+   },
+   {
+    "text": "Recharge it at 2C to restore the cell chemistry",
+    "correct": false,
+    "why": "Charging cannot reverse swelling. A damaged or ballooned LiPo should never be charged."
+   },
+   {
+    "text": "Press it back into shape and fly if the voltage reads normal",
+    "correct": false,
+    "why": "A normal voltage does not prove the pack is safe. Physical deformation is the failure indicator."
+   }
+  ],
+  "source": "DroneBot Workshop, 'LiPo Battery Safety' (https://dronebotworkshop.com/lipo-safety/) (never charge a ballooned LiPo; replace a ballooned pack); CAAS AC 101-4-1(5) UAPL theory syllabus 010 02 04 (bloated battery); FAA SAFO 09013 (lithium thermal runaway)"
+ }
+]

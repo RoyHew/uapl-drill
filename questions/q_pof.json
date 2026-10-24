@@ -1,0 +1,1067 @@
+[
+ {
+  "id": "PF-001",
+  "module": "Principles of Flight",
+  "topic": "Four forces",
+  "difficulty": "medium",
+  "question": "Which statement about the direction in which lift acts is correct?",
+  "options": [
+   {
+    "text": "Lift always acts straight up, directly opposite to gravity",
+    "correct": false,
+    "why": "That describes weight's line of action reversed. Lift follows the flight path, so in a climb or bank it is not vertical."
+   },
+   {
+    "text": "Lift acts perpendicular to the flight path, through the centre of lift",
+    "correct": true,
+    "why": "The PHAK defines lift as acting perpendicular to the flight path through the centre of lift, and perpendicular to the lateral axis."
+   },
+   {
+    "text": "Lift acts through the centre of gravity, parallel to the flight path",
+    "correct": false,
+    "why": "Weight acts through the CG. Thrust and drag act parallel to the flight path."
+   },
+   {
+    "text": "Lift acts along the chord line toward the trailing edge",
+    "correct": false,
+    "why": "That direction is closer to drag. Lift is perpendicular to the relative wind."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Forces Acting on the Aircraft)"
+ },
+ {
+  "id": "PF-002",
+  "module": "Principles of Flight",
+  "topic": "Angle of attack",
+  "difficulty": "medium",
+  "question": "Angle of attack (AOA) is the angle between:",
+  "options": [
+   {
+    "text": "The longitudinal axis and the horizon",
+    "correct": false,
+    "why": "That is pitch attitude. An aircraft can be nose-high with low AOA, or level with high AOA."
+   },
+   {
+    "text": "The camber line and the chord line",
+    "correct": false,
+    "why": "That describes camber (curvature), a shape property. It is not an angle to the airflow."
+   },
+   {
+    "text": "The chord line and the relative wind",
+    "correct": true,
+    "why": "AOA is the angle between the chord line of the wing and the relative wind. The chord line runs straight from leading edge to trailing edge."
+   },
+   {
+    "text": "The wing and the fuselage",
+    "correct": false,
+    "why": "That is closer to angle of incidence, a fixed rigging angle, not AOA."
+   }
+  ],
+  "source": "FAA-H-8083-3C Airplane Flying Handbook ch.5 (stall: AOA defined); FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5",
+  "note": "AOA is measured to the AIRFLOW, never to the horizon."
+ },
+ {
+  "id": "PF-003",
+  "module": "Principles of Flight",
+  "topic": "Lift generation",
+  "difficulty": "medium",
+  "question": "According to Bernoulli's principle as applied to a wing, what happens as the airflow over the curved upper surface speeds up?",
+  "options": [
+   {
+    "text": "Its pressure decreases, so the higher-pressure air below pushes the wing up",
+    "correct": true,
+    "why": "As fluid velocity increases, its pressure decreases. This lower pressure above the wing is a component of lift."
+   },
+   {
+    "text": "Its pressure increases, pushing the wing up from above",
+    "correct": false,
+    "why": "Reversed. Faster air has lower pressure."
+   },
+   {
+    "text": "Its density doubles, adding weight to the upper surface",
+    "correct": false,
+    "why": "At UA speeds air is treated as incompressible. Bernoulli is about pressure versus velocity, not density gain."
+   },
+   {
+    "text": "Its temperature drops to the dew point, forming lift-producing condensation",
+    "correct": false,
+    "why": "Condensation is a visible side effect sometimes seen, not the lift mechanism."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.4 (Bernoulli's Principle of Differential Pressure)",
+  "note": "Strictly it is the static pressure that falls; total pressure stays constant along the flow. The short answer is just 'pressure decreases'."
+ },
+ {
+  "id": "PF-004",
+  "module": "Principles of Flight",
+  "topic": "Lift and speed",
+  "difficulty": "hard",
+  "question": "A fixed-wing UA flies level at 20 m/s. With the same AOA and air density, it accelerates to 40 m/s. How does the lift change?",
+  "options": [
+   {
+    "text": "It doubles, because lift is directly proportional to speed",
+    "correct": false,
+    "why": "This is the near-miss trap. The lift equation uses V², not V."
+   },
+   {
+    "text": "It stays the same, because lift always equals weight",
+    "correct": false,
+    "why": "Lift equals weight only in steady level flight. At the same AOA and higher speed, lift exceeds weight and the UA climbs."
+   },
+   {
+    "text": "It halves, because faster air has lower pressure",
+    "correct": false,
+    "why": "This misapplies Bernoulli. Faster flow over the wing increases the pressure differential."
+   },
+   {
+    "text": "It quadruples, because lift varies with the square of velocity",
+    "correct": true,
+    "why": "L = ½ρV²S·CL, so doubling V quadruples lift. To stay level, the pilot must reduce AOA (lower the nose)."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (lift equation; double the speed gives four times the lift)",
+  "note": "Double the speed, four times the lift."
+ },
+ {
+  "id": "PF-005",
+  "module": "Principles of Flight",
+  "topic": "Lift and weight",
+  "difficulty": "medium",
+  "question": "A fixed-wing UA is loaded with a heavier payload. To maintain level flight, what must happen?",
+  "options": [
+   {
+    "text": "Thrust must be reduced so drag balances weight",
+    "correct": false,
+    "why": "Thrust and drag act along the flight path. Weight is balanced by lift, not drag."
+   },
+   {
+    "text": "AOA must be reduced to lower drag",
+    "correct": false,
+    "why": "Reducing AOA reduces lift. The aircraft would descend."
+   },
+   {
+    "text": "Lift must increase, by flying faster or at a higher angle of attack",
+    "correct": true,
+    "why": "In unaccelerated level flight lift = weight. More weight means more lift, from higher speed or higher AOA."
+   },
+   {
+    "text": "Nothing changes, because the CG stays in the same place",
+    "correct": false,
+    "why": "CG position affects balance and stability, but extra weight still has to be matched by extra lift."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (lift equals weight in steady level flight; lift varies with AOA and airspeed)"
+ },
+ {
+  "id": "PF-006",
+  "module": "Principles of Flight",
+  "topic": "Density and lift",
+  "difficulty": "hard",
+  "question": "A fixed-wing UA is flown on a hot, humid afternoon instead of a cool, dry morning at the same site. At a given AOA, what must the UA do to produce the same lift?",
+  "options": [
+   {
+    "text": "Fly slower, because humid air is heavier and gives more lift",
+    "correct": false,
+    "why": "This is the classic trap. Water vapour is lighter than dry air, so humid air is LESS dense."
+   },
+   {
+    "text": "Nothing, because density affects engines but not wings",
+    "correct": false,
+    "why": "Density appears directly in the lift equation (½ρV²S·CL)."
+   },
+   {
+    "text": "Fly at a greater true airspeed, because warm, moist air is less dense",
+    "correct": true,
+    "why": "The PHAK says lift varies directly with air density, and warm or moist air is less dense, so a greater true airspeed is needed for any given AOA."
+   },
+   {
+    "text": "Reduce AOA, because hot air increases the critical angle of attack",
+    "correct": false,
+    "why": "The critical AOA is fixed for a given wing. Reducing AOA would cut lift further."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Lift/Drag and density); FAA-G-8082-22 Remote Pilot sUAS Study Guide ch.3b",
+  "note": "Hot, high, humid = thin air = worse performance."
+ },
+ {
+  "id": "PF-007",
+  "module": "Principles of Flight",
+  "topic": "Drag",
+  "difficulty": "medium",
+  "question": "Under which condition is induced drag greatest?",
+  "options": [
+   {
+    "text": "High angle of attack at low airspeed",
+    "correct": true,
+    "why": "Induced drag is a by-product of lift. The PHAK says it is high at high AOA, which corresponds to low airspeed."
+   },
+   {
+    "text": "Low angle of attack at high airspeed",
+    "correct": false,
+    "why": "Here parasite drag dominates. Induced drag is low."
+   },
+   {
+    "text": "When the landing gear and camera gimbal are extended",
+    "correct": false,
+    "why": "Protruding items add parasite drag, not induced drag."
+   },
+   {
+    "text": "When the aircraft is on the ground with the motors off",
+    "correct": false,
+    "why": "No lift is being produced, so there is no induced drag."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Induced Drag; induced drag predominates at low speed)"
+ },
+ {
+  "id": "PF-008",
+  "module": "Principles of Flight",
+  "topic": "Drag",
+  "difficulty": "medium",
+  "question": "A UA designer adds an exposed camera pod and landing skids to a fixed-wing airframe. Which type of drag increases, and how does it vary with airspeed?",
+  "options": [
+   {
+    "text": "Induced drag, which increases with airspeed",
+    "correct": false,
+    "why": "Induced drag comes from lift production and is greatest at LOW speed. Protrusions do not create it."
+   },
+   {
+    "text": "Parasite drag, which decreases as airspeed increases",
+    "correct": false,
+    "why": "The type is right but the trend is reversed. Faster flight means more parasite drag."
+   },
+   {
+    "text": "Parasite drag, which increases roughly with the square of airspeed",
+    "correct": true,
+    "why": "Parasite drag comes from shape, construction and protrusions. The PHAK says it increases as the square of the airspeed."
+   },
+   {
+    "text": "Induced drag, which is constant at all speeds",
+    "correct": false,
+    "why": "Wrong on both counts: wrong type, and induced drag varies strongly with speed and AOA."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Parasite Drag)"
+ },
+ {
+  "id": "PF-009",
+  "module": "Principles of Flight",
+  "topic": "Ground effect",
+  "difficulty": "medium",
+  "question": "Per the PHAK, below roughly what height does ground effect become significant for a wing, and what is its main aerodynamic result?",
+  "options": [
+   {
+    "text": "Above about two wingspans; parasite drag is reduced",
+    "correct": false,
+    "why": "Far too high, and the wrong drag type. Even at one wingspan the induced-drag reduction is only about 1.4%."
+   },
+   {
+    "text": "Below about one wingspan; induced drag is reduced",
+    "correct": true,
+    "why": "The PHAK says ground effect is most realised below about one wingspan, where the ground restricts the vortices and downwash, cutting induced drag."
+   },
+   {
+    "text": "Below about one wingspan; induced drag increases",
+    "correct": false,
+    "why": "The height is right but the effect is reversed. Ground effect REDUCES induced drag."
+   },
+   {
+    "text": "Only at touchdown height (wheels on the ground); lift is lost",
+    "correct": false,
+    "why": "The effect starts well before touchdown and gives a cushioning or floating sensation, not a loss of lift."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Ground Effect)",
+  "note": "The PHAK adds: at 1/4 span induced drag falls about 23.5%, at 1/10 span about 47.6%."
+ },
+ {
+  "id": "PF-010",
+  "module": "Principles of Flight",
+  "topic": "Ground effect",
+  "difficulty": "hard",
+  "question": "A fixed-wing UA comes in to land slightly fast and enters ground effect at a constant AOA. What is the most likely result?",
+  "options": [
+   {
+    "text": "It sinks abruptly, because ground effect reduces lift",
+    "correct": false,
+    "why": "That is what happens when LEAVING ground effect. Entering it gives more lift at the same AOA."
+   },
+   {
+    "text": "It 'floats' a long distance, because lift rises and drag falls in ground effect",
+    "correct": true,
+    "why": "The PHAK says entering ground effect at constant AOA increases CL and reduces thrust required, so excess speed at the flare causes considerable float."
+   },
+   {
+    "text": "It stalls at a higher speed, because induced drag doubles",
+    "correct": false,
+    "why": "Induced drag DECREASES in ground effect."
+   },
+   {
+    "text": "Nothing changes, because ground effect applies only to rotorcraft",
+    "correct": false,
+    "why": "The PHAK describes ground effect on both wings and rotors."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Ground Effect)"
+ },
+ {
+  "id": "PF-011",
+  "module": "Principles of Flight",
+  "topic": "Ground effect",
+  "difficulty": "hard",
+  "question": "A heavily loaded fixed-wing UA lifts off early on a hot day and is held just above the runway. What is the correct technique before climbing out of ground effect?",
+  "options": [
+   {
+    "text": "Pull up sharply to leave ground effect as quickly as possible",
+    "correct": false,
+    "why": "Raising AOA at low speed out of ground effect is the classic sink or stall trap."
+   },
+   {
+    "text": "Build up airspeed in ground effect first, then climb away",
+    "correct": true,
+    "why": "The PHAK warns against forcing the aircraft airborne with too little speed. Leaving ground effect raises induced drag, and a slow UA may settle back."
+   },
+   {
+    "text": "Cut throttle, because ground effect will carry the UA up",
+    "correct": false,
+    "why": "Ground effect does not lift the UA higher. Without thrust it will decelerate and settle."
+   },
+   {
+    "text": "Climb at the same AOA, because leaving ground effect reduces induced drag",
+    "correct": false,
+    "why": "Reversed. Leaving ground effect INCREASES induced drag and thrust required."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Ground Effect, takeoff)"
+ },
+ {
+  "id": "PF-012",
+  "module": "Principles of Flight",
+  "topic": "Stall",
+  "difficulty": "medium",
+  "question": "What is the direct cause of an aerodynamic stall?",
+  "options": [
+   {
+    "text": "Flying below a fixed minimum airspeed",
+    "correct": false,
+    "why": "Stall speed varies with weight, load factor and more. A wing can stall at any airspeed if the critical AOA is exceeded."
+   },
+   {
+    "text": "Exceeding the critical angle of attack",
+    "correct": true,
+    "why": "A stall is airflow separating from the wing because the critical AOA has been exceeded."
+   },
+   {
+    "text": "Pitching the nose above the horizon",
+    "correct": false,
+    "why": "A stall can happen at any pitch attitude. AOA is what matters, not attitude."
+   },
+   {
+    "text": "Losing engine power",
+    "correct": false,
+    "why": "Power loss reduces thrust. The wing stalls only if the AOA is then pushed past critical, for example by holding the nose up."
+   }
+  ],
+  "source": "FAA-H-8083-3C Airplane Flying Handbook ch.5 (stall: AOA exceeds critical AOA); FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (same critical AOA regardless of airspeed)"
+ },
+ {
+  "id": "PF-013",
+  "module": "Principles of Flight",
+  "topic": "Stall",
+  "difficulty": "hard",
+  "question": "Which statement about critical angle of attack and stall speed is correct?",
+  "options": [
+   {
+    "text": "The critical AOA is constant, but the stall speed can change",
+    "correct": true,
+    "why": "The PHAK: an aircraft always stalls at the same critical AOA, but its stall speed is not fixed. Stall speed rises with weight and load factor."
+   },
+   {
+    "text": "Stall speed is fixed for each aircraft, but the critical AOA changes with altitude",
+    "correct": false,
+    "why": "Reversed. The near-miss is to treat stall speed as the constant."
+   },
+   {
+    "text": "Both change with airspeed",
+    "correct": false,
+    "why": "Critical AOA is a property of the wing and does not change with airspeed."
+   },
+   {
+    "text": "Neither changes, so a stall can only happen at one airspeed",
+    "correct": false,
+    "why": "This contradicts 'stall can occur at any pitch attitude, altitude or airspeed'."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Angle of Attack, stall); FAA-G-8082-22 Remote Pilot sUAS Study Guide ch.4 (Load Factors and Stalling Speeds)",
+  "note": "Fixed: critical AOA. Variable: stall speed."
+ },
+ {
+  "id": "PF-014",
+  "module": "Principles of Flight",
+  "topic": "Stall symptoms",
+  "difficulty": "medium",
+  "question": "Which of the following is NOT a stall cue described in FAA guidance?",
+  "options": [
+   {
+    "text": "Increased control authority and crisper roll response",
+    "correct": true,
+    "why": "The opposite is true: control effectiveness DROPS as the stall nears, including loss of roll authority."
+   },
+   {
+    "text": "Buffeting (vibration and shaking) of the structure",
+    "correct": false,
+    "why": "Listed. Separated, turbulent flow shakes the airframe (aerodynamic buffet)."
+   },
+   {
+    "text": "Inability to arrest the descent",
+    "correct": false,
+    "why": "Listed: an inability to arrest a descent is a stall cue."
+   },
+   {
+    "text": "Nose drop",
+    "correct": false,
+    "why": "Listed: an uncommanded nose-down pitch is typical of a stall."
+   }
+  ],
+  "source": "FAA-H-8083-3C Airplane Flying Handbook ch.5 (stall cues: buffet, loss of roll authority, inability to arrest a descent, uncommanded nose-down pitch)"
+ },
+ {
+  "id": "PF-015",
+  "module": "Principles of Flight",
+  "topic": "Stall recovery",
+  "difficulty": "hard",
+  "question": "A fixed-wing UA stalls in a climbing turn: buffeting, nose dropping, one wing low. What is the FIRST control action in the FAA stall recovery sequence?",
+  "options": [
+   {
+    "text": "Roll the wings level with aileron first",
+    "correct": false,
+    "why": "Rolling comes AFTER AOA is reduced. Aileron on a stalled wing can deepen the stall on the down-going side."
+   },
+   {
+    "text": "Add full power while holding back-pressure",
+    "correct": false,
+    "why": "Power without reducing AOA keeps the wing stalled. Thrust comes after the wings are levelled."
+   },
+   {
+    "text": "Pull back to raise the nose and stop the descent",
+    "correct": false,
+    "why": "This increases AOA further, which is the cause of the stall."
+   },
+   {
+    "text": "Pitch nose down to reduce the angle of attack",
+    "correct": true,
+    "why": "The FAA order: pitch nose down (and trim nose down), roll wings level, add thrust, retract speedbrakes/spoilers, return to the flight path. Reducing AOA breaks the stall."
+   }
+  ],
+  "source": "FAA-H-8083-3C Airplane Flying Handbook ch.5 (Stall Recovery)",
+  "note": "Unload first (nose down), then level, then power."
+ },
+ {
+  "id": "PF-016",
+  "module": "Principles of Flight",
+  "topic": "Spin",
+  "difficulty": "medium",
+  "question": "How does FAA guidance define a spin?",
+  "options": [
+   {
+    "text": "A steep spiral dive in which neither wing is stalled",
+    "correct": false,
+    "why": "A spiral dive is an unstalled, high-speed manoeuvre. A spin needs a stall."
+   },
+   {
+    "text": "A deliberate yaw manoeuvre of a multi-rotor using differential motor speeds",
+    "correct": false,
+    "why": "That is a multi-rotor yaw input, not an aerodynamic spin."
+   },
+   {
+    "text": "An aggravated stall in which the aircraft descends in a corkscrew path",
+    "correct": true,
+    "why": "The FAA calls a spin an aggravated stall with autorotation, in which the aircraft follows a downward corkscrew path. The nose yaws toward the lowering wing."
+   },
+   {
+    "text": "A stall in which both wings are equally stalled and the aircraft descends straight ahead",
+    "correct": false,
+    "why": "An equal stall on both wings gives a straight nose drop. The asymmetry is what makes the autorotation."
+   }
+  ],
+  "source": "FAA-H-8083-3C Airplane Flying Handbook ch.5 (Spin Awareness); FAA AC 61-67C Stall and Spin Awareness Training para 107"
+ },
+ {
+  "id": "PF-017",
+  "module": "Principles of Flight",
+  "topic": "Spin",
+  "difficulty": "hard",
+  "question": "In a developed spin, which description of the inside (lower) wing is correct?",
+  "options": [
+   {
+    "text": "It is less stalled, producing more lift, which rolls the aircraft out of the spin",
+    "correct": false,
+    "why": "That describes the OUTSIDE (rising) wing, and its extra lift does not roll the aircraft out of the spin."
+   },
+   {
+    "text": "It is unstalled, and only the outside wing is stalled",
+    "correct": false,
+    "why": "Reversed. The descending (inside) wing is the more stalled one."
+   },
+   {
+    "text": "It is at a lower AOA, producing less drag, which yaws the aircraft away from the spin",
+    "correct": false,
+    "why": "Reversed. The inside wing is the more stalled one, and the aircraft yaws toward the lowering wing."
+   },
+   {
+    "text": "It is more deeply stalled, with less lift and more drag, so it rolls and yaws the aircraft into the spin",
+    "correct": true,
+    "why": "The FAA: the rising wing is less stalled than the descending one. Past the critical AOA, more AOA means less lift and more drag, so the low wing keeps dropping and the nose yaws toward it."
+   }
+  ],
+  "source": "FAA AC 61-67C Stall and Spin Awareness Training para 107; FAA-H-8083-3C Airplane Flying Handbook ch.5 (Spin Awareness); FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (lift coefficient falls beyond the critical AOA)"
+ },
+ {
+  "id": "PF-018",
+  "module": "Principles of Flight",
+  "topic": "Spin phases",
+  "difficulty": "medium",
+  "question": "Which description of the spin phases matches FAA guidance?",
+  "options": [
+   {
+    "text": "Incipient: airspeed, descent rate and rotation are stable. Developed: the first turn after the stall.",
+    "correct": false,
+    "why": "The definitions are swapped."
+   },
+   {
+    "text": "Incipient: stall to fully developed spin. Developed: airspeed, descent rate and rotation are stable.",
+    "correct": true,
+    "why": "These are the FAA definitions. The incipient phase can take two to four turns in most airplanes; recovery can take a quarter turn to several turns."
+   },
+   {
+    "text": "Incipient: the recovery phase after anti-spin inputs. Fully developed: the stall itself.",
+    "correct": false,
+    "why": "Recovery is a separate third phase, and the stall comes before the incipient spin."
+   },
+   {
+    "text": "There is only one phase. Spins either happen fully or not at all.",
+    "correct": false,
+    "why": "The FAA names four phases: entry, incipient, developed and recovery."
+   }
+  ],
+  "source": "FAA-H-8083-3C Airplane Flying Handbook ch.5 (spin phases); FAA AC 61-67C Stall and Spin Awareness Training para 110"
+ },
+ {
+  "id": "PF-019",
+  "module": "Principles of Flight",
+  "topic": "Spin recovery",
+  "difficulty": "hard",
+  "question": "A fixed-wing UA enters a spin to the LEFT. Using the FAA's generic spin recovery steps, which set of inputs is correct?",
+  "options": [
+   {
+    "text": "Full power, left aileron, left rudder, full up elevator",
+    "correct": false,
+    "why": "Every input is wrong. This would hold or tighten a left spin."
+   },
+   {
+    "text": "Power to idle, right aileron, left rudder, elevator down",
+    "correct": false,
+    "why": "Aileron must be neutral, and the rudder must OPPOSE the spin (right, not left)."
+   },
+   {
+    "text": "Power to idle, ailerons neutral, RIGHT rudder, elevator forward/down",
+    "correct": true,
+    "why": "FAA steps: power to idle, ailerons neutral, full opposite rudder (right, for a left spin), then brisk forward elevator to break the stall."
+   },
+   {
+    "text": "Power to idle, ailerons neutral, right rudder, full up elevator",
+    "correct": false,
+    "why": "Up elevator increases AOA and keeps the wings stalled. Elevator must go forward/down."
+   }
+  ],
+  "source": "FAA-H-8083-3C Airplane Flying Handbook ch.5 (six-step spin recovery)",
+  "note": "Order: Power, Ailerons, Rudder, Elevator. Rudder OPPOSITE, elevator FORWARD."
+ },
+ {
+  "id": "PF-020",
+  "module": "Principles of Flight",
+  "topic": "Load factor",
+  "difficulty": "medium",
+  "question": "A fixed-wing UA makes a coordinated, constant-altitude turn at 60° bank. What is the load factor?",
+  "options": [
+   {
+    "text": "1 G",
+    "correct": false,
+    "why": "1 G is straight-and-level flight. Banking to hold altitude needs more lift."
+   },
+   {
+    "text": "1.4 G",
+    "correct": false,
+    "why": "About 1.4 G is the 45° bank value. Load factor rises steeply after 45°–50°."
+   },
+   {
+    "text": "6 G",
+    "correct": false,
+    "why": "The FAA notes that about 6 G (the aerobatic limit) is exceeded at slightly over 80° bank, not 60°."
+   },
+   {
+    "text": "2 G",
+    "correct": true,
+    "why": "The FAA guide: in a coordinated level turn at 60° bank, the load factor is 2 G for any aircraft."
+   }
+  ],
+  "source": "FAA-G-8082-22 Remote Pilot sUAS Study Guide ch.4 (Load Factors in Steep Turns)"
+ },
+ {
+  "id": "PF-021",
+  "module": "Principles of Flight",
+  "topic": "Load factor",
+  "difficulty": "hard",
+  "question": "A fixed-wing UA's normal (1 G) stall speed is 40 kt. The pilot holds a level 60° bank turn. Roughly what is its stall speed now?",
+  "options": [
+   {
+    "text": "80 kt, double the 1 G value because load factor doubled",
+    "correct": false,
+    "why": "Uses load factor directly instead of its square root. A doubled stall speed needs 4 G."
+   },
+   {
+    "text": "40 kt, because stall speed depends only on the wing",
+    "correct": false,
+    "why": "Stall speed varies with load factor. Only the critical AOA is fixed."
+   },
+   {
+    "text": "About 28 kt, because banking reduces the effective weight",
+    "correct": false,
+    "why": "Banking INCREASES the effective load on the wing, so stall speed goes up, not down."
+   },
+   {
+    "text": "About 57 kt, because stall speed rises with √(load factor)",
+    "correct": true,
+    "why": "60° bank gives 2 G, and stall speed increases in proportion to √(load factor): 40 × 1.414 ≈ 57 kt."
+   }
+  ],
+  "source": "FAA-G-8082-22 Remote Pilot sUAS Study Guide ch.4 (Load Factors and Stalling Speeds)",
+  "note": "FAA example: 50 kt stall × √4 G = 100 kt."
+ },
+ {
+  "id": "PF-022",
+  "module": "Principles of Flight",
+  "topic": "Static stability",
+  "difficulty": "medium",
+  "question": "After a gust pitches a UA nose-up, it simply stays at the new nose-up attitude with no tendency to return or diverge. This is:",
+  "options": [
+   {
+    "text": "Neutral static stability",
+    "correct": true,
+    "why": "Neutral static stability is the initial tendency to remain in the new condition after disturbance."
+   },
+   {
+    "text": "Positive static stability",
+    "correct": false,
+    "why": "Positive static stability would show an initial tendency to RETURN toward the original attitude."
+   },
+   {
+    "text": "Negative static stability",
+    "correct": false,
+    "why": "Negative static stability would show a tendency to continue AWAY from equilibrium."
+   },
+   {
+    "text": "Positive dynamic stability",
+    "correct": false,
+    "why": "Dynamic stability describes the response over time (oscillations). It needs an initial tendency to return first."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Static Stability)"
+ },
+ {
+  "id": "PF-023",
+  "module": "Principles of Flight",
+  "topic": "Dynamic stability",
+  "difficulty": "hard",
+  "question": "After a disturbance, a UA's nose immediately starts back toward level, overshoots, and then oscillates up and down with increasing amplitude. How is this classified?",
+  "options": [
+   {
+    "text": "Negative static stability with positive dynamic stability",
+    "correct": false,
+    "why": "The initial tendency is to return, so it is not negative static. Growing oscillations are not positive dynamic."
+   },
+   {
+    "text": "Neutral static stability with neutral dynamic stability",
+    "correct": false,
+    "why": "Neutral static would mean staying at the disturbed attitude. Neutral dynamic would mean constant amplitude."
+   },
+   {
+    "text": "Positive static stability with negative dynamic stability",
+    "correct": true,
+    "why": "The initial tendency is to return (positive static), but over time the oscillation diverges (negative dynamic). The PHAK figure shows divergent oscillation under positive static stability."
+   },
+   {
+    "text": "Positive static stability with positive dynamic stability",
+    "correct": false,
+    "why": "Positive dynamic needs DECREASING amplitude, the ideal case. This one grows."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Static and Dynamic Stability, Fig 5-22)",
+  "note": "Static = first move. Dynamic = what happens over time."
+ },
+ {
+  "id": "PF-024",
+  "module": "Principles of Flight",
+  "topic": "Stability axes",
+  "difficulty": "hard",
+  "question": "Longitudinal stability is stability about which axis, and which control mainly acts about that axis?",
+  "options": [
+   {
+    "text": "The lateral axis (pitch), controlled by the elevator",
+    "correct": true,
+    "why": "Longitudinal stability means pitch stability about the LATERAL axis. The elevator controls pitch."
+   },
+   {
+    "text": "The longitudinal axis (roll), controlled by the ailerons",
+    "correct": false,
+    "why": "This is the name trap: roll about the longitudinal axis is LATERAL stability."
+   },
+   {
+    "text": "The vertical axis (yaw), controlled by the rudder",
+    "correct": false,
+    "why": "Yaw stability is directional stability."
+   },
+   {
+    "text": "The lateral axis (pitch), controlled by the rudder",
+    "correct": false,
+    "why": "The axis is right, but the rudder acts about the vertical axis."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Longitudinal stability); FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.6 Fig 6-4",
+  "note": "Longitudinal stability = pitch, about the lateral axis. Name and axis are 'crossed'."
+ },
+ {
+  "id": "PF-025",
+  "module": "Principles of Flight",
+  "topic": "CG and CP",
+  "difficulty": "medium",
+  "question": "Why do designers usually place the CG forward of the centre of pressure (CP)?",
+  "options": [
+   {
+    "text": "It creates a nose-up tendency that reduces stall speed",
+    "correct": false,
+    "why": "A CP forward of the CG gives nose-up. A forward CG actually RAISES stall speed."
+   },
+   {
+    "text": "It makes the aircraft cruise faster through lower drag",
+    "correct": false,
+    "why": "Faster cruise comes with an AFT CG, at the cost of stability."
+   },
+   {
+    "text": "Its nose-down tendency, balanced by tail downforce, adds stability",
+    "correct": true,
+    "why": "The PHAK: aircraft are built with the centre of pressure aft of the CG, which makes them nose-heavy. Tail downforce balances this and adds longitudinal stability."
+   },
+   {
+    "text": "It removes the need for a horizontal stabiliser",
+    "correct": false,
+    "why": "The opposite: the tail must provide the balancing downforce."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Longitudinal stability; Effect of load distribution)"
+ },
+ {
+  "id": "PF-026",
+  "module": "Principles of Flight",
+  "topic": "CG effects",
+  "difficulty": "hard",
+  "question": "A payload is mounted far forward on a fixed-wing UA, moving the CG forward (still within limits). Which set of effects is correct?",
+  "options": [
+   {
+    "text": "Less stable, lower stall speed, lighter elevator forces",
+    "correct": false,
+    "why": "These are all aft-CG tendencies (an aft CG slightly lowers stall speed). A forward CG does the opposite on every count."
+   },
+   {
+    "text": "More stable, lower stall speed, faster cruise",
+    "correct": false,
+    "why": "Forward CG means a higher stall speed and slower cruise, because more tail downforce adds drag."
+   },
+   {
+    "text": "No change, as long as the total weight is the same",
+    "correct": false,
+    "why": "CG position changes the balance, tail load and stall speed even at constant weight."
+   },
+   {
+    "text": "More stable, higher stall speed, higher elevator forces needed",
+    "correct": true,
+    "why": "The PHAK: forward CG stalls at a higher speed (increased wing loading), needs more elevator force, and may lack the nose-up authority to flare."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Effect of load distribution) and ch.3 Fig 3-3"
+ },
+ {
+  "id": "PF-027",
+  "module": "Principles of Flight",
+  "topic": "CG effects",
+  "difficulty": "hard",
+  "question": "Why is an aft CG especially dangerous for stall and spin recovery on a fixed-wing UA?",
+  "options": [
+   {
+    "text": "It reduces stability, and the elevator may lack the nose-down authority to reduce the AOA",
+    "correct": true,
+    "why": "The PHAK: stall recovery gets harder as the CG moves aft, with too little nose-down elevator to recover. Far aft, a flat spin can develop that is impossible to recover from."
+   },
+   {
+    "text": "It raises the stall speed so much that the UA cannot reach it",
+    "correct": false,
+    "why": "An aft CG slightly lowers stall speed. The hazard is lost stability and control, not a high stall speed."
+   },
+   {
+    "text": "It makes the nose too heavy to raise for the flare",
+    "correct": false,
+    "why": "That is the FORWARD-CG problem."
+   },
+   {
+    "text": "It increases tail downforce, making the aircraft too stable to manoeuvre",
+    "correct": false,
+    "why": "An aft CG REDUCES the required tail downforce and stability."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Effect of load distribution) and ch.3 Fig 3-3"
+ },
+ {
+  "id": "PF-028",
+  "module": "Principles of Flight",
+  "topic": "Weight effects",
+  "difficulty": "medium",
+  "question": "A fixed-wing UA's payload weight is reduced (all else equal). Which effect is expected?",
+  "options": [
+   {
+    "text": "Stall speed increases because the wing loading is lower",
+    "correct": false,
+    "why": "Lower wing loading LOWERS the stall speed."
+   },
+   {
+    "text": "Rate of climb decreases because there is less inertia",
+    "correct": false,
+    "why": "Lighter aircraft have more excess thrust/power, so the climb rate improves."
+   },
+   {
+    "text": "Nothing changes, because only CG position affects performance",
+    "correct": false,
+    "why": "Weight itself strongly affects performance, as the FAA guide's list shows."
+   },
+   {
+    "text": "Manoeuvrability improves, and stall speed and take-off distance decrease",
+    "correct": true,
+    "why": "The FAA lists reduced manoeuvrability, higher stall speed and a longer take-off run as overloading penalties. Reducing weight reverses them."
+   }
+  ],
+  "source": "FAA-G-8082-22 Remote Pilot sUAS Study Guide ch.4 (Effects of Weight)"
+ },
+ {
+  "id": "PF-029",
+  "module": "Principles of Flight",
+  "topic": "Control surfaces",
+  "difficulty": "medium",
+  "question": "Which control surface / axis / motion combination is correct?",
+  "options": [
+   {
+    "text": "Ailerons → longitudinal axis → roll",
+    "correct": true,
+    "why": "Ailerons near the wingtips deflect opposite to each other to roll the aircraft about the longitudinal axis."
+   },
+   {
+    "text": "Elevator → vertical axis → yaw",
+    "correct": false,
+    "why": "The elevator pitches the aircraft about the LATERAL axis."
+   },
+   {
+    "text": "Rudder → lateral axis → pitch",
+    "correct": false,
+    "why": "The rudder yaws the aircraft about the VERTICAL axis."
+   },
+   {
+    "text": "Ailerons → lateral axis → pitch",
+    "correct": false,
+    "why": "Wrong axis: ailerons give roll about the longitudinal axis."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.6 (Primary Flight Controls, Fig 6-4)",
+  "note": "Roll-Long-Aileron, Pitch-Lateral-Elevator, Yaw-Vertical-Rudder."
+ },
+ {
+  "id": "PF-030",
+  "module": "Principles of Flight",
+  "topic": "Control surfaces",
+  "difficulty": "medium",
+  "question": "When the elevator is deflected UP on a conventional fixed-wing UA, what happens?",
+  "options": [
+   {
+    "text": "It creates a downforce on the tail, pitching the nose up",
+    "correct": true,
+    "why": "Up elevator creates a downward aerodynamic force on the tail, and the nose pitches up about the lateral axis."
+   },
+   {
+    "text": "It creates extra lift on the tail, pitching the nose up",
+    "correct": false,
+    "why": "The nose-up result is right, but the mechanism is reversed. Up elevator gives tail DOWNforce."
+   },
+   {
+    "text": "It pitches the nose down about the lateral axis",
+    "correct": false,
+    "why": "That is down elevator."
+   },
+   {
+    "text": "It yaws the aircraft about the vertical axis",
+    "correct": false,
+    "why": "Yaw is the rudder's job."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.6 (Elevator)"
+ },
+ {
+  "id": "PF-031",
+  "module": "Principles of Flight",
+  "topic": "Control surfaces",
+  "difficulty": "medium",
+  "question": "To roll a fixed-wing UA to the RIGHT, how do the ailerons deflect?",
+  "options": [
+   {
+    "text": "Left aileron up, right aileron down",
+    "correct": false,
+    "why": "This rolls the aircraft to the LEFT."
+   },
+   {
+    "text": "Left aileron down, right aileron up",
+    "correct": true,
+    "why": "The down-going left aileron increases lift on the left wing and the up-going right aileron reduces lift on the right wing, so the aircraft rolls right."
+   },
+   {
+    "text": "Both ailerons down together",
+    "correct": false,
+    "why": "Both surfaces moving down together is how flaps work: more lift, no roll."
+   },
+   {
+    "text": "Both ailerons up together",
+    "correct": false,
+    "why": "Symmetric deflection gives no rolling moment."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.6 (Ailerons)",
+  "note": "Aileron goes UP on the side you want to roll toward."
+ },
+ {
+  "id": "PF-032",
+  "module": "Principles of Flight",
+  "topic": "Adverse yaw",
+  "difficulty": "hard",
+  "question": "A pilot rolls a fixed-wing UA into a left turn using ailerons only, with no rudder. The nose briefly yaws to the RIGHT. Why, and what corrects it?",
+  "options": [
+   {
+    "text": "Torque reaction from the propeller; correct with right aileron",
+    "correct": false,
+    "why": "Torque reaction is a separate left-turning tendency, and aileron does not correct yaw."
+   },
+   {
+    "text": "Ground effect; correct by climbing",
+    "correct": false,
+    "why": "Ground effect concerns height above the surface, not yaw in a turn."
+   },
+   {
+    "text": "Adverse yaw from the lowered (left) wing having more drag; correct with right rudder",
+    "correct": false,
+    "why": "Wrong wing and wrong rudder. The RAISED wing has the down aileron, more lift and more drag, so the correction is rudder INTO the turn."
+   },
+   {
+    "text": "Adverse yaw from the raised (right) wing's down-going aileron adding induced drag; correct with left rudder",
+    "correct": true,
+    "why": "The PHAK: adverse yaw comes from the extra lift and induced drag on the raised wing, which pulls the nose right. It is countered with rudder in the direction of the turn (left)."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.6 (Adverse Yaw)"
+ },
+ {
+  "id": "PF-033",
+  "module": "Principles of Flight",
+  "topic": "Multi-rotor yaw",
+  "difficulty": "hard",
+  "question": "To yaw a quadcopter to the RIGHT (clockwise, viewed from above), what does the flight controller do?",
+  "options": [
+   {
+    "text": "Increase RPM of the clockwise motors and decrease the counter-clockwise ones",
+    "correct": false,
+    "why": "This is the intuitive trap. Speeding up CW props makes the frame react COUNTER-clockwise (left yaw)."
+   },
+   {
+    "text": "Increase RPM of the counter-clockwise (CCW) motors and decrease RPM of the clockwise (CW) motors",
+    "correct": true,
+    "why": "The unbalanced CCW angular momentum makes the airframe react by rotating clockwise. Total lift stays about the same, so altitude holds."
+   },
+   {
+    "text": "Increase RPM of the left-side motors and decrease the right-side ones",
+    "correct": false,
+    "why": "Side-to-side differential RPM ROLLS the aircraft about its longitudinal axis."
+   },
+   {
+    "text": "Increase RPM of all motors equally",
+    "correct": false,
+    "why": "A collective RPM change makes the multi-rotor climb or descend, with heading roughly constant."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.5 (Torque Reaction: Newton's third law)",
+  "note": "Body turns OPPOSITE to the props you speed up (torque reaction)."
+ },
+ {
+  "id": "PF-034",
+  "module": "Principles of Flight",
+  "topic": "Trim",
+  "difficulty": "medium",
+  "question": "During a calm-air hover test, a multi-rotor steadily drifts FORWARD with the sticks centred. What trim adjustment should you make?",
+  "options": [
+   {
+    "text": "Pitch trim, in the forward direction",
+    "correct": false,
+    "why": "That would make the forward drift worse."
+   },
+   {
+    "text": "Pitch trim, in the aft (backward) direction",
+    "correct": true,
+    "why": "Trim opposite to the drift: a forward drift is corrected by trimming aft on the pitch trim."
+   },
+   {
+    "text": "Yaw trim to the left",
+    "correct": false,
+    "why": "Yaw trim corrects spinning left or right, not forward drift."
+   },
+   {
+    "text": "Throttle trim downward",
+    "correct": false,
+    "why": "Throttle trim corrects ascent or descent sensitivity, not horizontal drift."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.6 (Trim Systems); Droneblog, 'How to Trim Your Drone' (https://www.droneblog.com/how-to-trim-your-drone-find-the-answer-here/)",
+  "note": "Trim OPPOSITE to the drift."
+ },
+ {
+  "id": "PF-035",
+  "module": "Principles of Flight",
+  "topic": "Trim tab",
+  "difficulty": "medium",
+  "question": "On a manned-style fixed-wing aircraft, how does a trim tab hold the elevator in the required position without pilot pressure?",
+  "options": [
+   {
+    "text": "The tab deflects in the SAME direction as the primary control surface",
+    "correct": false,
+    "why": "That would add to the control force, not relieve it."
+   },
+   {
+    "text": "The tab locks the elevator mechanically in place",
+    "correct": false,
+    "why": "Trim tabs are aerodynamic surfaces, not mechanical locks."
+   },
+   {
+    "text": "The tab deflects OPPOSITE to the way the elevator must be held",
+    "correct": true,
+    "why": "Elevator trim tabs move opposite to the control surface, and airflow on the tab holds the elevator in place. Small UA usually trim via the transmitter instead."
+   },
+   {
+    "text": "The tab moves the CG forward or aft",
+    "correct": false,
+    "why": "CG correction is a separate trimming method. The tab itself does not shift weight."
+   }
+  ],
+  "source": "FAA-H-8083-25C Pilot's Handbook of Aeronautical Knowledge ch.6 (Trim Systems, Fig 6-20)"
+ }
+]

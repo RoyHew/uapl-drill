@@ -1,0 +1,1227 @@
+[
+ {
+  "id": "NM-001",
+  "module": "Navigation & Meteorology",
+  "topic": "Time zones",
+  "difficulty": "medium",
+  "question": "Using the rule that each 15 degrees of longitude equals one hour of time, what time offset would Singapore's longitude (about 103.8 degrees E) suggest, and what does Singapore actually use?",
+  "options": [
+   {
+    "text": "About UTC+7 by longitude, but Singapore keeps UTC+8 by law",
+    "correct": true,
+    "why": "103.8 / 15 = 6.9, so roughly UTC+7 by sun position; Singapore Standard Time is set politically at UTC+8."
+   },
+   {
+    "text": "About UTC+8 by longitude, and Singapore uses UTC+8",
+    "correct": false,
+    "why": "120 degrees E would give UTC+8. Singapore is about 16 degrees west of that."
+   },
+   {
+    "text": "About UTC+6 by longitude, but Singapore uses UTC+7",
+    "correct": false,
+    "why": "103.8/15 is about 6.9, which rounds to 7, not 6. Singapore does not use UTC+7."
+   },
+   {
+    "text": "About UTC-7 by longitude because it is east of Greenwich",
+    "correct": false,
+    "why": "Places east of the Prime Meridian are AHEAD of UTC (plus), not behind it."
+   }
+  ],
+  "source": "FAA PHAK ch.16 (Time Zones: the Earth turns 15 degrees an hour); Singapore Standard Time = UTC+8",
+  "note": "East = plus (ahead). Divide longitude by 15."
+ },
+ {
+  "id": "NM-002",
+  "module": "Navigation & Meteorology",
+  "topic": "UTM",
+  "difficulty": "hard",
+  "question": "UTM divides the Earth into longitude zones. How many zones are there, how wide is each, and which zone contains Singapore (about 103.8 degrees E)?",
+  "options": [
+   {
+    "text": "24 zones of 15 degrees each, matching the time zones; Singapore is in zone 8",
+    "correct": false,
+    "why": "15-degree bands are the time-zone rule, not UTM. UTM uses 60 narrower zones of 6 degrees."
+   },
+   {
+    "text": "60 zones of 6 degrees each; Singapore is in zone 17",
+    "correct": false,
+    "why": "Zone numbering starts at 180 degrees W, not at Greenwich. 103.8 E gives zone 48."
+   },
+   {
+    "text": "36 zones of 10 degrees each; Singapore is in zone 29",
+    "correct": false,
+    "why": "UTM uses 6-degree zones, not 10. There are 60 zones."
+   },
+   {
+    "text": "60 zones of 6 degrees each; Singapore is in zone 48",
+    "correct": true,
+    "why": "Zone = floor((103.8 + 180) / 6) + 1 = 48. 60 x 6 degrees = 360 degrees."
+   }
+  ],
+  "source": "UTM zone definition (USGS): 60 zones of 6 degrees, numbered eastward from 180 degrees W; AC 101-4-1(5) LO 040 01 01",
+  "note": "6 x 60 = 360. Count from the date line."
+ },
+ {
+  "id": "NM-003",
+  "module": "Navigation & Meteorology",
+  "topic": "GNSS constellations",
+  "difficulty": "medium",
+  "question": "A study card says 'there are 24 GPS satellites'. Which statement is the most accurate?",
+  "options": [
+   {
+    "text": "Exactly 24 satellites exist and there are no spares",
+    "correct": false,
+    "why": "The constellation has more than 24. GPS.gov says the Space Force has flown 31 operational satellites for over a decade. 24 is the minimum commitment."
+   },
+   {
+    "text": "24 satellites in geostationary orbit over the Equator",
+    "correct": false,
+    "why": "GPS satellites are in medium Earth orbit (about 20,200 km altitude, roughly 12-hour period), not geostationary."
+   },
+   {
+    "text": "24 is the guaranteed minimum; about 31 operational satellites are in orbit",
+    "correct": true,
+    "why": "GPS.gov: the US commits to at least 24 operational satellites 95% of the time, in six planes of four slots, and there were 31 operational satellites as of July 2023."
+   },
+   {
+    "text": "24 satellites shared between GPS, GLONASS, Galileo and BeiDou combined",
+    "correct": false,
+    "why": "24 is the GPS-only baseline. Each GNSS has its own separate constellation."
+   }
+  ],
+  "source": "GPS.gov Space Segment (https://www.gps.gov/space-segment); FAA PHAK ch.16 (baseline constellation of 24)",
+  "note": "24 = design minimum. 31 = what is actually up there."
+ },
+ {
+  "id": "NM-004",
+  "module": "Navigation & Meteorology",
+  "topic": "GNSS constellations",
+  "difficulty": "medium",
+  "question": "Which pairing of GNSS constellation and operator is WRONG?",
+  "options": [
+   {
+    "text": "GLONASS - Russia",
+    "correct": false,
+    "why": "Correct pairing: GLONASS is Russia's Globalnaya Navigatsionnaya Sputnikovaya Sistema."
+   },
+   {
+    "text": "BeiDou - China",
+    "correct": false,
+    "why": "Correct pairing: BeiDou is the Chinese system."
+   },
+   {
+    "text": "GPS - United States",
+    "correct": false,
+    "why": "Correct pairing: GPS is operated by the United States."
+   },
+   {
+    "text": "Galileo - China",
+    "correct": true,
+    "why": "Galileo belongs to the European Union. China operates BeiDou."
+   }
+  ],
+  "source": "GPS.gov Other Global Navigation Satellite Systems (GNSS); AC 101-4-1(5) LO 040 01 03"
+ },
+ {
+  "id": "NM-005",
+  "module": "Navigation & Meteorology",
+  "topic": "GNSS principles",
+  "difficulty": "hard",
+  "question": "What does a GNSS receiver actually measure to find each pseudorange, and why is a minimum of four satellites needed for a position fix?",
+  "options": [
+   {
+    "text": "The angle to each satellite; four are needed because triangulation needs four angles",
+    "correct": false,
+    "why": "GNSS ranges by timing, not angles. Position comes from several measured ranges (trilateration), not from angle triangulation."
+   },
+   {
+    "text": "Signal strength, which drops with distance; four satellites average out the noise",
+    "correct": false,
+    "why": "Signal strength is not the ranging observable. Ranges come from travel time."
+   },
+   {
+    "text": "The Doppler shift of each satellite; four are needed to cover the four compass quadrants",
+    "correct": false,
+    "why": "Position comes from timed ranges, and the four-satellite minimum has nothing to do with compass quadrants."
+   },
+   {
+    "text": "Signal travel time; four are needed for x, y, z and the receiver's clock error",
+    "correct": true,
+    "why": "The FAA describes each receiver measurement as a pseudorange. Four satellites are needed because the receiver solves three position coordinates plus time, which GPS.gov calls the 'fourth dimension'."
+   }
+  ],
+  "source": "FAA PHAK ch.16 (GPS: pseudorange; minimum of four satellites for a three-dimensional position); GPS.gov 'GPS and Telling Time'; AC 101-4-1(5) LO 040 01 02",
+  "note": "3 for x-y-z + 1 for the clock = 4."
+ },
+ {
+  "id": "NM-006",
+  "module": "Navigation & Meteorology",
+  "topic": "GNSS errors",
+  "difficulty": "medium",
+  "question": "In the GPS error budget for a single-frequency receiver (GPS SPS Performance Standard), which source contributes the LARGEST typical error?",
+  "options": [
+   {
+    "text": "Satellite clock and orbit data (a few metres)",
+    "correct": false,
+    "why": "With fresh navigation data these are a few metres or less, well below the ionospheric figure."
+   },
+   {
+    "text": "Multipath (about 2.4 m)",
+    "correct": false,
+    "why": "The budget lists multipath at 2.4 m, well below the ionosphere."
+   },
+   {
+    "text": "Ionospheric delay (about 10-20 m)",
+    "correct": true,
+    "why": "For single-frequency receivers, the GPS SPS Performance Standard lists the ionospheric delay model error at 9.8-19.6 m, the largest single entry."
+   },
+   {
+    "text": "Tropospheric delay (about 3.9 m)",
+    "correct": false,
+    "why": "The troposphere is listed at 3.9 m."
+   }
+  ],
+  "source": "GPS Standard Positioning Service Performance Standard, 5th ed. (2020), via GPS.gov, Table A.4-2 (SF L1 C/A-code UERE budget)",
+  "note": "Single-frequency budget (95%): ionosphere about 10-20 m, troposphere 3.9, receiver noise 2.9, multipath 2.4."
+ },
+ {
+  "id": "NM-007",
+  "module": "Navigation & Meteorology",
+  "topic": "GNSS errors",
+  "difficulty": "hard",
+  "question": "An RTK base station and a drone rover are 2 km apart. Which error is the base-rover correction LEAST able to remove?",
+  "options": [
+   {
+    "text": "Satellite clock error in the broadcast signal",
+    "correct": false,
+    "why": "The same satellite clock error affects both receivers equally, so the differential correction cancels it."
+   },
+   {
+    "text": "Ionospheric delay over the area",
+    "correct": false,
+    "why": "Over a short 2 km baseline both receivers see almost the same ionospheric delay, so most of it cancels."
+   },
+   {
+    "text": "Multipath from a glass tower next to the drone",
+    "correct": true,
+    "why": "Differential correction removes errors the base and rover share. The GPS error budget lists multipath as a user-segment error caused by reflections at each antenna, so the base cannot see or cancel the rover's multipath."
+   },
+   {
+    "text": "Orbit (ephemeris) error in the broadcast data",
+    "correct": false,
+    "why": "Both receivers use the same broadcast orbit, so the error is common to both and largely cancels."
+   }
+  ],
+  "source": "GPS Standard Positioning Service Performance Standard, 5th ed. (2020), via GPS.gov, Tables A.4-1 and A.4-2 (multipath is a user-segment error); GPS.gov GPS Accuracy (signals reflected off buildings); AC 101-4-1(5) LO 040 01 03 (RTK)",
+  "note": "Differential corrections fix SHARED errors. Multipath is local to each antenna."
+ },
+ {
+  "id": "NM-008",
+  "module": "Navigation & Meteorology",
+  "topic": "DOP",
+  "difficulty": "medium",
+  "question": "During a pre-flight check your GNSS app shows HDOP 1.5 with 14 satellites. Next to tall buildings it shows HDOP 8 with 6 satellites. How should you read this?",
+  "options": [
+   {
+    "text": "8 is better because a higher DOP means higher precision",
+    "correct": false,
+    "why": "It is the reverse. A lower DOP means better satellite geometry and smaller position error."
+   },
+   {
+    "text": "Both are fine because the minimum of 4 satellites is met",
+    "correct": false,
+    "why": "Four satellites is only the minimum for a fix. With DOP 8 the geometry still degrades accuracy."
+   },
+   {
+    "text": "1.5 is good geometry; 8 is poor, so position error is larger",
+    "correct": true,
+    "why": "DOP measures satellite geometry, and lower is better. The GPS performance standard is built around a PDOP of 6 or less, so 8 is poor geometry and larger position error."
+   },
+   {
+    "text": "DOP only matters for manned aircraft, not drones",
+    "correct": false,
+    "why": "DOP is a property of satellite geometry and affects every GNSS receiver, including a UA's."
+   }
+  ],
+  "source": "GPS Standard Positioning Service Performance Standard, 5th ed. (2020), via GPS.gov, section 3.8.1 (PDOP of 6 or less); GPS.gov GPS Accuracy (satellite geometry; blockage near buildings); AC 101-4-1(5) LO 040 01 02"
+ },
+ {
+  "id": "NM-009",
+  "module": "Navigation & Meteorology",
+  "topic": "Augmentation",
+  "difficulty": "medium",
+  "question": "What is the key difference between SBAS and GBAS?",
+  "options": [
+   {
+    "text": "SBAS is local and more accurate; GBAS covers a whole continent",
+    "correct": false,
+    "why": "Swapped. SBAS such as WAAS covers a whole region, while a ground-based system serves a local area."
+   },
+   {
+    "text": "SBAS can be used only by aircraft, not by other receivers",
+    "correct": false,
+    "why": "GPS.gov says WAAS, although designed for aviation, is widely available in receivers used by other communities."
+   },
+   {
+    "text": "SBAS gives wide-area corrections from space; GBAS serves a local area",
+    "correct": true,
+    "why": "GPS.gov describes WAAS as a regional space-based augmentation system (SBAS) covering North America, and NDGPS as a ground-based augmentation system serving a defined area."
+   },
+   {
+    "text": "Both are built into the GPS satellites and need no extra system",
+    "correct": false,
+    "why": "GPS.gov defines an augmentation as a system that aids GPS but is not inherently part of GPS itself."
+   }
+  ],
+  "source": "GPS.gov Augmentation Systems; AC 101-4-1(5) LO 040 01 03"
+ },
+ {
+  "id": "NM-010",
+  "module": "Navigation & Meteorology",
+  "topic": "RTK",
+  "difficulty": "medium",
+  "question": "Which statement about RTK is correct?",
+  "options": [
+   {
+    "text": "It gives roughly the same accuracy as a smartphone, about 5 m",
+    "correct": false,
+    "why": "GPS.gov puts smartphones at about 4.9 m in open sky, while real-time reference-receiver systems reach centimetres."
+   },
+   {
+    "text": "It needs no base station because the satellites send the corrections directly",
+    "correct": false,
+    "why": "Corrections broadcast from space describe SBAS. RTK needs a reference (base) receiver or a network of them."
+   },
+   {
+    "text": "A base receiver sends real-time corrections to the rover for cm accuracy",
+    "correct": true,
+    "why": "GPS.gov describes survey systems that communicate wirelessly with reference receivers to deliver continuous, real-time, centimetre-level accuracy. That is RTK."
+   },
+   {
+    "text": "It is a separate satellite constellation run by the European Union",
+    "correct": false,
+    "why": "That describes Galileo. RTK is a correction technique, not a constellation."
+   }
+  ],
+  "source": "GPS.gov GPS for Surveying; GPS.gov GPS Accuracy; AC 101-4-1(5) LO 040 01 03 (RTK)"
+ },
+ {
+  "id": "NM-011",
+  "module": "Navigation & Meteorology",
+  "topic": "Loss of GNSS",
+  "difficulty": "medium",
+  "question": "In flight, a GNSS-dependent drone loses its satellite fix. What should you expect?",
+  "options": [
+   {
+    "text": "It holds position perfectly because the barometer takes over",
+    "correct": false,
+    "why": "A barometer only holds altitude. Without GNSS (or vision positioning) there is no horizontal position hold, so it drifts."
+   },
+   {
+    "text": "It drifts with the wind, and RTH can no longer be relied on",
+    "correct": true,
+    "why": "GNSS position hold and return-to-home both need a fix. That is why CAAS requires UAPL candidates to fly without GNSS assistance, and why GPS.gov urges users to keep a backup."
+   },
+   {
+    "text": "It automatically flies home using the last known track",
+    "correct": false,
+    "why": "RTH needs a position fix, so it cannot be relied on after the fix is lost."
+   },
+   {
+    "text": "It lands immediately at the take-off point",
+    "correct": false,
+    "why": "Without a fix the UA cannot navigate to the take-off point. It can only drift or descend where it is."
+   }
+  ],
+  "source": "AC 101-4-1(5) LO 060 03 02 (Loss of GNSS) and Appendix 2 (manoeuvres without GNSS assistance); GPS.gov FAQ (keep backup positioning)"
+ },
+ {
+  "id": "NM-012",
+  "module": "Navigation & Meteorology",
+  "topic": "Compass & magnetic variation",
+  "difficulty": "medium",
+  "question": "What is magnetic variation?",
+  "options": [
+   {
+    "text": "The angle between true north and magnetic north at a given location",
+    "correct": true,
+    "why": "FAA definition: variation is the angle between true north (TN) and magnetic north (MN), expressed east or west."
+   },
+   {
+    "text": "The compass error caused by magnetic fields inside the aircraft itself",
+    "correct": false,
+    "why": "That is DEVIATION, which comes from the aircraft's own electrics and metal, not from the Earth's field."
+   },
+   {
+    "text": "The difference between GPS altitude and barometric altitude",
+    "correct": false,
+    "why": "That is a vertical reference mismatch, not a compass concept."
+   },
+   {
+    "text": "The angle between grid north on a UTM map and true north",
+    "correct": false,
+    "why": "That is grid convergence, a map-projection effect, not magnetic variation."
+   }
+  ],
+  "source": "FAA PHAK ch.16 (Variation; Deviation); FAA-G-8082-22 (isogonic and agonic lines)",
+  "note": "Variation varies with PLACE; deviation depends on the VEHICLE."
+ },
+ {
+  "id": "NM-013",
+  "module": "Navigation & Meteorology",
+  "topic": "QNH / QFE / QNE",
+  "difficulty": "hard",
+  "question": "Which statement correctly matches each altimeter setting to what the altimeter then reads?",
+  "options": [
+   {
+    "text": "QNH reads zero on the runway; QFE reads elevation above mean sea level",
+    "correct": false,
+    "why": "Swapped. QFE ('field elevation') makes the altimeter read zero at the field; QNH reads elevation."
+   },
+   {
+    "text": "QNE is the local pressure setting used for take-off and landing",
+    "correct": false,
+    "why": "QNE refers to the standard 1013.25 hPa setting used for flight levels, not a local take-off setting."
+   },
+   {
+    "text": "All three give the same reading; they differ only in units (hPa, inHg, mm Hg)",
+    "correct": false,
+    "why": "They are different pressure references (sea level, aerodrome, standard), not different units, so readings differ."
+   },
+   {
+    "text": "QNH reads elevation on the ground; QFE reads zero; 1013.25 hPa gives flight levels",
+    "correct": true,
+    "why": "ICAO definitions: QNH makes the altimeter read altitude above mean sea level (aerodrome elevation on the ground), QFE reads height above the aerodrome, and the standard 1013.25 hPa setting gives pressure altitude, used for flight levels."
+   }
+  ],
+  "source": "ICAO Doc 8400 (QNH, QFE definitions); FAA PHAK ch.8 (pressure altitude = standard setting); AC 101-4-1(5) LO 040 02 02",
+  "note": "QFE = Field = zero. QNH = Nautical Height = elevation (AMSL). Standard = 1013."
+ },
+ {
+  "id": "NM-014",
+  "module": "Navigation & Meteorology",
+  "topic": "Altitude types",
+  "difficulty": "hard",
+  "question": "You take off from a 40 m-high HDB rooftop. The app altitude, zeroed at take-off, reads 60 m as the drone hovers over the street below. Which statement is correct?",
+  "options": [
+   {
+    "text": "The drone is 60 m AGL, because the app always shows AGL",
+    "correct": false,
+    "why": "The app's reference is the take-off point, not the ground beneath the drone. Over lower terrain, true AGL is higher."
+   },
+   {
+    "text": "The drone is 60 m AMSL, because the app uses sea level",
+    "correct": false,
+    "why": "AMSL is referenced to mean sea level. The take-off roof is not at sea level."
+   },
+   {
+    "text": "About 100 m above the street (AGL) and 60 m above the take-off point",
+    "correct": true,
+    "why": "The app shows height relative to the take-off point. AGL (absolute altitude) is height above the terrain directly below, so 40 m + 60 m = about 100 m above the street."
+   },
+   {
+    "text": "The drone is 20 m AGL, because you subtract the rooftop height",
+    "correct": false,
+    "why": "The rooftop height should be ADDED here: the drone is 60 m above a roof that is itself 40 m above the street."
+   }
+  ],
+  "source": "FAA PHAK ch.8 (types of altitude: true altitude = above MSL, absolute altitude = AGL); AC 101-4-1(5) LO 040 02 02",
+  "note": "Always ask: above WHAT?"
+ },
+ {
+  "id": "NM-015",
+  "module": "Navigation & Meteorology",
+  "topic": "Altitude types",
+  "difficulty": "medium",
+  "question": "Which term is the vertical distance of a point measured from mean sea level, and which is the height of the aircraft above the terrain it is flying over?",
+  "options": [
+   {
+    "text": "Elevation (ground height) and AMSL",
+    "correct": false,
+    "why": "Elevation is the height of a location (ground point) above sea level, not an aircraft's height. AMSL is not above terrain."
+   },
+   {
+    "text": "AMSL (true altitude) and AGL (absolute altitude)",
+    "correct": true,
+    "why": "FAA PHAK: true altitude is the vertical distance above mean sea level (MSL), and absolute altitude is the height above the terrain (AGL)."
+   },
+   {
+    "text": "AGL (absolute altitude) and AMSL (true altitude)",
+    "correct": false,
+    "why": "Swapped. AGL is above ground; AMSL is above mean sea level."
+   },
+   {
+    "text": "Height (any datum) and elevation",
+    "correct": false,
+    "why": "Height is a generic distance from any datum, and elevation is ground height above sea level; neither term matches both definitions."
+   }
+  ],
+  "source": "FAA PHAK ch.8 (types of altitude: true altitude = above MSL, absolute altitude = AGL); AC 101-4-1(5) LO 040 02 02"
+ },
+ {
+  "id": "NM-016",
+  "module": "Navigation & Meteorology",
+  "topic": "Density altitude",
+  "difficulty": "medium",
+  "question": "Which set of conditions produces the HIGHEST density altitude, and therefore the poorest UA performance?",
+  "options": [
+   {
+    "text": "High temperature, low pressure, high humidity",
+    "correct": true,
+    "why": "FAA-G-8082-22: high density altitude comes from high elevation, low pressure, high temperature and high humidity."
+   },
+   {
+    "text": "Low temperature, high pressure, low humidity",
+    "correct": false,
+    "why": "These give dense air, which means LOW density altitude and better performance."
+   },
+   {
+    "text": "High temperature, high pressure, low humidity",
+    "correct": false,
+    "why": "High pressure and dry air both increase density, partly offsetting the heat. This is not the worst case."
+   },
+   {
+    "text": "Low temperature, low pressure, high humidity",
+    "correct": false,
+    "why": "Cold air is dense, so this combination is not the worst case."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.3b (Density Altitude); AC 101-4-1(5) LO 040 02 01",
+  "note": "Hot, High, Humid = bad."
+ },
+ {
+  "id": "NM-017",
+  "module": "Navigation & Meteorology",
+  "topic": "Humidity",
+  "difficulty": "hard",
+  "question": "A Singapore afternoon has 90% relative humidity. Compared with dry air at the same temperature and pressure, the humid air is:",
+  "options": [
+   {
+    "text": "More dense, because water is heavier than air",
+    "correct": false,
+    "why": "Liquid water is heavy, but water VAPOUR molecules are lighter than nitrogen and oxygen molecules, so they lower air density."
+   },
+   {
+    "text": "Less dense, which raises density altitude and reduces performance",
+    "correct": true,
+    "why": "FAA-G-8082-22 and PHAK: water vapour is lighter than air, so moist air is lighter than dry air, which increases density altitude."
+   },
+   {
+    "text": "The same density, because humidity only affects visibility",
+    "correct": false,
+    "why": "Humidity is one of the factors that affect air density, along with altitude, pressure and temperature."
+   },
+   {
+    "text": "Less dense, which lowers density altitude and improves performance",
+    "correct": false,
+    "why": "Less dense air means HIGHER density altitude and worse performance, not better."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.3b (Effects of Humidity on Density); AC 101-4-1(5) LO 040 02 01",
+  "note": "Counter-intuitive: wet air is LIGHT air."
+ },
+ {
+  "id": "NM-018",
+  "module": "Navigation & Meteorology",
+  "topic": "Density altitude",
+  "difficulty": "hard",
+  "question": "Changi is at about 5 m elevation with standard pressure, and the air temperature is 31 degrees C. Using the rule of thumb of about 120 ft of density altitude per 1 degree C above ISA (ISA is 15 degrees C at sea level), what is the approximate density altitude before allowing for humidity?",
+  "options": [
+   {
+    "text": "About 1,900 ft",
+    "correct": true,
+    "why": "ISA deviation = 31 - 15 = +16 degrees C; 16 x 120 ft is about 1,920 ft. Humidity would push it slightly higher."
+   },
+   {
+    "text": "About 15 ft (5 m), the same as the airfield elevation",
+    "correct": false,
+    "why": "That is the physical elevation. Density altitude is pressure altitude corrected for non-standard temperature (FAA PHAK)."
+   },
+   {
+    "text": "About 3,700 ft",
+    "correct": false,
+    "why": "That uses 31 x 120, which forgets to subtract the ISA temperature of 15 degrees C."
+   },
+   {
+    "text": "About -1,900 ft, because hot air lowers density altitude",
+    "correct": false,
+    "why": "Hot air is LESS dense, which RAISES density altitude. Negative density altitude comes from cold air."
+   }
+  ],
+  "source": "FAA PHAK ch.8 and ch.11 (density altitude = pressure altitude corrected for non-standard temperature); ISA 15 degrees C / 1013.25 hPa",
+  "note": "DA rises about 120 ft per degree C above ISA."
+ },
+ {
+  "id": "NM-019",
+  "module": "Navigation & Meteorology",
+  "topic": "Temperature & dew point",
+  "difficulty": "medium",
+  "question": "A METAR group reads 26/25. What does this tell a UA pilot?",
+  "options": [
+   {
+    "text": "Temperature 26 degrees C and relative humidity 25%",
+    "correct": false,
+    "why": "The second figure is the dew point in degrees C, not humidity. A 1-degree spread means very HIGH humidity."
+   },
+   {
+    "text": "Maximum 26 degrees C and minimum 25 degrees C for the day",
+    "correct": false,
+    "why": "Daily max/min appear only in remarks codes (for example 4xxxxxxxx), not in the main temperature group."
+   },
+   {
+    "text": "Dew point 26 degrees C, temperature 25 degrees C",
+    "correct": false,
+    "why": "The order is temperature first, then dew point. A dew point above the temperature is not physically normal."
+   },
+   {
+    "text": "Temperature 26 degrees C, dew point 25 degrees C: near-saturated air",
+    "correct": true,
+    "why": "In a METAR the first figure is temperature and the second is dew point. The FAA explains that air cooled to its dew point is saturated and moisture condenses as fog, cloud or rain, so a 1-degree spread makes these likely."
+   }
+  ],
+  "source": "ICAO Annex 3 / WMO FM-15 METAR code; FAA-G-8082-22 ch.3b (Temperature/Dew Point Relationship)"
+ },
+ {
+  "id": "NM-020",
+  "module": "Navigation & Meteorology",
+  "topic": "Wind & ground speed",
+  "difficulty": "medium",
+  "question": "A drone cruises at 15 m/s airspeed. The wind is 6 m/s. What is its ground speed flying directly into the wind, and directly downwind?",
+  "options": [
+   {
+    "text": "21 m/s into wind; 9 m/s downwind",
+    "correct": false,
+    "why": "Swapped. A headwind reduces ground speed and a tailwind increases it."
+   },
+   {
+    "text": "9 m/s into wind; 21 m/s downwind",
+    "correct": true,
+    "why": "Ground speed = airspeed - headwind (15 - 6) or + tailwind (15 + 6)."
+   },
+   {
+    "text": "15 m/s both ways, because airspeed does not change",
+    "correct": false,
+    "why": "Airspeed is unchanged, but ground speed is airspeed plus or minus the wind component."
+   },
+   {
+    "text": "9 m/s both ways",
+    "correct": false,
+    "why": "Only the upwind leg loses speed. Downwind the wind adds to ground speed."
+   }
+  ],
+  "source": "AC 101-4-1(5) LO 040 02 04 (headwind, tailwind)"
+ },
+ {
+  "id": "NM-021",
+  "module": "Navigation & Meteorology",
+  "topic": "Wind & ground speed",
+  "difficulty": "hard",
+  "question": "A drone with 10 m/s airspeed flies 3 km out and 3 km back along the wind line. The wind is 5 m/s. Compared with a calm day (600 s total), the round trip takes:",
+  "options": [
+   {
+    "text": "800 s: 600 s into the wind plus 200 s with it",
+    "correct": true,
+    "why": "3000/(10-5) = 600 s and 3000/(10+5) = 200 s, total 800 s. The tailwind leg never fully gives back the time lost on the headwind leg, so wind always makes an out-and-back trip longer."
+   },
+   {
+    "text": "600 s, because the headwind and tailwind cancel out",
+    "correct": false,
+    "why": "They cancel for SPEED but not for TIME: you spend longer on the slow leg, so the average ground speed drops."
+   },
+   {
+    "text": "400 s, because the tailwind leg is so fast",
+    "correct": false,
+    "why": "That counts only part of the trip. The upwind leg alone takes 600 s."
+   },
+   {
+    "text": "1,200 s, because both legs are flown at 5 m/s",
+    "correct": false,
+    "why": "Only the upwind leg is at 5 m/s ground speed; the downwind leg is at 15 m/s."
+   }
+  ],
+  "source": "AC 101-4-1(5) LO 040 02 04 (headwind lowers ground speed, tailwind raises it)",
+  "note": "Battery planning: wind always costs time. Fly the upwind leg first so you come home downwind."
+ },
+ {
+  "id": "NM-022",
+  "module": "Navigation & Meteorology",
+  "topic": "Crosswind",
+  "difficulty": "hard",
+  "question": "The wind is 20 kt from 30 degrees off your intended track (ahead of you). What are the approximate headwind and crosswind components?",
+  "options": [
+   {
+    "text": "Headwind 10 kt, crosswind about 17 kt",
+    "correct": false,
+    "why": "Swapped: sine and cosine are reversed. At a small angle off the nose most of the wind is a headwind."
+   },
+   {
+    "text": "Headwind 20 kt, crosswind 0 kt",
+    "correct": false,
+    "why": "That only applies when the wind is exactly on the nose (0 degrees)."
+   },
+   {
+    "text": "Headwind 20 kt, crosswind 20 kt",
+    "correct": false,
+    "why": "The components cannot each equal the full wind speed; they are its resolved parts."
+   },
+   {
+    "text": "Headwind about 17 kt, crosswind 10 kt",
+    "correct": true,
+    "why": "Headwind = 20 x cos 30 = about 17.3 kt; crosswind = 20 x sin 30 = 10 kt."
+   }
+  ],
+  "source": "AC 101-4-1(5) LO 040 02 04 (headwind, tailwind, crosswind)",
+  "note": "30 degrees off: crosswind = half the wind."
+ },
+ {
+  "id": "NM-023",
+  "module": "Navigation & Meteorology",
+  "topic": "Wind & obstructions",
+  "difficulty": "medium",
+  "question": "You are inspecting the leeward side of a tall CBD tower on a windy day. What does the FAA warn about this situation?",
+  "options": [
+   {
+    "text": "The leeward side is sheltered, so the air is calm and smooth",
+    "correct": false,
+    "why": "Air on the leeward side tends to be turbulent, with eddies and downdrafts, not smooth."
+   },
+   {
+    "text": "Buildings break the wind into gusts, worse with bigger obstacles and stronger wind",
+    "correct": true,
+    "why": "FAA Remote Pilot Study Guide: large buildings break up wind flow and create rapidly changing gusts; intensity depends on obstacle size and wind velocity."
+   },
+   {
+    "text": "Turbulence near buildings depends only on temperature, not wind speed",
+    "correct": false,
+    "why": "The FAA ties its intensity to obstacle size and wind velocity."
+   },
+   {
+    "text": "Building turbulence only matters for manned aircraft above 2,000 ft",
+    "correct": false,
+    "why": "The hazard is near the ground and the structure, which is exactly where small UA operate."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.3b (Effect of Obstructions on Wind)"
+ },
+ {
+  "id": "NM-024",
+  "module": "Navigation & Meteorology",
+  "topic": "Thunderstorms / CB",
+  "difficulty": "hard",
+  "question": "In the thunderstorm life cycle, what visible sign tells you a cell has entered the MATURE stage, and why does it matter?",
+  "options": [
+   {
+    "text": "Rain falling from the cloud base; all thunderstorm hazards now peak",
+    "correct": true,
+    "why": "FAA: precipitation from the cloud base signals a downdraft alongside the updrafts, marking the mature stage; all thunderstorm hazards peak in this stage."
+   },
+   {
+    "text": "A flat anvil top first appears; the storm is now dissipating and safe",
+    "correct": false,
+    "why": "An anvil marks a well-developed CB (FAA Aviation Weather Handbook). It does not mean the storm is safe."
+   },
+   {
+    "text": "Rapidly building cauliflower tops; only gentle updrafts are present",
+    "correct": false,
+    "why": "Growing towers mark the CUMULUS stage, where the defining feature is a strong updraft that may exceed 3,000 fpm. That is not gentle."
+   },
+   {
+    "text": "Rain stopping and the cloud thinning; strong updrafts are building",
+    "correct": false,
+    "why": "Rain ending with weakening downdrafts describes the DISSIPATING stage, the opposite of building updrafts."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.3b (Thunderstorm Life Cycle); FAA Aviation Weather Handbook (FAA-H-8083-28) ch.22 (thunderstorm stages)",
+  "note": "Cumulus = updraft, Mature = up + down (worst), Dissipating = downdraft."
+ },
+ {
+  "id": "NM-025",
+  "module": "Navigation & Meteorology",
+  "topic": "Clouds",
+  "difficulty": "medium",
+  "question": "How do fair-weather cumulus (CU) and cumulonimbus (CB) differ?",
+  "options": [
+   {
+    "text": "CU is a high ice-crystal cloud; CB is a low stratus layer",
+    "correct": false,
+    "why": "Ice-crystal high clouds are cirriform. CB is vertically developed, not a flat stratus layer."
+   },
+   {
+    "text": "CU produces heavy rain; CB is a fair-weather cloud",
+    "correct": false,
+    "why": "Reversed. CB is the thunderstorm cloud. Showers from cumulus, if any, are usually brief."
+   },
+   {
+    "text": "Both are middle clouds with bases at 6,500 to 23,000 ft",
+    "correct": false,
+    "why": "That base range belongs to the middle cloud family (the FAA lists middle cloud bases from about 6,500 ft), not CU or CB."
+   },
+   {
+    "text": "Small CU brings mild bumps; CB is the towering thunderstorm cloud",
+    "correct": true,
+    "why": "The FAA says cumulus with little vertical development brings some turbulence but no significant icing. CB is the thunderstorm cloud, often with an anvil, where hazards peak."
+   }
+  ],
+  "source": "FAA Aviation Weather Handbook (FAA-H-8083-28) App A (Cumulus; Cumulonimbus), cloud height table and ch.22; AC 101-4-1(5) LO 040 02 03"
+ },
+ {
+  "id": "NM-026",
+  "module": "Navigation & Meteorology",
+  "topic": "Singapore climate",
+  "difficulty": "hard",
+  "question": "At 0530 local time in July, a line of thunderstorms with gusts of about 60 km/h sweeps eastward across Singapore from the Straits of Malacca. What is this, and in which season does it typically happen?",
+  "options": [
+   {
+    "text": "A Northeast Monsoon surge (December to March)",
+    "correct": false,
+    "why": "NE Monsoon surges bring widespread continuous rain with northerly to northeasterly winds, not a predawn eastward-moving squall line in July."
+   },
+   {
+    "text": "A typical inter-monsoon afternoon thunderstorm",
+    "correct": false,
+    "why": "Inter-monsoon storms come in the afternoon and early evening (late March to May, October to November), not at dawn in July."
+   },
+   {
+    "text": "A Sumatra squall during the Northeast Monsoon (December to March)",
+    "correct": false,
+    "why": "Sumatra squalls belong to the Southwest Monsoon, and July is in the SW Monsoon (June to September)."
+   },
+   {
+    "text": "A Sumatra squall in the Southwest Monsoon (June to September)",
+    "correct": true,
+    "why": "MSS: Sumatra squalls are organised lines of thunderstorms that develop over Sumatra or the Straits of Malacca and travel eastward, with 40-80 km/h gusts between predawn and midday, during the SW Monsoon."
+   }
+  ],
+  "source": "Meteorological Service Singapore, Climate of Singapore (https://www.weather.gov.sg/climate-climate-of-singapore/)",
+  "note": "Sumatra squalls: SW Monsoon, from the WEST, predawn to midday."
+ },
+ {
+  "id": "NM-027",
+  "module": "Navigation & Meteorology",
+  "topic": "Singapore climate",
+  "difficulty": "medium",
+  "question": "According to MSS, during which periods are afternoon and early-evening thunderstorms with light and variable winds most typical?",
+  "options": [
+   {
+    "text": "The inter-monsoon periods (late March to May, and October to November)",
+    "correct": true,
+    "why": "MSS: in both inter-monsoon periods winds are light and variable, and thunderstorms, at times severe, occur in the afternoon and early evening."
+   },
+   {
+    "text": "The late (dry) phase of the Northeast Monsoon, late January to early March",
+    "correct": false,
+    "why": "MSS describes this phase as windy and relatively dry."
+   },
+   {
+    "text": "The Southwest Monsoon only, June to September",
+    "correct": false,
+    "why": "MSS notes short afternoon showers and thunderstorms in the SW Monsoon, but its winds are southeasterly to southerly, not light and variable."
+   },
+   {
+    "text": "The early (wet) phase of the Northeast Monsoon, December to early January",
+    "correct": false,
+    "why": "This phase is known for continuous moderate to heavy downpours from monsoon surges, not short afternoon storms."
+   }
+  ],
+  "source": "Meteorological Service Singapore, Climate of Singapore (https://www.weather.gov.sg/climate-climate-of-singapore/); AC 101-4-1(5) LO 040 02 05"
+ },
+ {
+  "id": "NM-028",
+  "module": "Navigation & Meteorology",
+  "topic": "Singapore climate",
+  "difficulty": "medium",
+  "question": "Which statement about the Northeast Monsoon is correct?",
+  "options": [
+   {
+    "text": "December to early March: wet first, then windy and drier",
+    "correct": true,
+    "why": "MSS: a wet phase with heavy rain from monsoon surges (December to early January), then a windy, relatively dry phase (late January to early March), with northerly to northeasterly winds."
+   },
+   {
+    "text": "June to September: windy and dry from start to finish",
+    "correct": false,
+    "why": "June to September is the SOUTHWEST Monsoon."
+   },
+   {
+    "text": "October to November: the wetter of the two inter-monsoons",
+    "correct": false,
+    "why": "October to November is an inter-monsoon period, not the NE Monsoon (although it is the wetter of the two inter-monsoons)."
+   },
+   {
+    "text": "December to early March: dry first, then a wet second half",
+    "correct": false,
+    "why": "The order is reversed: the WET phase comes first (December to early January)."
+   }
+  ],
+  "source": "Meteorological Service Singapore, Climate of Singapore (https://www.weather.gov.sg/climate-climate-of-singapore/)"
+ },
+ {
+  "id": "NM-029",
+  "module": "Navigation & Meteorology",
+  "topic": "Weather sources",
+  "difficulty": "medium",
+  "question": "AC 101-4-1(5) lists the means of obtaining reliable weather information. Which pairing matches the syllabus?",
+  "options": [
+   {
+    "text": "METAR for non-aviation forecasts; MSS for aviation-only reports",
+    "correct": false,
+    "why": "Swapped. METAR is the aviation report; MSS is listed as the non-aviation source."
+   },
+   {
+    "text": "Social media posts from other drone pilots as the primary aviation source",
+    "correct": false,
+    "why": "These are not listed as reliable sources, and they are not official observations."
+   },
+   {
+    "text": "MSS for non-aviation forecasts; METAR for aviation observations",
+    "correct": true,
+    "why": "Syllabus LO 040 02 05 lists Meteorological Service Singapore (non-aviation) and METAR (aviation)."
+   },
+   {
+    "text": "A TAF is a current observation; a METAR is a 30-hour forecast",
+    "correct": false,
+    "why": "Reversed. A METAR is the current observation; a TAF is the forecast, valid for 24 or 30 hours."
+   }
+  ],
+  "source": "AC 101-4-1(5) LO 040 02 05; FAA-G-8082-22 ch.3a (Aviation Weather Sources: METAR, TAF)"
+ },
+ {
+  "id": "NM-030",
+  "module": "Navigation & Meteorology",
+  "topic": "Guidance sensors",
+  "difficulty": "medium",
+  "question": "The CAAS syllabus (LO 040 01 04) lists 'other forms of guidance systems' besides GNSS. Which of these is on that list, along with infra-red, vision-based and LiDAR?",
+  "options": [
+   {
+    "text": "Barometric altimeter",
+    "correct": false,
+    "why": "A barometer measures pressure height, but it is not one of the four guidance systems the syllabus names."
+   },
+   {
+    "text": "Ultrasound system",
+    "correct": true,
+    "why": "The syllabus lists infra-red, vision-based, ultrasound and LiDAR systems."
+   },
+   {
+    "text": "Weather radar",
+    "correct": false,
+    "why": "Weather radar is a meteorological tool, not one of the syllabus guidance systems."
+   },
+   {
+    "text": "Magnetic compass",
+    "correct": false,
+    "why": "The compass gives heading, but the syllabus guidance-system list is IR, vision, ultrasound and LiDAR."
+   }
+  ],
+  "source": "AC 101-4-1(5) LO 040 01 04"
+ },
+ {
+  "id": "NM-031",
+  "module": "Navigation & Meteorology",
+  "topic": "METAR decode",
+  "difficulty": "medium",
+  "question": "METAR: WSSS 160930Z 18007KT 160V220 9999 FEW020TCU BKN300 31/25 Q1006 NOSIG. What does '18007KT 160V220' mean?",
+  "options": [
+   {
+    "text": "Wind from 180 degrees at 7 kt, varying between 160 and 220 degrees",
+    "correct": true,
+    "why": "dddffKT gives the direction the wind blows FROM and its speed, and dddVddd gives the range of variable direction."
+   },
+   {
+    "text": "Wind blowing TOWARDS 180 degrees at 7 kt, gusting 160 to 220 kt",
+    "correct": false,
+    "why": "METAR direction is where the wind comes FROM. 160V220 is a direction range, not a gust speed."
+   },
+   {
+    "text": "Wind from 018 degrees at 007 kt with visibility 160-220 m",
+    "correct": false,
+    "why": "Direction is the first three digits (180). The V group is wind direction, not visibility."
+   },
+   {
+    "text": "Wind from 180 degrees at 7 kt, gusting to 22 kt",
+    "correct": false,
+    "why": "Gusts are shown with G inside the wind group (for example 18007G22KT), not with V."
+   }
+  ],
+  "source": "ICAO Annex 3 / WMO FM-15 METAR code; FAA Aviation Weather Handbook (FAA-H-8083-28) (METAR wind group)",
+  "note": "Wind is always FROM. V = variable direction. G = gust."
+ },
+ {
+  "id": "NM-032",
+  "module": "Navigation & Meteorology",
+  "topic": "METAR decode",
+  "difficulty": "medium",
+  "question": "In the same METAR (WSSS 160930Z ... 31/25 Q1006 NOSIG), what local Singapore time was the observation made, and what does Q1006 mean?",
+  "options": [
+   {
+    "text": "0930 SGT on the 16th; QFE 1006 hPa",
+    "correct": false,
+    "why": "Z means UTC, not local time, and the Q group is QNH, not QFE."
+   },
+   {
+    "text": "1730 SGT on the 16th; QNH 1006 hPa",
+    "correct": true,
+    "why": "0930Z (UTC) + 8 hours = 1730 SGT. Q means QNH in hectopascals, as used outside North America (the US uses A in inHg)."
+   },
+   {
+    "text": "0130 SGT on the 16th; 1006 inHg",
+    "correct": false,
+    "why": "You must ADD 8 hours, not subtract, and 1006 is in hPa. 1006 inHg is physically impossible."
+   },
+   {
+    "text": "1730 SGT on the 16th; altimeter 10.06 inHg",
+    "correct": false,
+    "why": "The time is right, but Q is hPa. The inHg format is A followed by four digits, such as A2984 = 29.84 inHg."
+   }
+  ],
+  "source": "ICAO Annex 3 / WMO FM-15 METAR code; Singapore Standard Time = UTC+8",
+  "note": "Z + 8 = SGT. Q = hPa, A = inHg."
+ },
+ {
+  "id": "NM-033",
+  "module": "Navigation & Meteorology",
+  "topic": "METAR decode",
+  "difficulty": "hard",
+  "question": "From WSSS 160930Z 18007KT 160V220 9999 FEW020TCU BKN300 31/25 Q1006 NOSIG, what is the CEILING, and what does 'TCU' warn you about?",
+  "options": [
+   {
+    "text": "Ceiling 30,000 ft (BKN300); TCU = towering cumulus, unstable air",
+    "correct": true,
+    "why": "The ceiling is the lowest layer reported as broken or overcast (FAA), so FEW020 does not count. Towering cumulus signals deep, unstable air, very strong turbulence and possible showers."
+   },
+   {
+    "text": "Ceiling 2,000 ft (FEW020); TCU = thunderstorm in progress",
+    "correct": false,
+    "why": "FEW (1-2 oktas) is never a ceiling. A thunderstorm in progress would be coded TS in the weather group."
+   },
+   {
+    "text": "Ceiling 300 ft; TCU = total cloud cover",
+    "correct": false,
+    "why": "Heights are in hundreds of feet, so 300 = 30,000 ft. TCU is a cloud TYPE (towering cumulus)."
+   },
+   {
+    "text": "No ceiling because visibility is 9999; TCU = thin cirrus",
+    "correct": false,
+    "why": "Visibility does not remove a ceiling, and TCU is a vertically developed cumulus, not cirrus."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.3a (METAR; Ceiling); FAA Aviation Weather Handbook (FAA-H-8083-28) (ceiling; App A Towering Cumulus); ICAO Annex 3 / WMO FM-15 METAR code",
+  "note": "Ceiling = first BKN or OVC. FEW and SCT never count."
+ },
+ {
+  "id": "NM-034",
+  "module": "Navigation & Meteorology",
+  "topic": "METAR decode",
+  "difficulty": "medium",
+  "question": "METAR: WSSS 290830Z VRB01KT 9999 FEW016 BKN160 26/24 Q1007 NOSIG. Which decode is correct?",
+  "options": [
+   {
+    "text": "Wind variable at 1 kt; visibility exactly 9,999 m; few at 160 ft, broken at 1,600 ft",
+    "correct": false,
+    "why": "9999 is a code for 10 km or more, not a measured 9,999 m. Cloud heights are in HUNDREDS of feet."
+   },
+   {
+    "text": "Wind variable at 1 kt; visibility 10 km or more; few at 1,600 ft, broken at 16,000 ft",
+    "correct": true,
+    "why": "VRB01KT is variable at 1 kt. ICAO/WMO coding: 9999 means 10 km or more, cloud heights are in hundreds of feet, and NOSIG means no significant change expected in the next 2 hours."
+   },
+   {
+    "text": "Wind from 001 degrees; visibility 9.999 km; NOSIG = no signal from the sensor",
+    "correct": false,
+    "why": "VRB means variable direction. NOSIG is a trend forecast meaning no significant change, not a sensor fault."
+   },
+   {
+    "text": "Wind variable at 1 kt; visibility greater than 10 SM; broken at 1,600 ft is the ceiling",
+    "correct": false,
+    "why": "Singapore reports metres, not statute miles, and the 1,600 ft layer is FEW, which is not a ceiling. BKN160 at 16,000 ft is the ceiling."
+   }
+  ],
+  "source": "ICAO Annex 3 / WMO FM-15 METAR code",
+  "note": "9999 = 10 km or more."
+ },
+ {
+  "id": "NM-035",
+  "module": "Navigation & Meteorology",
+  "topic": "METAR decode",
+  "difficulty": "hard",
+  "question": "METAR: WSAP 121000Z 24015G28KT 3000 +TSRA SCT015CB BKN080 27/24 Q1009. Which decode is correct?",
+  "options": [
+   {
+    "text": "Changi; wind 240 degrees at 28 kt gusting 15 kt; visibility 3 km; light thunderstorm rain",
+    "correct": false,
+    "why": "WSAP is Paya Lebar (WSSS is Changi). The gust figure follows G, so 28 is the gust. '+' means HEAVY, not light."
+   },
+   {
+    "text": "Paya Lebar; wind 240 degrees at 15 kt gusting 28 kt; visibility 3,000 m; heavy thunderstorm rain",
+    "correct": true,
+    "why": "G marks gusts, + means heavy, and TS = thunderstorm, RA = rain. Cloud heights are in hundreds of feet, so SCT015CB is scattered CB at 1,500 ft."
+   },
+   {
+    "text": "Paya Lebar; wind 240 degrees at 15 kt; visibility 3,000 ft; heavy rain with tornado",
+    "correct": false,
+    "why": "ICAO visibility is in metres. TS is thunderstorm; a tornado/funnel cloud is FC."
+   },
+   {
+    "text": "Paya Lebar; wind 240 degrees at 15 kt gusting 28 kt; visibility 3,000 m; ceiling 1,500 ft",
+    "correct": false,
+    "why": "SCT (3-4 oktas) is not a ceiling. The ceiling is BKN080 at 8,000 ft."
+   }
+  ],
+  "source": "ICAO Annex 3 / WMO FM-15 METAR code; FAA-G-8082-22 ch.3a (METAR; Ceiling)",
+  "note": "'+' heavy, '-' light, no sign moderate."
+ },
+ {
+  "id": "NM-036",
+  "module": "Navigation & Meteorology",
+  "topic": "METAR decode",
+  "difficulty": "hard",
+  "question": "Which Singapore METAR is MOST consistent with a predawn Sumatra squall?",
+  "options": [
+   {
+    "text": "WSSS 050700Z 02012KT 9999 SCT020 31/23 Q1010 NOSIG",
+    "correct": false,
+    "why": "0700Z = 1500 SGT, with a north-northeasterly 12 kt wind and fine weather. This looks like a dry NE Monsoon afternoon."
+   },
+   {
+    "text": "WSSS 052130Z VRB02KT 4000 HZ NSC 27/22 Q1010",
+    "correct": false,
+    "why": "Light variable wind and haze describe a slack, hazy predawn, not a squall."
+   },
+   {
+    "text": "WSSS 052130Z 25025G42KT 2000 +TSRA SQ BKN010 FEW015CB 24/23 Q1010",
+    "correct": true,
+    "why": "2130Z = 0530 SGT (predawn). Strong westerly-sector gusts, a heavy thunderstorm, SQ (squall) and CB all match MSS's description of Sumatra squalls."
+   },
+   {
+    "text": "WSSS 050800Z 05015KT 3000 RA BKN012 OVC080 25/24 Q1011",
+    "correct": false,
+    "why": "Continuous rain with a steady north-easterly wind and overcast cloud points to a NE Monsoon surge, not a gusty westerly squall line."
+   }
+  ],
+  "source": "Meteorological Service Singapore, Climate of Singapore (https://www.weather.gov.sg/climate-climate-of-singapore/); ICAO Annex 3 / WMO FM-15 METAR code (SQ = squall)",
+  "note": "Time: Z + 8. Direction: squalls come from the W/SW."
+ },
+ {
+  "id": "NM-037",
+  "module": "Navigation & Meteorology",
+  "topic": "METAR decode",
+  "difficulty": "hard",
+  "question": "WSSS reports visibility 4000 with weather BR on one morning, and 4000 with HZ on another. What is the difference, and when would FG be reported instead?",
+  "options": [
+   {
+    "text": "BR = blowing rain; HZ = hazardous weather; FG = freezing fog",
+    "correct": false,
+    "why": "BR is mist (from French 'brume'), and HZ is haze. Freezing fog is FZFG."
+   },
+   {
+    "text": "BR = mist (droplets); HZ = haze (dry particles); FG = fog, below 1,000 m",
+    "correct": true,
+    "why": "WMO/ICAO coding: BR is humid-air mist and applies to visibility between 1,000 m and 5,000 m; FG applies below 1,000 m; HZ is dry particulate such as smoke from regional fires. MSS notes haze is common in the SW Monsoon."
+   },
+   {
+    "text": "BR and HZ are the same; FG is used whenever humidity exceeds 90%",
+    "correct": false,
+    "why": "BR is moisture-based and HZ is dry particles. FG is defined by visibility under 1,000 m, not by a humidity figure."
+   },
+   {
+    "text": "BR = mist; HZ = haze; FG = fog, used when visibility is below 5,000 m",
+    "correct": false,
+    "why": "5,000 m is the upper limit for reporting BR/HZ. Fog requires visibility BELOW 1,000 m."
+   }
+  ],
+  "source": "ICAO Annex 3 / WMO FM-15 METAR code (WMO code table 4678); FAA Aviation Weather Handbook (FAA-H-8083-28) ch.18 (fog, mist, haze); Meteorological Service Singapore, Climate of Singapore (https://www.weather.gov.sg/climate-climate-of-singapore/) (haze in the SW Monsoon)",
+  "note": "Fog < 1 km. Mist 1-5 km."
+ },
+ {
+  "id": "NM-038",
+  "module": "Navigation & Meteorology",
+  "topic": "METAR decode",
+  "difficulty": "medium",
+  "question": "METAR: PHNL 250953Z 05007G17KT 9999 FEW024 FEW040 27/19 A3001 (a US-format report). Which decode is correct?",
+  "options": [
+   {
+    "text": "25th at 0953 local Hawaii time; wind 7 kt gusting 17 kt from 250 degrees",
+    "correct": false,
+    "why": "Z means UTC, not local time. The wind direction is 050; 25 is the day of the month."
+   },
+   {
+    "text": "9th day at 2553Z; wind from 050 degrees at 17 kt gusting 7 kt",
+    "correct": false,
+    "why": "The group is DD-hh-mm: day 25, 09:53. The gust (17) follows G."
+   },
+   {
+    "text": "25th day at 0953 UTC; wind 050 degrees at 7 kt gusting 17 kt; altimeter 30.01 inHg",
+    "correct": true,
+    "why": "DDhhmmZ gives the day and UTC time, G gives the gust, 9999 is 10 km or more, and A3001 means 30.01 inHg."
+   },
+   {
+    "text": "25th at 0953Z; altimeter 3001 hPa",
+    "correct": false,
+    "why": "A means inches of mercury, so A3001 = 30.01 inHg. 3001 hPa is impossible."
+   }
+  ],
+  "source": "ICAO Annex 3 / WMO FM-15 METAR code; FAA-G-8082-22 ch.3a (METAR altimeter group in inHg)"
+ },
+ {
+  "id": "NM-039",
+  "module": "Navigation & Meteorology",
+  "topic": "TAF decode",
+  "difficulty": "hard",
+  "question": "TAF WSSS 290800Z 2908/3012 17007KT 9999 FEW015 SCT020 TEMPO 3003/3006 3000 TSRA FEW012CB BKN015. What does the TEMPO group forecast?",
+  "options": [
+   {
+    "text": "A permanent change to thunderstorms from 03 UTC on the 30th until the end of the TAF",
+    "correct": false,
+    "why": "A permanent, rapid change is coded FM (from). TEMPO conditions are temporary."
+   },
+   {
+    "text": "Thunderstorms from 3 to 6 pm Singapore time on the 29th",
+    "correct": false,
+    "why": "3003/3006 means the 30th, 03-06 UTC, which is 1100-1400 SGT on the 30th."
+   },
+   {
+    "text": "Visibility 3 km for 3 to 6 hours continuously, with a ceiling at 1,200 ft",
+    "correct": false,
+    "why": "TEMPO spells each last under an hour, not continuous hours. FEW012CB is not a ceiling; BKN015 is."
+   },
+   {
+    "text": "Between 1100 and 1400 SGT on the 30th, temporary spells of 3,000 m visibility in thunderstorm with rain",
+    "correct": true,
+    "why": "3003/3006 is 03-06 UTC on the 30th, i.e. 1100-1400 SGT. The group also forecasts few CB at 1,200 ft and a broken ceiling at 1,500 ft. TEMPO means temporary fluctuations, each expected to last less than 1 hour (FAA)."
+   }
+  ],
+  "source": "ICAO Annex 3 / WMO FM-51 TAF code; FAA-G-8082-22 ch.3a (TAF valid period, TEMPO, FM)",
+  "note": "TAF validity DDhh/DDhh. TEMPO = each spell under 1 hr. FM = lasting change."
+ },
+ {
+  "id": "NM-040",
+  "module": "Navigation & Meteorology",
+  "topic": "METAR decode",
+  "difficulty": "medium",
+  "question": "In a WSSS METAR you see 'CAVOK'. Which conditions does it guarantee?",
+  "options": [
+   {
+    "text": "Clear skies with no cloud at any level and calm wind",
+    "correct": false,
+    "why": "CAVOK allows cloud above 5,000 ft and says nothing about wind, which is still reported separately."
+   },
+   {
+    "text": "Ceiling and visibility are 'OK' for a drone: at least 1,000 ft and 3 km",
+    "correct": false,
+    "why": "CAVOK has fixed ICAO thresholds (10 km, 5,000 ft) and is not drone-specific."
+   },
+   {
+    "text": "Visibility 10 km or more, but a thunderstorm may be nearby",
+    "correct": false,
+    "why": "CAVOK requires no CB and no significant weather, so a thunderstorm rules it out."
+   },
+   {
+    "text": "Visibility 10 km+, no cloud below 5,000 ft, no CB or TCU, no significant weather",
+    "correct": true,
+    "why": "These are the ICAO Annex 3 CAVOK criteria (the cloud limit is 5,000 ft or the highest minimum sector altitude, whichever is greater). CAVOK replaces the visibility, weather and cloud groups."
+   }
+  ],
+  "source": "ICAO Annex 3 / WMO FM-15 METAR code; FAA Aviation Weather Handbook (FAA-H-8083-28) (CAVOK criteria)",
+  "note": "CAVOK = Ceiling And Visibility OK: 10 km, 5,000 ft, no CB/TCU, no weather."
+ }
+]

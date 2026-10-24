@@ -1,0 +1,1059 @@
+[
+ {
+  "id": "SO-001",
+  "module": "Safety & Operations",
+  "topic": "Risk vs hazard",
+  "difficulty": "medium",
+  "question": "Which statement correctly distinguishes a hazard from a risk, as the FAA defines them?",
+  "options": [
+   {
+    "text": "Hazard and risk are interchangeable terms",
+    "correct": false,
+    "why": "The FAA defines them separately: risk is an assessment of a hazard."
+   },
+   {
+    "text": "A hazard is the probability of an accident. Risk is the condition that causes it.",
+    "correct": false,
+    "why": "This swaps the two. The hazard is the condition itself, and risk is the assessed potential impact."
+   },
+   {
+    "text": "A hazard is a condition, event or circumstance. Risk is the assessed impact of it.",
+    "correct": true,
+    "why": "FAA-G-8082-22: a hazard is a real or perceived condition, event or circumstance, and risk is the pilot's assessment of the single or cumulative hazard."
+   },
+   {
+    "text": "A hazard exists only once an accident has happened",
+    "correct": false,
+    "why": "A hazard can be real or perceived. Spotting it before an accident is the point of risk assessment."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.10 (Hazard and Risk); AC 101-4-1(5) LO 060 01 01"
+ },
+ {
+  "id": "SO-002",
+  "module": "Safety & Operations",
+  "topic": "5 risk elements",
+  "difficulty": "medium",
+  "question": "The CAAS UAPL syllabus names 5 risk elements for identifying hazards. Which of these is NOT one of them?",
+  "options": [
+   {
+    "text": "Environment",
+    "correct": false,
+    "why": "Environment is one of the five: pilot, aircraft, environment, operation and situation."
+   },
+   {
+    "text": "Pilot",
+    "correct": false,
+    "why": "Pilot is one of the five."
+   },
+   {
+    "text": "External pressures",
+    "correct": true,
+    "why": "External pressures is the 'E' of the FAA PAVE checklist. It is not one of the syllabus's 5 risk elements: pilot, aircraft, environment, operation and situation."
+   },
+   {
+    "text": "Operation",
+    "correct": false,
+    "why": "Operation is one of the five."
+   }
+  ],
+  "source": "AC 101-4-1(5) LO 060 01 02 and 060 02 02; FAA-G-8082-22 ch.10 (The PAVE Checklist)"
+ },
+ {
+  "id": "SO-003",
+  "module": "Safety & Operations",
+  "topic": "Risk management process",
+  "difficulty": "medium",
+  "question": "In the FAA's risk management process, which step comes immediately after assessing the risks?",
+  "options": [
+   {
+    "text": "Identifying the hazards",
+    "correct": false,
+    "why": "Hazard identification is the first step, before the risks are assessed."
+   },
+   {
+    "text": "Analysing the controls",
+    "correct": true,
+    "why": "The FAA sequence is: identify hazards, assess risks, analyse controls, make control decisions, use the controls, monitor the results."
+   },
+   {
+    "text": "Making control decisions",
+    "correct": false,
+    "why": "Control decisions come after the controls have been analysed."
+   },
+   {
+    "text": "Monitoring the results",
+    "correct": false,
+    "why": "Monitoring is the final step, once the controls are in use."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.10 (The Decision-Making Process); AC 101-4-1(5) LO 060 01 03"
+ },
+ {
+  "id": "SO-004",
+  "module": "Safety & Operations",
+  "topic": "Risk matrix",
+  "difficulty": "hard",
+  "question": "On the risk severity table in the CAAS Risk Assessment Form (CAAS-ANR101-1-02), a hazard is assessed after mitigation as Remote probability and Major severity. What risk level is entered?",
+  "options": [
+   {
+    "text": "Medium",
+    "correct": true,
+    "why": "In the CAAS table the Remote row reads High, High, Medium, Low, Low across Catastrophic, Hazardous, Major, Minor and No effect. Major gives Medium."
+   },
+   {
+    "text": "Low",
+    "correct": false,
+    "why": "Low in the Remote row applies to Minor or No effect severity, not Major."
+   },
+   {
+    "text": "High",
+    "correct": false,
+    "why": "High in the Remote row applies to Catastrophic or Hazardous severity, which are worse than Major."
+   },
+   {
+    "text": "None, as remote hazards need not be listed",
+    "correct": false,
+    "why": "The form asks the operator to consider all hazards possible in the operation, and each gets a risk level after measures."
+   }
+  ],
+  "source": "CAAS Risk Assessment Form for UAS Operations CAAS-ANR101-1-02 (R0, 01/20) p.3, Risk Severity Category table"
+ },
+ {
+  "id": "SO-005",
+  "module": "Safety & Operations",
+  "topic": "Risk matrix",
+  "difficulty": "hard",
+  "question": "On the CAAS Risk Assessment Form's risk severity table, a hazard is rated Extremely Remote for probability but Catastrophic for severity. What risk level does the table give?",
+  "options": [
+   {
+    "text": "High, as Catastrophic is always High",
+    "correct": false,
+    "why": "Catastrophic is High only in the Probable and Remote rows. In the Extremely Remote row it drops to Medium."
+   },
+   {
+    "text": "Low, as the probability is so small",
+    "correct": false,
+    "why": "Severity still counts. In the Extremely Remote row only Minor and No effect give Low."
+   },
+   {
+    "text": "None, as the table stops at Remote",
+    "correct": false,
+    "why": "The table has four probability rows: Probable, Remote, Extremely Remote and Extremely Improbable."
+   },
+   {
+    "text": "Medium",
+    "correct": true,
+    "why": "In the Extremely Remote row, Catastrophic, Hazardous and Major all give Medium, while Minor and No effect give Low."
+   }
+  ],
+  "source": "CAAS Risk Assessment Form for UAS Operations CAAS-ANR101-1-02 (R0, 01/20) p.3, Risk Severity Category table",
+  "note": "Only Extremely Improbable makes a Catastrophic hazard Low."
+ },
+ {
+  "id": "SO-006",
+  "module": "Safety & Operations",
+  "topic": "CAAS risk assessment form",
+  "difficulty": "hard",
+  "question": "Which of these is NOT a section or column of the CAAS Risk Assessment Form for UAS operations (CAAS-ANR101-1-02)?",
+  "options": [
+   {
+    "text": "A pilot health-state / IMSAFE self-declaration",
+    "correct": true,
+    "why": "The form has Section A (Type of Operations) and Section B (Area of Operations), with columns for hazard, phase(s) of flight, consequences, causal factors, control/recovery measures, risk level after measures and personnel-in-charge. It has no pilot health declaration."
+   },
+   {
+    "text": "Personnel-in-charge",
+    "correct": false,
+    "why": "This is a required column naming the pilot and the safety personnel and their roles."
+   },
+   {
+    "text": "Section B: Risk Assessment for Area of Operations",
+    "correct": false,
+    "why": "Section B is one of the form's two sections. It covers hazards in the vicinity of the operating area."
+   },
+   {
+    "text": "Risk Level after Measures",
+    "correct": false,
+    "why": "This is a required column. It records severity and probability after mitigation is in place."
+   }
+  ],
+  "source": "CAAS Risk Assessment Form CAAS-ANR101-1-02 (R0, 01/20) pp.1-6; CAAS AC 101-2-1 (Rev 8, 3 Jul 2025) Permits for Unmanned Aircraft App 4 para 2",
+  "note": "The form = Type of Operations (Section A) + Area of Operations (Section B)."
+ },
+ {
+  "id": "SO-007",
+  "module": "Safety & Operations",
+  "topic": "CAAS risk assessment form",
+  "difficulty": "medium",
+  "question": "On the CAAS Risk Assessment Form, the 'Risk Level' that the applicant enters for each hazard should reflect:",
+  "options": [
+   {
+    "text": "The worst-case risk if every control fails at once",
+    "correct": false,
+    "why": "The form asks for the assessed residual level, not a combined-failure worst case."
+   },
+   {
+    "text": "The residual risk AFTER the control/recovery measures are in place",
+    "correct": true,
+    "why": "The guidance says the risk severity and probability must be assessed for the hazard after the mitigation measures are in place."
+   },
+   {
+    "text": "The inherent risk BEFORE any mitigation",
+    "correct": false,
+    "why": "This is the intuitive trap. The form's column is explicitly titled 'Risk Level after Measures'."
+   },
+   {
+    "text": "The risk level that CAAS assigns after reviewing the form",
+    "correct": false,
+    "why": "The applicant assesses and enters the risk level. CAAS then reviews the submission."
+   }
+  ],
+  "source": "CAAS Risk Assessment Form CAAS-ANR101-1-02 (R0, 01/20)"
+ },
+ {
+  "id": "SO-008",
+  "module": "Safety & Operations",
+  "topic": "Situational awareness",
+  "difficulty": "medium",
+  "question": "Which item is NOT among the things the PIC or visual observer must be able to determine to keep situational awareness of the UA?",
+  "options": [
+   {
+    "text": "Location of the UAS",
+    "correct": false,
+    "why": "AC 107-2A lists the UA's location, attitude, altitude and direction of flight."
+   },
+   {
+    "text": "Whether the UAS is endangering persons or property",
+    "correct": false,
+    "why": "AC 107-2A lists determining that the UA does not endanger the life or property of another."
+   },
+   {
+    "text": "The airspace, for other air traffic or hazards",
+    "correct": false,
+    "why": "AC 107-2A lists the position of other aircraft or hazards in the airspace."
+   },
+   {
+    "text": "Remaining capacity on the camera's memory card",
+    "correct": true,
+    "why": "The FAA list covers the UA's location, attitude, altitude and direction of flight, other aircraft or hazards, and whether the UA endangers people or property. Memory-card capacity is a payload matter."
+   }
+  ],
+  "source": "FAA AC 107-2A (Small UAS), para 5.9.2 (VO duties); Air Navigation (101 - Unmanned Aircraft Operations) Regulations 2019 (ANR-101, laws.sg mirror of Singapore Statutes Online) First Schedule ('visual line of sight')"
+ },
+ {
+  "id": "SO-009",
+  "module": "Safety & Operations",
+  "topic": "3P model",
+  "difficulty": "hard",
+  "question": "Using the 3P model, a pilot (a) sees the wind gusting to 30 km/h and (b) weighs whether this risks a crash or only a shorter flight time. Which step is (b)?",
+  "options": [
+   {
+    "text": "Plan",
+    "correct": false,
+    "why": "'Plan' is not one of the 3Ps. The FAA model is Perceive, Process, Perform."
+   },
+   {
+    "text": "Process",
+    "correct": true,
+    "why": "In the FAA 3P model, Perceive is noticing the circumstances, Process is evaluating their impact on flight safety (for example, a crash risk versus a shorter flight), and Perform is acting on the decision."
+   },
+   {
+    "text": "Perform",
+    "correct": false,
+    "why": "Perform is carrying out the chosen course of action, such as grounding the drone or continuing. No action has been taken yet."
+   },
+   {
+    "text": "Perceive",
+    "correct": false,
+    "why": "Step (a), noticing the gusts, was Perceive. Weighing their effect is the next step."
+   }
+  ],
+  "source": "FAA-G-8082-22 ch.10 (Perceive, Process, Perform (3P) Model); AC 101-4-1(5) LO 060 02 02"
+ },
+ {
+  "id": "SO-010",
+  "module": "Safety & Operations",
+  "topic": "Get-home-itis",
+  "difficulty": "medium",
+  "question": "Which statement best describes get-home-itis (the FAA calls it 'get-there-itis')?",
+  "options": [
+   {
+    "text": "Tiredness at the end of a long working day",
+    "correct": false,
+    "why": "That is fatigue. Get-there-itis is about the goal, not tiredness."
+   },
+   {
+    "text": "A hazardous attitude, with the antidote 'Not so fast'",
+    "correct": false,
+    "why": "The five hazardous attitudes are anti-authority, impulsivity, invulnerability, macho and resignation. 'Not so fast' answers impulsivity. Get-there-itis is an operational pitfall."
+   },
+   {
+    "text": "A fixation on the original goal, ignoring any alternative",
+    "correct": true,
+    "why": "The FAA lists get-there-itis as an operational pitfall: a fixation on the original goal or destination, combined with a disregard for any alternative course of action."
+   },
+   {
+    "text": "Impatience that arises only in bad weather",
+    "correct": false,
+    "why": "It is not tied to weather. It is a goal-driven mindset that can strike on any job."
+   }
+  ],
+  "source": "FAA PHAK ch.2 Fig 2-15 (Operational pitfalls) and Fig 2-4 (hazardous attitudes); AC 101-4-1(5) LO 060 02 03"
+ },
+ {
+  "id": "SO-011",
+  "module": "Safety & Operations",
+  "topic": "Crew resource management",
+  "difficulty": "medium",
+  "question": "How does the FAA define Crew Resource Management (CRM)?",
+  "options": [
+   {
+    "text": "Procedures for allocating batteries and spare parts in the field",
+    "correct": false,
+    "why": "Hardware is one resource in CRM, but CRM covers human and information resources and teamwork too."
+   },
+   {
+    "text": "Using all available resources, human, hardware and information",
+    "correct": true,
+    "why": "The FAA describes CRM as the effective use of all available resources (human resources, hardware and information) to improve crew cooperation and decision-making."
+   },
+   {
+    "text": "A management system for scheduling crew duty hours",
+    "correct": false,
+    "why": "Duty scheduling is part of fatigue management, not the definition of CRM."
+   },
+   {
+    "text": "A rule that only the PIC makes decisions and the crew carry them out",
+    "correct": false,
+    "why": "CRM is the opposite. It draws on the whole crew's resources and cooperation."
+   }
+  ],
+  "source": "FAA PHAK ch.2 (Introduction: CRM); FAA-G-8082-22 ch.10 (Crew Resource Management and Single-Pilot Resource Management); AC 101-4-1(5) LO 060 02 04",
+  "note": "CRM = effective use of all available resources: human, hardware and information."
+ },
+ {
+  "id": "SO-012",
+  "module": "Safety & Operations",
+  "topic": "CRM - communication",
+  "difficulty": "hard",
+  "question": "A junior visual observer sees a helicopter approaching at low level but hesitates to interrupt the senior PIC, who is busy framing a shot. Which crew duty has broken down most directly?",
+  "options": [
+   {
+    "text": "Communication",
+    "correct": true,
+    "why": "AC 107-2A says the VO must be able to communicate the position of other aircraft or hazards to the PIC. The VO saw the threat but did not speak up."
+   },
+   {
+    "text": "Adaptability/flexibility",
+    "correct": false,
+    "why": "Adaptability is adjusting the plan to change. The failure came earlier, in not speaking up."
+   },
+   {
+    "text": "Leadership",
+    "correct": false,
+    "why": "Leadership may help create a climate where people speak up, but the act that failed was the VO's communication."
+   },
+   {
+    "text": "Mission analysis",
+    "correct": false,
+    "why": "Mission analysis happens during planning. Here the threat was detected and simply not passed on."
+   }
+  ],
+  "source": "FAA AC 107-2A (Small UAS), para 5.9.2 (VO must communicate other aircraft or hazards); FAA PHAK ch.2 (CRM); AC 101-4-1(5) LO 060 02 04"
+ },
+ {
+  "id": "SO-013",
+  "module": "Safety & Operations",
+  "topic": "Crew roles - VO",
+  "difficulty": "medium",
+  "question": "A small drone is far enough away that the PIC can no longer tell which way it is facing. What is the best crew response?",
+  "options": [
+   {
+    "text": "Terminate the flight at once, since orientation is lost",
+    "correct": false,
+    "why": "Losing orientation is recoverable with the crew's help. Terminating a controllable flight creates a crash risk of its own."
+   },
+   {
+    "text": "A VO checks orientation with binoculars, or the crew uses telemetry",
+    "correct": true,
+    "why": "AC 107-2A allows vision aids such as binoculars to be used momentarily to improve situational awareness, and GCS telemetry gives an independent heading reference. The PIC keeps unaided VLOS, as ANR-101 requires."
+   },
+   {
+    "text": "Fly further away so that the drone's silhouette changes",
+    "correct": false,
+    "why": "A greater distance makes the drone smaller and disorientation worse."
+   },
+   {
+    "text": "The PIC uses binoculars himself while still flying",
+    "correct": false,
+    "why": "ANR-101 defines VLOS as direct and unaided, so the PIC should not fly on binoculars. AC 107-2A limits vision aids to momentary use."
+   }
+  ],
+  "source": "FAA AC 107-2A (Small UAS), para 5.9.1 (unaided vision; momentary use of binoculars); Air Navigation (101 - Unmanned Aircraft Operations) Regulations 2019 (ANR-101, laws.sg mirror of Singapore Statutes Online) First Schedule ('visual line of sight'); AC 101-4-1(5) LO 060 03 02 (loss of orientation)"
+ },
+ {
+  "id": "SO-014",
+  "module": "Safety & Operations",
+  "topic": "Emergency planning",
+  "difficulty": "medium",
+  "question": "How does FAA AC 107-2A describe an in-flight emergency, and how should emergency action be taken?",
+  "options": [
+   {
+    "text": "An unexpected serious situation needing prompt action that limits harm",
+    "correct": true,
+    "why": "AC 107-2A: an in-flight emergency is an unexpected and unforeseen serious occurrence that requires urgent, prompt action, and emergency action should minimise injury or damage to property."
+   },
+   {
+    "text": "A planned event, handled by finishing the mission as fast as possible",
+    "correct": false,
+    "why": "An emergency is by definition unexpected, and the aim is to limit harm, not to finish the job."
+   },
+   {
+    "text": "Any weather change, handled by hovering until conditions improve",
+    "correct": false,
+    "why": "The definition turns on a serious, unexpected situation, not on its cause, and hovering is not the defined aim."
+   },
+   {
+    "text": "A situation handled only once CAAS approves a deviation by radio",
+    "correct": false,
+    "why": "The PIC acts at once. The FAA lets the remote PIC deviate from the rules to respond, and report afterwards if asked."
+   }
+  ],
+  "source": "FAA AC 107-2A (Small UAS), para 5.18 (In-Flight Emergency); FAA-G-8082-22 ch.5 (Inflight Emergency); AC 101-4-1(5) LO 060 03 01"
+ },
+ {
+  "id": "SO-015",
+  "module": "Safety & Operations",
+  "topic": "Contingency - compass / EMI",
+  "difficulty": "medium",
+  "question": "During an inspection near a steel structure, the compass shows incorrect headings (electromagnetic interference). What is a sound response?",
+  "options": [
+   {
+    "text": "Recalibrate the compass while hovering next to the structure",
+    "correct": false,
+    "why": "AC 107-2A treats compass calibration as a task done before flight. Calibrating next to the source of interference cannot give a good result."
+   },
+   {
+    "text": "Return to home/launch, or land at a dedicated landing area",
+    "correct": true,
+    "why": "Unreliable heading data makes navigation unsafe, so end the flight in a controlled way. AC 107-2A advises discontinuing flight until control problems are inspected and fixed."
+   },
+   {
+    "text": "Execute flight termination immediately",
+    "correct": false,
+    "why": "The aircraft is still controllable. AC 107-2A asks for action that minimises injury or damage, and a controlled landing does that better than a deliberate crash."
+   },
+   {
+    "text": "Continue the mission, because the GNSS will override the compass",
+    "correct": false,
+    "why": "Bad compass data corrupts heading. AC 107-2A advises discontinuing flight, not pressing on."
+   }
+  ],
+  "source": "FAA AC 107-2A (Small UAS), para 7.3.4 items 19 and 22, para 5.18, App C Table C-1 item 8"
+ },
+ {
+  "id": "SO-016",
+  "module": "Safety & Operations",
+  "topic": "Loss of GNSS",
+  "difficulty": "hard",
+  "question": "Mid-flight within VLOS, the drone loses GPS. It starts drifting with the wind, and the app shows ATTI mode. What should the pilot do?",
+  "options": [
+   {
+    "text": "Release the sticks so that the drone holds its position",
+    "correct": false,
+    "why": "Position hold needs GPS. In ATTI the drone drifts, so releasing the sticks lets it drift away."
+   },
+   {
+    "text": "Climb as high as possible to reacquire satellites",
+    "correct": false,
+    "why": "Climbing increases the distance and the drift and risks breaching height limits. Manual recovery is the answer."
+   },
+   {
+    "text": "Press RTH immediately and let the drone fly itself home",
+    "correct": false,
+    "why": "Return to home needs a position fix, so it cannot be relied on without GNSS. This is why 'press RTH' is not a universal emergency answer."
+   },
+   {
+    "text": "Fly the drone back manually in ATTI mode, correcting for drift",
+    "correct": true,
+    "why": "Without GNSS the drone cannot hold position, so the pilot flies it back by hand. CAAS requires UAPL candidates to show smooth manual flying without GNSS assistance for exactly this case."
+   }
+  ],
+  "source": "AC 101-4-1(5) LO 060 03 02 (Loss of GNSS) and Appendix 2 (manoeuvres without GNSS assistance); FAA AC 107-2A (Small UAS), para 7.3.4 item 10 (verify GPS fix before flight)",
+  "note": "Without GNSS: no position hold and no reliable RTH. Fly it back manually."
+ },
+ {
+  "id": "SO-017",
+  "module": "Safety & Operations",
+  "topic": "Low battery",
+  "difficulty": "hard",
+  "question": "Telemetry shows the battery draining much faster than normal, with 45% left only 5 minutes into a mission that normally runs 25 minutes. What is the best action?",
+  "options": [
+   {
+    "text": "Climb to RTH altitude and fly the full mission route back",
+    "correct": false,
+    "why": "Climbing and taking the long way home use the most energy, which is the wrong choice when the battery is failing."
+   },
+   {
+    "text": "Continue the mission and land when the low-battery warning sounds",
+    "correct": false,
+    "why": "An abnormal drain rate means the remaining percentage cannot be trusted. Waiting for the warning risks a forced landing at an uncontrolled spot."
+   },
+   {
+    "text": "Hover in place to see whether the drain rate stabilises",
+    "correct": false,
+    "why": "Hovering burns charge while you wait. The drain rate already says the battery cannot be trusted."
+   },
+   {
+    "text": "Land immediately at a safe spot, with recovery equipment ready",
+    "correct": true,
+    "why": "AC 107-2A says to ensure enough power to reach a normal landing, and treats diminishing flight time as a sign of impending battery failure. An abnormal drain means land now."
+   }
+  ],
+  "source": "FAA AC 107-2A (Small UAS), para 5.11.1 item 4, para 5.18, App C Table C-1 item 10; AC 101-4-1(5) LO 060 03 02 (low power)"
+ },
+ {
+  "id": "SO-018",
+  "module": "Safety & Operations",
+  "topic": "Loss of C2 link",
+  "difficulty": "medium",
+  "question": "Which of the following is NOT a pre-set lost-link behaviour described by the FAA?",
+  "options": [
+   {
+    "text": "Hover in place until the link returns or the battery runs low",
+    "correct": false,
+    "why": "AC 107-2A lists a hover as a pre-programmed safe mode."
+   },
+   {
+    "text": "Keep flying the mission regardless of the battery left",
+    "correct": true,
+    "why": "The safe modes the FAA describes (hover, holding pattern, return home, or flying the programmed mission and returning home to land) all end in a controlled way. None ignores the power left."
+   },
+   {
+    "text": "Fly a holding pattern to give time to re-establish the link",
+    "correct": false,
+    "why": "AC 107-2A lists a holding pattern as a pre-programmed safe mode."
+   },
+   {
+    "text": "Return to the home point and land automatically",
+    "correct": false,
+    "why": "AC 107-2A lists 'return home' as a safe mode, and says an automated flight that loses its link returns home to land."
+   }
+  ],
+  "source": "FAA AC 107-2A (Small UAS), paras 5.2 and 5.2.3 (safe modes; loss of the control link); AC 101-4-1(5) LO 060 03 02 (loss of C2 link)"
+ },
+ {
+  "id": "SO-019",
+  "module": "Safety & Operations",
+  "topic": "Fly-away",
+  "difficulty": "hard",
+  "question": "A drone stops responding and drifts steadily away. RTH has been triggered but has had no effect. The drone is now over an empty grass field, with a busy road 150 m beyond it. What is the best next action?",
+  "options": [
+   {
+    "text": "Wait until it reaches the road, then stop the motors for recovery",
+    "correct": false,
+    "why": "Bringing the drone down over a road endangers people and vehicles, the opposite of minimising harm."
+   },
+   {
+    "text": "Do nothing and file a report afterwards",
+    "correct": false,
+    "why": "The pilot must act first. CAAS treats a lost UA as a reportable matter, but the report comes after the event."
+   },
+   {
+    "text": "Try the motor-stop stick command now, over the empty field",
+    "correct": true,
+    "why": "With control and RTH gone, the FAA asks for emergency action that minimises injury or damage. Bringing the drone down over the empty field protects the road. CAAS lists an emergency stop among the UAPL emergency procedures."
+   },
+   {
+    "text": "Keep waiting for RTH to engage, even if the drone drifts over the road",
+    "correct": false,
+    "why": "RTH has already failed. Waiting gives up the only safe place to bring the drone down."
+   }
+  ],
+  "source": "FAA AC 107-2A (Small UAS), para 5.18 (minimise injury or damage); AC 101-4-1(5) LO 060 03 02 (fly-away) and Appendix 2 (emergency stop); CAAS AC 101-2-1 (Rev 8) Appendix 1 item 7(a)"
+ },
+ {
+  "id": "SO-020",
+  "module": "Safety & Operations",
+  "topic": "Motor failure",
+  "difficulty": "hard",
+  "question": "A hexacopter loses one motor at 60 m. It remains controllable but is yawing slowly. What is the best action?",
+  "options": [
+   {
+    "text": "Shut down all motors at once using the combined stick command",
+    "correct": false,
+    "why": "A deliberate motor kill is for a fly-away. A controllable aircraft should be landed under control."
+   },
+   {
+    "text": "Continue the mission, because a hexacopter has redundancy",
+    "correct": false,
+    "why": "Redundancy improves the chance of avoiding a crash. It does not justify continuing."
+   },
+   {
+    "text": "Land immediately, steering away from people and property",
+    "correct": true,
+    "why": "With a motor out, the outcome of RTH or of continuing cannot be assured. An immediate landing, steered away from people and property, minimises harm, and CAAS requires UAPL candidates to show an immediate landing."
+   },
+   {
+    "text": "Trigger RTH so that the drone flies a known path home",
+    "correct": false,
+    "why": "RTH flies a longer path on a damaged aircraft, so its outcome cannot be assured."
+   }
+  ],
+  "source": "AC 101-4-1(5) Appendix 2 (Emergency Procedures: immediate landing); FAA AC 107-2A (Small UAS), para 5.18, App C Table C-1 item 7"
+ },
+ {
+  "id": "SO-021",
+  "module": "Safety & Operations",
+  "topic": "Flight termination system",
+  "difficulty": "medium",
+  "question": "AC 107-2A's preflight inspection list includes 'Check flight termination system, if applicable'. When should that check be done?",
+  "options": [
+   {
+    "text": "Before each flight, during the preflight inspection",
+    "correct": true,
+    "why": "AC 107-2A lists the flight termination system check among the preflight inspection items the remote PIC should carry out before each flight."
+   },
+   {
+    "text": "Only after a fly-away has happened, to find the fault",
+    "correct": false,
+    "why": "Checking after the event is too late. The point is to know the system works before it is needed."
+   },
+   {
+    "text": "Only when the battery falls below 30% in flight",
+    "correct": false,
+    "why": "Battery level has nothing to do with when the system is checked."
+   },
+   {
+    "text": "Only when CAAS directs it, for example by radio",
+    "correct": false,
+    "why": "The check is part of the PIC's own preflight inspection. No CAAS direction is needed."
+   }
+  ],
+  "source": "FAA AC 107-2A (Small UAS), paras 7.3 and 7.3.4 item 17"
+ },
+ {
+  "id": "SO-022",
+  "module": "Safety & Operations",
+  "topic": "Stall (aeroplane)",
+  "difficulty": "medium",
+  "question": "Your fixed-wing UA stalls during a steep climb. What is the correct recovery?",
+  "options": [
+   {
+    "text": "Pull up harder to climb out of the stall",
+    "correct": false,
+    "why": "Pulling up increases the angle of attack and deepens the stall."
+   },
+   {
+    "text": "Trigger RTH and let the autopilot recover",
+    "correct": false,
+    "why": "RTH is not a stall recovery technique. The pilot must reduce the angle of attack."
+   },
+   {
+    "text": "Level the aeroplane to decrease the angle of attack",
+    "correct": true,
+    "why": "A stall happens when the wing exceeds its critical angle of attack. Recovery is to reduce the angle of attack, by lowering the nose to level the aeroplane, so the wing produces lift again."
+   },
+   {
+    "text": "Cut the throttle and hold full up-elevator",
+    "correct": false,
+    "why": "Holding up-elevator keeps the angle of attack high, so the wing stays stalled."
+   }
+  ],
+  "source": "FAA PHAK ch.5 (Stalls: critical angle of attack); FAA Airplane Flying Handbook ch.5 (stall recovery: reduce the AOA); AC 101-4-1(5) LO 020 01 03, 060 03 02"
+ },
+ {
+  "id": "SO-023",
+  "module": "Safety & Operations",
+  "topic": "Pre-flight checks",
+  "difficulty": "medium",
+  "question": "Which of these belongs to planning the operation and assessing the area, rather than to the physical preflight inspection of the drone?",
+  "options": [
+   {
+    "text": "Check that the camera is securely attached",
+    "correct": false,
+    "why": "AC 107-2A lists checking that equipment such as a camera is securely attached as a preflight inspection item."
+   },
+   {
+    "text": "Calibrate the compass",
+    "correct": false,
+    "why": "Compass calibration is on the AC 107-2A preflight inspection list."
+   },
+   {
+    "text": "Check NOTAMs and temporary restricted areas",
+    "correct": true,
+    "why": "Airspace and NOTAM checks are part of planning and assessing the area of operation (AC 107-2A para 5.10, and 'Airspace' in the FAA PAVE checklist), not an inspection of the aircraft."
+   },
+   {
+    "text": "Run up the propellers to check for imbalance",
+    "correct": false,
+    "why": "Starting the propellers to inspect for imbalance is an AC 107-2A preflight inspection item."
+   }
+  ],
+  "source": "FAA AC 107-2A (Small UAS), paras 5.10, 7.3 and 7.3.4; FAA-G-8082-22 ch.10 (PAVE: Airspace)"
+ },
+ {
+  "id": "SO-024",
+  "module": "Safety & Operations",
+  "topic": "In-flight checks",
+  "difficulty": "medium",
+  "question": "Which set of checks is done IN FLIGHT?",
+  "options": [
+   {
+    "text": "Inspect the battery casing and confirm the motors rotate freely",
+    "correct": false,
+    "why": "These are inspections done on the ground, before or after a flight."
+   },
+   {
+    "text": "Check the airframe for cracks and the propellers for damage",
+    "correct": false,
+    "why": "These are pre-flight and post-flight inspection items, done on the ground."
+   },
+   {
+    "text": "Confirm the controller stick mode and set the maximum altitude",
+    "correct": false,
+    "why": "These are settings made on the ground before take-off."
+   },
+   {
+    "text": "Monitor the battery and flight mode, and watch for odd behaviour or sound",
+    "correct": true,
+    "why": "CAAS expects in-flight monitoring of critical system parameters such as battery power and rotor performance (AC 101-2-1 App 4), and AC 107-2A lists a noticeable change in propulsion sound as a warning sign."
+   }
+  ],
+  "source": "CAAS AC 101-2-1 (Rev 8, 3 Jul 2025) Appendix 4 para 3(b); FAA AC 107-2A (Small UAS), App C Table C-1 item 7; AC 101-4-1(5) LO 060 03 01"
+ },
+ {
+  "id": "SO-025",
+  "module": "Safety & Operations",
+  "topic": "Maintenance vs flight checks",
+  "difficulty": "medium",
+  "question": "Which statement correctly distinguishes maintenance from flight checks?",
+  "options": [
+   {
+    "text": "They are the same thing, so a thorough pre-flight check replaces scheduled maintenance",
+    "correct": false,
+    "why": "They are not the same. A preflight check cannot replace a time-in-service replacement."
+   },
+   {
+    "text": "Maintenance is done only after a crash. Flight checks are done monthly.",
+    "correct": false,
+    "why": "Both definitions are wrong. Maintenance is scheduled by time or usage, and flight checks are done every mission."
+   },
+   {
+    "text": "Flight checks are performed by the manufacturer. Maintenance is performed by the pilot.",
+    "correct": false,
+    "why": "Pilots do the flight checks. AC 107-2A notes that some maintenance may have to be done by the manufacturer or a person it specifies."
+   },
+   {
+    "text": "Flight checks are done around each mission. Maintenance follows a schedule based on time or usage.",
+    "correct": true,
+    "why": "AC 107-2A: the preflight inspection is done before each flight, while scheduled maintenance follows time-in-service limits such as flight hours, cycles or calendar days."
+   }
+  ],
+  "source": "FAA AC 107-2A (Small UAS), paras 7.2, 7.2.1, 7.2.3 and 7.3; AC 101-4-1(5) LO 060 03 03"
+ },
+ {
+  "id": "SO-026",
+  "module": "Safety & Operations",
+  "topic": "Unscheduled maintenance",
+  "difficulty": "medium",
+  "question": "During pre-flight, you find a cracked propeller and a firmware update flagged as mandatory by the manufacturer. What should you do?",
+  "options": [
+   {
+    "text": "Do not conduct flight operations until the discrepancy is corrected",
+    "correct": true,
+    "why": "AC 107-2A says that if a component needs unscheduled maintenance, or the manufacturer requires an unscheduled software update, flight operations should not occur until it is corrected. ANR-101 reg 39(1)(b) also requires the pilot to be satisfied that the UA is airworthy."
+   },
+   {
+    "text": "Fly if the client accepts the risk in writing",
+    "correct": false,
+    "why": "Client acceptance is an external pressure. It does not make the UA airworthy."
+   },
+   {
+    "text": "Swap the cracked propeller for any propeller of similar size and fly",
+    "correct": false,
+    "why": "AC 107-2A says maintenance should follow the manufacturer's instructions. A part that merely looks similar may not be safe."
+   },
+   {
+    "text": "Fly gently, then fix it at the next scheduled maintenance",
+    "correct": false,
+    "why": "Deferring a known defect to the next scheduled maintenance is exactly what unscheduled maintenance exists to prevent."
+   }
+  ],
+  "source": "FAA AC 107-2A (Small UAS), paras 7.2.2 and 7.2.3; Air Navigation (101 - Unmanned Aircraft Operations) Regulations 2019 (ANR-101, laws.sg mirror of Singapore Statutes Online) reg 39(1)(b)"
+ },
+ {
+  "id": "SO-027",
+  "module": "Safety & Operations",
+  "topic": "Battery retirement",
+  "difficulty": "hard",
+  "question": "A LiPo pack shows no swelling and is within the manufacturer's cycle limit, but flights on it are now noticeably shorter than before. What should you do?",
+  "options": [
+   {
+    "text": "Keep using it until it bulges, as bulging is the only warning sign",
+    "correct": false,
+    "why": "AC 107-2A lists diminishing flight time as a warning sign in its own right, alongside a bulging casing."
+   },
+   {
+    "text": "Fully drain it and recharge it to restore its capacity",
+    "correct": false,
+    "why": "No FAA or CAAS guidance supports this. Falling flight time points to exhausted service life or damage, which a recharge does not fix."
+   },
+   {
+    "text": "Keep using it until the cycle count is reached",
+    "correct": false,
+    "why": "The cycle limit is not the only test. Diminishing capacity can signal failure before the limit is reached."
+   },
+   {
+    "text": "Stop using it and inspect it, as shorter flights can mean failure",
+    "correct": true,
+    "why": "AC 107-2A says diminishing flight time may indicate impending failure from exhausted service life or damage, so inspect the battery before any further flight."
+   }
+  ],
+  "source": "FAA AC 107-2A (Small UAS), App C Table C-1 items 9 and 10; AC 101-4-1(5) LO 010 02 04 (bloated battery)"
+ },
+ {
+  "id": "SO-028",
+  "module": "Safety & Operations",
+  "topic": "LiPo fire handling",
+  "difficulty": "hard",
+  "question": "A LiPo pack bursts into flames on the charging table. Based on FAA fire-safety testing for lithium batteries, which response is correct?",
+  "options": [
+   {
+    "text": "Once the flames are out, the danger is over and the pack can be left",
+    "correct": false,
+    "why": "Neighbouring cells can still enter thermal runaway and flare up again, which is why the second, cooling phase is needed."
+   },
+   {
+    "text": "Pick it up and throw it outside, away from people",
+    "correct": false,
+    "why": "SAFO 09013 warns that picking up a smoking or burning device can cause injury."
+   },
+   {
+    "text": "Put the fire out, then douse the pack with water without moving it",
+    "correct": true,
+    "why": "SAFO 09013 gives two phases: extinguish the fire (water or a Halon-type extinguisher), then cool the cells with water or non-alcoholic liquid to stop thermal runaway spreading. It warns against picking up a burning device."
+   },
+   {
+    "text": "Cover it with a fireproof blanket or ice to smother and cool it",
+    "correct": false,
+    "why": "SAFO 09013 warns not to cover the device or use ice, because both insulate it and make thermal runaway in more cells more likely."
+   }
+  ],
+  "source": "FAA SAFO 09013 (Fighting Fires Caused by Lithium Type Batteries); AC 107-2A App B para B.5",
+  "note": "Out, then cool. Never cover it, ice it or carry it."
+ },
+ {
+  "id": "SO-029",
+  "module": "Safety & Operations",
+  "topic": "Occurrence reporting - timeline",
+  "difficulty": "hard",
+  "question": "A UA operator has a reportable safety matter. What are CAAS's notification timelines?",
+  "options": [
+   {
+    "text": "A phone call within 72 hours, and a written report within 7 days",
+    "correct": false,
+    "why": "Neither figure matches the CAAS requirement."
+   },
+   {
+    "text": "Phone CAAS within 24 hours, then a written report within 3 working days",
+    "correct": true,
+    "why": "This is CAAS's published requirement in AC 101-2-1 Appendix 1: inform the CAAS UAS Duty Officer by phone within 24 hours, then send a written report to CAAS_UAS@caas.gov.sg within 3 working days."
+   },
+   {
+    "text": "Report only if someone is injured. Otherwise no report is needed.",
+    "correct": false,
+    "why": "Reportable matters include malfunctions, near misses, airspace infringements and loss of the UA, even when nobody is hurt."
+   },
+   {
+    "text": "A written report within 24 hours, and a phone call within 3 working days",
+    "correct": false,
+    "why": "This reverses the order. The phone notification comes first (24 h) and the written report follows (3 working days)."
+   }
+  ],
+  "source": "CAAS AC 101-2-1 (Rev 8, 3 Jul 2025) Permits for Unmanned Aircraft, Appendix 1",
+  "note": "The phone call comes first and the written report follows. A 'working day' excludes Saturdays, Sundays and public holidays (ANR-101 First Schedule)."
+ },
+ {
+  "id": "SO-030",
+  "module": "Safety & Operations",
+  "topic": "Occurrence reporting - what is reportable",
+  "difficulty": "medium",
+  "question": "Which of these events is a reportable safety matter under CAAS guidance?",
+  "options": [
+   {
+    "text": "A near collision between your UA and a building, with no damage to either",
+    "correct": true,
+    "why": "'Near collision of the UA with other aircraft or objects, near misses, or occurrence that has a potential of causing an accident' is item 3 on CAAS's list. No damage is required."
+   },
+   {
+    "text": "A routine flight in which the battery reached the planned 30% landing reserve",
+    "correct": false,
+    "why": "A normal landing at the planned reserve is not an abnormal occurrence."
+   },
+   {
+    "text": "A planned firmware update completed on the ground before the flight",
+    "correct": false,
+    "why": "Scheduled ground maintenance is not a safety occurrence."
+   },
+   {
+    "text": "A flight cancelled before take-off because of forecast rain",
+    "correct": false,
+    "why": "A no-go decision is good risk management, not an occurrence."
+   }
+  ],
+  "source": "CAAS AC 101-2-1 (Rev 8, 3 Jul 2025) Permits for Unmanned Aircraft, Appendix 1 item 3"
+ },
+ {
+  "id": "SO-031",
+  "module": "Safety & Operations",
+  "topic": "Accident reporting - law",
+  "difficulty": "medium",
+  "question": "Under ANR-101 reg 6, a UA pilot whose flight causes damage to property must:",
+  "options": [
+   {
+    "text": "Notify CAAS by the quickest available means; failure carries a fine of up to $50,000 for a first offence",
+    "correct": true,
+    "why": "Reg 6(1) requires notification by the quickest available means for accidents involving serious injury to the pilot, serious injury to or death of any other person, or damage to any property. Reg 6(2)(a) sets the first-offence fine at up to $50,000."
+   },
+   {
+    "text": "Notify CAAS only if a person is injured. Property damage is a civil matter.",
+    "correct": false,
+    "why": "Reg 6(1) expressly includes 'damage to any property'."
+   },
+   {
+    "text": "Notify CAAS within 24 hours, with a fine of up to $50,000 or 2 years' imprisonment for failure",
+    "correct": false,
+    "why": "The regulation says 'quickest available means', not 24 hours (24 h is the CAAS AC guidance for reportable matters). Reg 6 is also fine-only, with no imprisonment."
+   },
+   {
+    "text": "Notify CAAS within 30 days, with a fine of up to $10,000 for failure",
+    "correct": false,
+    "why": "Neither the timeline nor the penalty is correct. $10,000 (or 6 months) is the penalty for operating an unregistered registrable UA (reg 42)."
+   }
+  ],
+  "source": "Air Navigation (101 - Unmanned Aircraft Operations) Regulations 2019 (ANR-101, laws.sg mirror of Singapore Statutes Online) reg 6, reg 42(3)"
+ },
+ {
+  "id": "SO-032",
+  "module": "Safety & Operations",
+  "topic": "VLOS / operating near people",
+  "difficulty": "hard",
+  "question": "Which of these satisfies the ANR-101 definition of visual line of sight (VLOS)?",
+  "options": [
+   {
+    "text": "The pilot watches the live FPV video feed while the UA is behind a building 200 m away",
+    "correct": false,
+    "why": "An FPV feed is not direct visual contact, and a building makes the view obstructed."
+   },
+   {
+    "text": "The pilot can see the UA unaided at 450 m on a clear day",
+    "correct": false,
+    "why": "Even with perfect visibility, the definition caps the distance at 400 m."
+   },
+   {
+    "text": "The pilot keeps direct, unaided and unobstructed visual contact with the UA at 350 m",
+    "correct": true,
+    "why": "The First Schedule defines VLOS as direct, unaided and unobstructed visual contact, enough to monitor the flight path to avoid collisions, with the pilot-UA distance not exceeding 400 m."
+   },
+   {
+    "text": "The pilot tracks the UA with binoculars at 350 m",
+    "correct": false,
+    "why": "Binoculars make the contact 'aided', so it is not VLOS under ANR-101. AC 107-2A allows vision aids only momentarily, for example by a VO."
+   }
+  ],
+  "source": "Air Navigation (101 - Unmanned Aircraft Operations) Regulations 2019 (ANR-101, laws.sg mirror of Singapore Statutes Online) First Schedule ('visual line of sight'), reg 39(2)(b), (3); FAA AC 107-2A (Small UAS), para 5.9.1",
+  "note": "VLOS = unaided + unobstructed + 400 m or less. Breaching reg 39 carries up to $50k or 2 years on a first offence."
+ },
+ {
+  "id": "SO-033",
+  "module": "Safety & Operations",
+  "topic": "Night / weather go-no-go",
+  "difficulty": "hard",
+  "question": "An evening job: the sun has set, haze is thickening, gusts are forecast above the drone's published wind limit, and the client is pressing to fly. What is the correct go/no-go call?",
+  "options": [
+   {
+    "text": "No-go. The gusts exceed the published limit, breaching reg 39",
+    "correct": true,
+    "why": "Reg 39(2)(a) requires the pilot to comply with the manufacturer's operating limitations. Darkness and haze also cut visual reference, and the FAA warns that haze distorts judgement of distance."
+   },
+   {
+    "text": "Go, but keep the drone low so that the wind is weaker",
+    "correct": false,
+    "why": "Low altitude near structures brings gusty turbulence, and the forecast is still above the published limit."
+   },
+   {
+    "text": "Go, because the client's deadline makes the operation time-critical",
+    "correct": false,
+    "why": "This is the PAVE external-pressure trap. The FAA says external pressure can make a pilot ignore all the other risk factors."
+   },
+   {
+    "text": "Go, because a VO can compensate for the haze",
+    "correct": false,
+    "why": "A VO cannot see through haze any better than the pilot, and no VO fixes an exceedance of the wind limit."
+   }
+  ],
+  "source": "Air Navigation (101 - Unmanned Aircraft Operations) Regulations 2019 (ANR-101, laws.sg mirror of Singapore Statutes Online) reg 39(2)(a); FAA-G-8082-22 ch.10 (PAVE; Managing External Pressures); FAA PHAK ch.17 (Haze); FAA AC 107-2A (Small UAS), para 5.9.3 (VLOS at night)"
+ },
+ {
+  "id": "SO-034",
+  "module": "Safety & Operations",
+  "topic": "Flight planning",
+  "difficulty": "medium",
+  "question": "A team is planning an aerial-photography job over a residential estate and needs an activity permit. Which statement about the flight plan is correct?",
+  "options": [
+   {
+    "text": "It is only an internal document and is never used in permit applications",
+    "correct": false,
+    "why": "CAAS AC 101-2-1 Appendix 4 says an activity permit application may require a flight plan."
+   },
+   {
+    "text": "It only needs the flight path. Crew numbers and positions are decided on the day.",
+    "correct": false,
+    "why": "Appendix 4 asks for the number and position of pilots and observers as part of the flight plan."
+   },
+   {
+    "text": "It only needs a map. Height and speed are left to the pilot on the day.",
+    "correct": false,
+    "why": "Appendix 4 lists height and speed, along with take-off/landing points and the flight path."
+   },
+   {
+    "text": "It may be needed for the permit, and covers path, height, speed, VLOS and crew",
+    "correct": true,
+    "why": "AC 101-2-1 Appendix 4 para 1(a): take-off/landing, hover/flight path, height, speed, how VLOS is maintained, and the number and position of pilots and observers."
+   }
+  ],
+  "source": "CAAS AC 101-2-1 (Rev 8, 3 Jul 2025) Appendix 4 paras 1(a), 1(b) and 2; AC 101-4-1(5) LO 060 03 01"
+ },
+ {
+  "id": "SO-035",
+  "module": "Safety & Operations",
+  "topic": "Maintenance log",
+  "difficulty": "medium",
+  "question": "Why does the FAA recommend keeping a maintenance log?",
+  "options": [
+   {
+    "text": "It records pilots' internal proficiency checks, for example every 6 months",
+    "correct": false,
+    "why": "That is a training record, which CAAS lists separately from maintenance records (AC 101-2-1 App 3)."
+   },
+   {
+    "text": "It records repairs and replaced parts, so component life can be tracked",
+    "correct": true,
+    "why": "AC 107-2A says recording repairs and replacements with each component's time-in-service lets the operator set a reliable maintenance schedule and track component service life."
+   },
+   {
+    "text": "It is needed only by recreational users",
+    "correct": false,
+    "why": "AC 107-2A says recordkeeping is especially valuable for operators that rapidly build up flight hours or cycles."
+   },
+   {
+    "text": "It records the altitude, flight time and pilot for each flight",
+    "correct": false,
+    "why": "That is the flight record, which CAAS lists separately from maintenance records."
+   }
+  ],
+  "source": "FAA AC 107-2A (Small UAS), paras 7.2.1.1 and 7.3.5; CAAS AC 101-2-1 (Rev 8, 3 Jul 2025) Appendix 3 para 1(e)"
+ }
+]

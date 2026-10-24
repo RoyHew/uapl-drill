@@ -1,0 +1,364 @@
+<title>UAPL Theory Drill</title>
+<meta name="description" content="Free, unofficial practice questions for the Singapore UAPL drone pilot theory test, with an explanation for every option.">
+<meta name="theme-color" content="#1f5f8b">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="UAPL Drill">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M8 32c0 0 12-20 30-20c8 0 14 6 18 12c-4 6-10 12-18 12c-18 0-30-20-30-20z' fill='%230284c7' stroke='%237dd3fc' stroke-width='2'/%3E%3Cpath d='M50 24c4 4 6 8 6 8s-2 4-6 8' fill='none' stroke='%237dd3fc' stroke-width='2.5' stroke-linecap='round'/%3E%3Ccircle cx='42' cy='30' r='4' fill='%23ffd66b'/%3E%3Ccircle cx='42' cy='30' r='2' fill='%230c4a6e'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: aeronautical-chart paper. Single column drill card, sticky instrument strip on top, module selector as a chart legend. */
+:root{
+  --paper:#eef2f1; --sheet:#fbfcfb; --ink:#14222b; --muted:#5a6b72; --rule:#cfd9d8;
+  --chart:#1f5f8b; --magenta:#a3195b; --ok:#1e7a46; --ok-bg:#e3f2e8; --bad:#b4232c; --bad-bg:#f9e5e5; --warn:#a86a00;
+  --sel:#dfe9f0;
+  --f-display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --f-body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0f171c; --sheet:#152129; --ink:#e3ebee; --muted:#93a5ad; --rule:#26363f;
+  --chart:#6fb3e0; --magenta:#e0679d; --ok:#5cc489; --ok-bg:#16302a; --bad:#f07d84; --bad-bg:#3a1d22; --warn:#e3a740; --sel:#1d3140; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0f171c; --sheet:#152129; --ink:#e3ebee; --muted:#93a5ad; --rule:#26363f;
+  --chart:#6fb3e0; --magenta:#e0679d; --ok:#5cc489; --ok-bg:#16302a; --bad:#f07d84; --bad-bg:#3a1d22; --warn:#e3a740; --sel:#1d3140; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{background:var(--paper);color:var(--ink)}
+body{font:16px/1.55 var(--f-body);margin:0;
+  background-image:linear-gradient(var(--rule) 1px,transparent 1px),linear-gradient(90deg,var(--rule) 1px,transparent 1px);
+  background-size:96px 96px;background-position:-1px -1px}
+.wrap{max-width:820px;margin:0 auto;padding-inline:16px;padding-block:0 64px}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);border-bottom:2px solid var(--ink)}
+.bar{max-width:820px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);cursor:pointer;background:none;border:0;padding:0}
+.brand img{width:38px;height:38px;border-radius:6px;background:#fff}
+:root[data-theme="dark"] .brand img{filter:invert(1) hue-rotate(180deg) brightness(1.05);mix-blend-mode:screen;background:transparent}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .brand img{filter:invert(1) hue-rotate(180deg) brightness(1.05);mix-blend-mode:screen;background:transparent}}
+.brand b{font:700 24px/1 var(--f-display);letter-spacing:.02em;text-transform:uppercase}
+.brand small{display:block;font:500 11px/1.2 var(--f-mono);color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.strip{margin-left:auto;display:flex;gap:14px;font:600 13px var(--f-mono);font-variant-numeric:tabular-nums;color:var(--muted);flex-wrap:wrap}
+.strip span b{color:var(--ink)}
+.strip .timer b{color:var(--magenta)}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0}
+h2{font-size:30px;font-weight:700;text-transform:uppercase;letter-spacing:.02em}
+.eyebrow{font:600 12px var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--magenta)}
+.lede{color:var(--muted);max-width:62ch;margin:6px 0 0}
+section.home{display:grid;gap:22px;padding-top:24px}
+.panel{background:var(--sheet);border:1px solid var(--rule);border-radius:4px;padding:18px}
+.modes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:640px){.modes{grid-template-columns:1fr}}
+.mode{all:unset;cursor:pointer;background:var(--sheet);border:1px solid var(--rule);border-top:4px solid var(--chart);border-radius:4px;padding:14px 16px;display:grid;gap:4px;min-width:0}
+.mode.mock{border-top-color:var(--magenta)} .mode.weak{border-top-color:var(--warn)}
+.mode:hover,.mode:focus-visible{background:var(--sel);outline:2px solid var(--chart);outline-offset:1px}
+.mode h3{font-size:22px;text-transform:uppercase}
+.mode p{margin:0;color:var(--muted);font-size:14px}
+.mode .go{font:600 13px var(--f-mono);color:var(--chart)}
+.mode[aria-disabled="true"]{opacity:.5;cursor:not-allowed}
+.legend{display:grid;gap:2px}
+.mrow{display:grid;grid-template-columns:28px minmax(0,1fr) 120px 64px;align-items:center;gap:12px;padding:8px 4px;border-bottom:1px dashed var(--rule)}
+.mrow:last-child{border-bottom:0}
+.mrow input{width:18px;height:18px;accent-color:var(--chart)}
+.mrow label{cursor:pointer;min-width:0}
+.mrow label b{font-weight:600}
+.mrow label small{display:block;color:var(--muted);font-size:13px}
+.meter{height:8px;background:var(--rule);border-radius:4px;overflow:hidden}
+.meter i{display:block;height:100%;background:var(--chart)}
+.pct{font:600 13px var(--f-mono);font-variant-numeric:tabular-nums;text-align:right;color:var(--muted)}
+@media (max-width:520px){.mrow{grid-template-columns:28px minmax(0,1fr) 56px}.mrow .meter{display:none}}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.chip{all:unset;cursor:pointer;font:600 13px var(--f-mono);padding:6px 12px;border:1px solid var(--rule);border-radius:999px;color:var(--muted)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip:focus-visible{outline:2px solid var(--chart);outline-offset:2px}
+.btn{all:unset;cursor:pointer;font:700 16px var(--f-display);letter-spacing:.06em;text-transform:uppercase;padding:10px 20px;background:var(--ink);color:var(--paper);border-radius:3px;text-align:center}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.btn:focus-visible{outline:3px solid var(--chart);outline-offset:2px}
+.btn[disabled]{opacity:.4;cursor:not-allowed}
+.small{font-size:13px;color:var(--muted)}
+/* quiz */
+section.quiz{padding-top:22px;display:grid;gap:16px}
+.qmeta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font:600 12px var(--f-mono);letter-spacing:.06em;text-transform:uppercase}
+.tag{padding:3px 8px;border:1px solid var(--rule);border-radius:3px;color:var(--muted)}
+.tag.hard{border-color:var(--magenta);color:var(--magenta)}
+.tag.mod{background:var(--chart);border-color:var(--chart);color:var(--sheet)}
+.prog{height:4px;background:var(--rule)}
+.prog i{display:block;height:100%;background:var(--magenta);transition:width .3s}
+.qcard{background:var(--sheet);border:1px solid var(--rule);border-left:4px solid var(--chart);border-radius:4px;padding:20px}
+.qtext{font-size:19px;font-weight:600;line-height:1.45;white-space:pre-line;margin:0 0 16px;max-width:68ch}
+.opts{display:grid;gap:10px;list-style:none;margin:0;padding:0}
+.opt{all:unset;box-sizing:border-box;width:100%;display:grid;grid-template-columns:32px minmax(0,1fr);gap:12px;align-items:start;cursor:pointer;padding:12px 14px;border:1px solid var(--rule);border-radius:4px;background:var(--sheet)}
+.opt:hover{background:var(--sel)}
+.opt:focus-visible{outline:2px solid var(--chart);outline-offset:1px}
+.opt .k{font:700 15px var(--f-mono);width:28px;height:28px;display:grid;place-items:center;border:1.5px solid var(--ink);border-radius:50%}
+.opt .t{white-space:pre-line}
+.opt .why{grid-column:2;font-size:14.5px;color:var(--ink);border-top:1px dashed var(--rule);padding-top:8px;margin-top:4px}
+.opt .why b{font:700 12px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;margin-right:6px}
+.opt.right{border-color:var(--ok);background:var(--ok-bg)} .opt.right .k{background:var(--ok);border-color:var(--ok);color:var(--sheet)} .opt.right .why b{color:var(--ok)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-bg)} .opt.wrong .k{background:var(--bad);border-color:var(--bad);color:var(--sheet)} .opt.wrong .why b{color:var(--bad)}
+.opt.other .why b{color:var(--muted)}
+.opt.done{cursor:default} .opt.done:hover{background:inherit}
+.opt.picked{outline:2px solid var(--ink);outline-offset:1px}
+.verdict{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;margin-top:14px;font:700 20px var(--f-display);text-transform:uppercase;letter-spacing:.04em}
+.verdict.ok{color:var(--ok)} .verdict.no{color:var(--bad)}
+.note{margin-top:10px;font-size:14px;padding:10px 12px;border-left:3px solid var(--warn);background:var(--paper)}
+.src{margin-top:8px;font:12px var(--f-mono);color:var(--muted);overflow-wrap:anywhere}
+.nav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.keys{font:12px var(--f-mono);color:var(--muted)}
+/* results */
+.score{font:700 64px/1 var(--f-display);font-variant-numeric:tabular-nums}
+.pass{color:var(--ok)} .fail{color:var(--bad)}
+table.res{width:100%;border-collapse:collapse;font-size:14px}
+table.res td,table.res th{padding:6px 8px;border-bottom:1px solid var(--rule);text-align:left}
+table.res td.n{font:600 13px var(--f-mono);text-align:right;font-variant-numeric:tabular-nums}
+.review{display:grid;gap:14px}
+.about p{margin:8px 0 0;max-width:68ch;font-size:15px}
+.about a{color:var(--chart)}
+@media (prefers-reduced-motion:reduce){.prog i{transition:none}}
+</style>
+
+<header class="top"><div class="bar">
+  <button class="brand" id="homeBtn" type="button" aria-label="Back to start">
+    <img alt="" src="data:image/png;base64,/*__FISH__*/">
+    <span><b>UAPL Theory Drill</b><small>Singapore UAPL · unofficial · <span id="qcount">0</span> questions</small></span>
+  </button>
+  <div class="strip" id="strip"></div>
+</div><div class="prog" id="progWrap" hidden><i id="prog" style="width:0"></i></div></header>
+
+<main class="wrap">
+<section class="home" id="home">
+  <div>
+    <div class="eyebrow">Self-study · question bank</div>
+    <h2>Drill until the distractors stop working</h2>
+    <p class="lede">Pick an answer and you'll see why it is right and why each other option is wrong. The real test is 50 questions in 90 minutes, and you need 75% to pass. Your progress is saved in this browser only.</p>
+  </div>
+  <div class="modes">
+    <button class="mode" id="mPractice" type="button"><span class="eyebrow">Mode 1</span><h3>Practice</h3><p>Questions from the modules ticked below. Explanations right after each answer.</p><span class="go">Start ›</span></button>
+    <button class="mode mock" id="mMock" type="button"><span class="eyebrow">Mode 2</span><h3>Mock exam</h3><p>50 questions, 90-minute clock, scored at the end against the 75% pass mark.</p><span class="go">Start ›</span></button>
+    <button class="mode weak" id="mWeak" type="button"><span class="eyebrow">Mode 3</span><h3>Weak spots</h3><p>Only questions you've got wrong, until you answer each one right twice in a row.</p><span class="go" id="weakN">Start ›</span></button>
+  </div>
+  <div class="panel">
+    <div class="row" style="justify-content:space-between;margin-bottom:8px">
+      <h3 style="font-size:20px;text-transform:uppercase">Modules</h3>
+      <span class="small">The bar shows your accuracy on questions you've answered</span>
+    </div>
+    <div class="legend" id="legend"></div>
+    <div class="row" style="margin-top:14px">
+      <span class="small">Difficulty</span>
+      <button class="chip" data-diff="all" aria-pressed="true" type="button">All</button>
+      <button class="chip" data-diff="hard" aria-pressed="false" type="button">Hard only</button>
+      <span class="small" style="margin-left:auto">Order</span>
+      <button class="chip" id="unseenFirst" aria-pressed="true" type="button">Unseen first</button>
+    </div>
+  </div>
+  <div class="row"><button class="btn ghost" id="resetBtn" type="button">Reset progress</button><button class="btn ghost" id="installBtn" type="button" hidden>Install app</button><span class="small" id="resetMsg"></span></div>
+  <p class="small" id="iosHint" hidden>To install on iPhone or iPad: tap Share, then Add to Home Screen.</p>
+  <div class="panel about">
+    <h3 style="font-size:20px;text-transform:uppercase">About this drill</h3>
+    <p><b>Unofficial.</b> This is an independent study aid. It is not made, checked or endorsed by the Civil Aviation Authority of Singapore (CAAS) or any training organisation, and its questions are not the real test questions.</p>
+    <p><b>Rules change.</b> Facts were checked against public sources on <b id="verified"></b>: the Air Navigation Act 1966, the Air Navigation (101 – Unmanned Aircraft Operations) Regulations 2019, CAAS advisory circulars, ICAO weather-code standards and FAA study guides. Several drone rules changed in 2025. Before you fly or sit the test, confirm anything that matters on <a href="https://www.caas.gov.sg/unmanned-aircraft/" target="_blank" rel="noopener">caas.gov.sg</a>.</p>
+    <p><b>Your data stays on this device.</b> Progress is saved in this browser only. Nothing is sent anywhere, and the drill works offline once loaded.</p>
+  </div>
+</section>
+
+<section class="quiz" id="quiz" hidden></section>
+<section class="quiz" id="results" hidden></section>
+</main>
+
+<script type="application/json" id="bank">/*__DATA__*/</script>
+<script>
+(function(){
+const BANK = JSON.parse(document.getElementById('bank').textContent);
+const MODULES = [
+  ["General UAS Knowledge","GU","Systems, components, batteries, links"],
+  ["Principles of Flight","PF","Forces, stall, stability, controls"],
+  ["Air Law","AL","ANA, ANR-101, permits, penalties"],
+  ["Navigation & Meteorology","NM","GNSS, altimetry, METAR, weather"],
+  ["Human Factors","HF","IMSAFE, PAVE, DECIDE, SHELL"],
+  ["Safety & Operations","SO","Risk, CRM, emergencies, reporting"]
+];
+// Mock blueprint: weighted to Air Law per syllabus emphasis (not an official CAAS split)
+const MOCK = {"Air Law":15,"General UAS Knowledge":8,"Principles of Flight":7,"Navigation & Meteorology":8,"Human Factors":5,"Safety & Operations":7};
+const KEY='uapl-drill-v1';
+const VERIFIED='24 October 2026';
+const $=s=>document.querySelector(s);
+let store={q:{},mods:null,diff:'all',unseen:true};
+try{const s=JSON.parse(localStorage.getItem(KEY)||'null'); if(s) store=Object.assign(store,s);}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(store))}catch(e){}};
+if(!store.mods) store.mods=MODULES.map(m=>m[0]);
+$('#qcount').textContent=BANK.length;
+$('#verified').textContent=VERIFIED;
+// Install as an app: offline cache only when served over http(s); harmless elsewhere
+if(/^https?:$/.test(location.protocol)&&'serviceWorker' in navigator){
+  try{navigator.serviceWorker.register('sw.js').catch(()=>{})}catch(e){}
+}
+let installEvt=null;
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=e;$('#installBtn').hidden=false;});
+$('#installBtn').onclick=async()=>{if(!installEvt)return;installEvt.prompt();try{await installEvt.userChoice}catch(e){}installEvt=null;$('#installBtn').hidden=true;};
+window.addEventListener('appinstalled',()=>{$('#installBtn').hidden=true;$('#resetMsg').textContent='Installed. Open it from your home screen.';});
+const standalone=window.matchMedia&&window.matchMedia('(display-mode: standalone)').matches||navigator.standalone;
+if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!standalone&&/^https?:$/.test(location.protocol)) $('#iosHint').hidden=false;
+
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const stat=id=>store.q[id]||(store.q[id]={n:0,ok:0,streak:0,wrong:false});
+const isWeak=q=>{const s=store.q[q.id];return s&&s.wrong};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function renderHome(){
+  $('#home').hidden=false;$('#quiz').hidden=true;$('#results').hidden=true;$('#progWrap').hidden=true;
+  stopTimer();
+  const answered=Object.values(store.q).filter(s=>s.n>0).length;
+  const weak=BANK.filter(isWeak).length;
+  $('#strip').innerHTML=`<span>Seen <b>${answered}</b>/${BANK.length}</span><span>Weak <b>${weak}</b></span>`;
+  $('#weakN').textContent=weak?`Start · ${weak} to fix ›`:'Nothing to fix yet';
+  $('#mWeak').setAttribute('aria-disabled',weak?'false':'true');
+  $('#legend').innerHTML=MODULES.map(([name,code,desc],i)=>{
+    const qs=BANK.filter(q=>q.module===name);
+    let n=0,ok=0;qs.forEach(q=>{const s=store.q[q.id];if(s){n+=s.n;ok+=s.ok}});
+    const pct=n?Math.round(ok/n*100):null;
+    return `<div class="mrow"><input type="checkbox" id="mod${i}" ${store.mods.includes(name)?'checked':''} data-mod="${esc(name)}">
+      <label for="mod${i}"><b>${i+1}. ${esc(name)}</b><small>${qs.length} questions · ${esc(desc)}</small></label>
+      <div class="meter" aria-hidden="true"><i style="width:${pct??0}%;${pct!==null&&pct<75?'background:var(--magenta)':''}"></i></div>
+      <span class="pct">${pct===null?'—':pct+'%'}</span></div>`}).join('');
+  document.querySelectorAll('[data-mod]').forEach(cb=>cb.onchange=()=>{
+    store.mods=[...document.querySelectorAll('[data-mod]:checked')].map(c=>c.dataset.mod);save();});
+  document.querySelectorAll('[data-diff]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.diff===store.diff));
+  $('#unseenFirst').setAttribute('aria-pressed',store.unseen);
+}
+document.querySelectorAll('[data-diff]').forEach(b=>b.onclick=()=>{store.diff=b.dataset.diff;save();renderHome()});
+$('#unseenFirst').onclick=()=>{store.unseen=!store.unseen;save();renderHome()};
+$('#homeBtn').onclick=renderHome;
+let resetArm=false;
+$('#resetBtn').onclick=()=>{
+  if(!resetArm){resetArm=true;$('#resetBtn').textContent='Click again to erase all progress';$('#resetMsg').textContent='';setTimeout(()=>{resetArm=false;$('#resetBtn').textContent='Reset progress'},4000);return}
+  store.q={};save();resetArm=false;$('#resetBtn').textContent='Reset progress';$('#resetMsg').textContent='Progress erased.';renderHome();
+};
+
+// session
+let S=null,timerId=null;
+function stopTimer(){if(timerId){clearInterval(timerId);timerId=null}}
+function start(mode){
+  let pool;
+  if(mode==='mock'){
+    pool=[];for(const [m,n] of Object.entries(MOCK)) pool.push(...shuffle(BANK.filter(q=>q.module===m)).slice(0,n));
+    pool=shuffle(pool);
+  }else if(mode==='weak'){
+    pool=shuffle(BANK.filter(isWeak)); if(!pool.length) return;
+  }else{
+    pool=BANK.filter(q=>store.mods.includes(q.module)&&(store.diff==='all'||q.difficulty==='hard'));
+    if(!pool.length){$('#resetMsg').textContent='Tick at least one module.';return}
+    pool=shuffle(pool);
+    if(store.unseen) pool.sort((a,b)=>(stat(a.id).n>0)-(stat(b.id).n>0));
+  }
+  S={mode,qs:pool.map(q=>({q,order:shuffle([0,1,2,3]),pick:null})),i:0,t0:Date.now()};
+  $('#home').hidden=true;$('#results').hidden=true;$('#quiz').hidden=false;$('#progWrap').hidden=false;
+  if(mode==='mock'){const end=Date.now()+90*60e3;S.end=end;timerId=setInterval(tick,1000);}
+  renderQ();window.scrollTo(0,0);
+}
+$('#mPractice').onclick=()=>start('practice');
+$('#mMock').onclick=()=>start('mock');
+$('#mWeak').onclick=()=>start('weak');
+
+function tick(){
+  const left=Math.max(0,S.end-Date.now());
+  const el=document.querySelector('.timer b');
+  if(el) el.textContent=`${String(Math.floor(left/60e3)).padStart(2,'0')}:${String(Math.floor(left/1e3)%60).padStart(2,'0')}`;
+  if(!left) finish();
+}
+function updStrip(){
+  const done=S.qs.filter(x=>x.pick!==null);
+  const ok=done.filter(x=>x.q.options[x.pick].correct).length;
+  $('#strip').innerHTML=`<span>Q <b>${S.i+1}</b>/${S.qs.length}</span>`+
+    (S.mode==='mock'?`<span>Answered <b>${done.length}</b></span><span class="timer">Time <b>90:00</b></span>`
+      :`<span>Score <b>${ok}</b>/${done.length}</span>`);
+  $('#prog').style.width=(done.length/S.qs.length*100)+'%';
+  if(S.mode==='mock') tick();
+}
+function renderQ(){
+  const x=S.qs[S.i],q=x.q,mock=S.mode==='mock',revealed=x.pick!==null&&!mock;
+  const letters='ABCD';
+  const opts=x.order.map((oi,pos)=>{
+    const o=q.options[oi];let cls='opt';
+    if(revealed){cls+=' done '+(o.correct?'right':(oi===x.pick?'wrong':'other'));}
+    if(mock&&oi===x.pick) cls+=' picked';
+    const why=revealed?`<div class="why"><b>${o.correct?'Correct':(oi===x.pick?'Your pick':'Wrong')}</b>${esc(o.why)}</div>`:'';
+    return `<li><button class="${cls}" type="button" data-oi="${oi}" ${revealed?'aria-disabled="true"':''}><span class="k">${letters[pos]}</span><span class="t">${esc(o.text)}</span>${why}</button></li>`}).join('');
+  let verdict='';
+  if(revealed){const ok=q.options[x.pick].correct;
+    verdict=`<div class="verdict ${ok?'ok':'no'}">${ok?'Correct':'Not quite'}<span class="small" style="text-transform:none;font-family:var(--f-body);font-weight:400">${ok?'Read why the others are wrong before moving on.':'The correct answer is highlighted in green.'}</span></div>`+
+      (q.note?`<div class="note">${esc(q.note)}</div>`:'')+`<div class="src">Source: ${esc(q.source||'')}</div>`;}
+  const last=S.i===S.qs.length-1;
+  $('#quiz').innerHTML=`
+    <div class="qmeta"><span class="tag mod">${esc(q.module)}</span><span class="tag">${esc(q.topic||'')}</span>${q.difficulty==='hard'?'<span class="tag hard">Hard</span>':''}<span class="tag">${esc(q.id)}</span></div>
+    <article class="qcard"><p class="qtext">${esc(q.question)}</p><ol class="opts">${opts}</ol>${verdict}</article>
+    <div class="nav">
+      <div class="row"><button class="btn ghost" id="prevB" type="button" ${S.i===0?'disabled':''}>‹ Back</button><button class="btn ghost" id="quitB" type="button">${mock?'Submit exam':'End session'}</button></div>
+      <button class="btn" id="nextB" type="button" ${(!mock&&x.pick===null)?'disabled':''}>${last?(mock?'Submit exam':'See results'):'Next ›'}</button>
+    </div>
+    <div class="keys">Keys: A–D or 1–4 to answer · Enter for next · ← back</div>`;
+  document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>answer(+b.dataset.oi));
+  $('#prevB').onclick=()=>{if(S.i>0){S.i--;renderQ()}};
+  $('#nextB').onclick=next;
+  $('#quitB').onclick=finish;
+  updStrip();
+}
+function answer(oi){
+  const x=S.qs[S.i];
+  if(S.mode!=='mock'&&x.pick!==null) return;
+  x.pick=oi;
+  if(S.mode!=='mock') record(x);
+  renderQ();
+  if(S.mode==='mock') setTimeout(()=>{ if(S&&S.qs[S.i]===x&&S.i<S.qs.length-1){S.i++;renderQ()} },250);
+}
+function record(x){
+  const s=stat(x.q.id),ok=x.q.options[x.pick].correct;
+  s.n++; if(ok){s.ok++;s.streak++; if(s.streak>=2) s.wrong=false;} else {s.streak=0;s.wrong=true;}
+  save();
+}
+function next(){
+  const x=S.qs[S.i];
+  if(S.mode!=='mock'&&x.pick===null) return;
+  if(S.i<S.qs.length-1){S.i++;renderQ();window.scrollTo(0,0)} else finish();
+}
+document.addEventListener('keydown',e=>{
+  if(!S||$('#quiz').hidden||e.metaKey||e.ctrlKey||e.altKey) return;
+  const k=e.key.toUpperCase();const map={A:0,B:1,C:2,D:3,'1':0,'2':1,'3':2,'4':3};
+  if(k in map){const x=S.qs[S.i];answer(x.order[map[k]]);e.preventDefault();}
+  else if(e.key==='Enter'){next();e.preventDefault();}
+  else if(e.key==='ArrowLeft'&&S.i>0){S.i--;renderQ();}
+});
+function finish(){
+  stopTimer();
+  if(S.mode==='mock') S.qs.filter(x=>x.pick!==null).forEach(record);
+  const done=S.qs.filter(x=>x.pick!==null);
+  const total=S.mode==='mock'?S.qs.length:done.length;
+  const ok=done.filter(x=>x.q.options[x.pick].correct).length;
+  const pct=total?Math.round(ok/total*100):0;
+  const byMod={};S.qs.forEach(x=>{const m=x.q.module;byMod[m]=byMod[m]||{n:0,ok:0};if(S.mode==='mock'||x.pick!==null){byMod[m].n++;if(x.pick!==null&&x.q.options[x.pick].correct)byMod[m].ok++;}});
+  const mins=Math.round((Date.now()-S.t0)/60e3);
+  const wrong=S.qs.filter(x=>x.pick===null?S.mode==='mock':!x.q.options[x.pick].correct);
+  const letters='ABCD';
+  const review=S.mode==='mock'?wrong.map(x=>{const q=x.q;
+    return `<article class="qcard"><div class="qmeta" style="margin-bottom:8px"><span class="tag mod">${esc(q.module)}</span><span class="tag">${esc(q.id)}</span></div><p class="qtext">${esc(q.question)}</p><ol class="opts">${x.order.map((oi,p)=>{const o=q.options[oi];
+      const cls=o.correct?'right':(oi===x.pick?'wrong':'other');
+      return `<li><div class="opt done ${cls}"><span class="k">${letters[p]}</span><span class="t">${esc(o.text)}</span><div class="why"><b>${o.correct?'Correct':(oi===x.pick?'Your pick':'Wrong')}</b>${esc(o.why)}</div></div></li>`}).join('')}</ol>${x.pick===null?'<div class="note">Not answered.</div>':''}${q.note?`<div class="note">${esc(q.note)}</div>`:''}<div class="src">Source: ${esc(q.source||'')}</div></article>`}).join(''):'';
+  $('#quiz').hidden=true;$('#results').hidden=false;
+  $('#strip').innerHTML=`<span>Session complete</span>`;
+  $('#results').innerHTML=`
+    <div class="panel"><div class="eyebrow">${S.mode==='mock'?'Mock exam result':'Session result'}</div>
+      <div class="row" style="gap:20px;margin-top:6px"><span class="score ${pct>=75?'pass':'fail'}">${pct}%</span>
+      <div><b>${ok} of ${total} correct</b><div class="small">${pct>=75?'At or above the 75% pass mark.':'Below the 75% pass mark: you need '+Math.ceil(total*.75)+' of '+total+'.'} · ${mins} min</div></div></div>
+      <table class="res" style="margin-top:14px"><tbody>${Object.entries(byMod).filter(([,v])=>v.n).map(([m,v])=>`<tr><td>${esc(m)}</td><td class="n">${v.ok}/${v.n}</td><td class="n" style="color:${v.ok/v.n<.75?'var(--bad)':'var(--ok)'}">${Math.round(v.ok/v.n*100)}%</td></tr>`).join('')}</tbody></table>
+    </div>
+    <div class="row"><button class="btn" id="againB" type="button">${S.mode==='mock'?'New mock exam':'Back to start'}</button>${wrong.length?'<button class="btn ghost" id="weakB" type="button">Drill weak spots</button>':''}</div>
+    ${S.mode==='mock'&&wrong.length?`<h3 style="font-size:22px;text-transform:uppercase">Review: ${wrong.length} missed</h3><div class="review">${review}</div>`:''}`;
+  const m=S.mode; S=null;
+  $('#againB').onclick=()=>m==='mock'?start('mock'):renderHome();
+  const wb=$('#weakB'); if(wb) wb.onclick=()=>start('weak');
+  $('#progWrap').hidden=true;window.scrollTo(0,0);
+}
+renderHome();
+})();
+</script>
