@@ -1,5 +1,5 @@
 // Offline cache for UAPL Theory Drill. Bump VERSION when the question bank changes.
-const VERSION = 'uapl-drill-4ecf46d268';
+const VERSION = 'uapl-drill-3791c8ae52';
 const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));

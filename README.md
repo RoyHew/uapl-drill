@@ -10,18 +10,23 @@ Free, unofficial practice questions for the **Singapore Unmanned Aircraft Pilot 
 
 ## Use it
 
-**Easiest: one file, nothing to install.**
-Download [`uapl-drill.html`](uapl-drill.html) (click it, then the download button) and open it in any browser,
-on a phone or a computer. It works offline. Your progress is saved in that browser only.
+### 👉 [Open the UAPL Theory Drill](https://royhew.github.io/uapl-drill/)
 
-**Or clone the repo:**
-```bash
-git clone https://github.com/RoyHew/uapl-drill.git
-```
-then open `uapl-drill/uapl-drill.html`.
+That's it. Tap the link on your phone or computer and start practising. No sign-up, no download, free.
 
-**Host it as an installable app:** upload the `site/` folder to any static host (GitHub Pages, Cloudflare Pages,
-Netlify). Served over https it can be installed to a phone's home screen and works fully offline.
+**Want it on your phone like an app?** Open the link, scroll to **Put it on your phone**, and follow the
+three steps for iPhone or Android. After that it opens from its own icon and works without internet.
+
+Your progress stays on the device you use. Nothing is sent anywhere.
+
+<details>
+<summary>Other ways to get it (for people comfortable with files)</summary>
+
+- **Offline file:** download [`uapl-drill.html`](uapl-drill.html) (click it, then the download arrow) and open
+  it in any browser.
+- **Clone:** `git clone https://github.com/RoyHew/uapl-drill.git`
+- **Host your own copy:** upload the `docs/` folder to any static host.
+</details>
 
 ## What's inside
 
@@ -53,7 +58,7 @@ every option. After editing, rebuild:
 python3 src/build.py
 ```
 
-This regenerates `uapl-drill.html` and `site/`.
+This regenerates `uapl-drill.html` and `docs/` (the published website).
 
 ## Found a mistake?
 

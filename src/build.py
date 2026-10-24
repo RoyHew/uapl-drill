@@ -1,7 +1,7 @@
-"""Rebuild uapl-drill.html and site/ from questions/*.json.  Usage: python3 src/build.py"""
+"""Rebuild uapl-drill.html and docs/ from questions/*.json.  Usage: python3 src/build.py"""
 import json, base64, hashlib, os, shutil, collections
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC, Q, SITE = f'{R}/src', f'{R}/questions', f'{R}/site'
+SRC, Q, SITE = f'{R}/src', f'{R}/questions', f'{R}/docs'
 ORDER = ['q_uas.json', 'q_pof.json', 'q_airlaw.json', 'q_extra.json', 'q_navmet.json', 'q_hf.json', 'q_safety.json']
 bank, ids = [], set()
 for f in ORDER:
